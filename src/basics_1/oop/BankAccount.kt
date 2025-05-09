@@ -1,4 +1,4 @@
-package basics.oop
+package basics_1.oop
 
 class BankAccount(val accountNumber: Int, var balance: Double) {
 //    val accountNumber: Number,

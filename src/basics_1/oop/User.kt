@@ -1,6 +1,4 @@
-package basics.oop
-
-import java.lang.reflect.Method
+package basics_1.oop
 
 class User(val name: String, val bankAccount: BankAccount, val paymentService: PaymentService) {
     fun makeDeposit(amount: Double) {

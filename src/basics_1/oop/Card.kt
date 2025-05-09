@@ -1,4 +1,4 @@
-package basics.oop
+package basics_1.oop
 
 abstract class Card (val cardNumber: String, val expiryDate: String, val ownerName: String) : PaymentMethod {
     abstract fun authorizePayment(amount: Double) : Boolean

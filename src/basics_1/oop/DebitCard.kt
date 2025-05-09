@@ -1,4 +1,4 @@
-package basics.oop
+package basics_1.oop
 
 class DebitCard (cardNumber: String, expiryDate : String, ownerName : String, private var balance : Double) : Card(cardNumber, expiryDate, ownerName){
     override fun authorizePayment(amount: Double): Boolean {

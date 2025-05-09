@@ -1,4 +1,4 @@
-package basics.oop
+package basics_1.oop
 
 //It manages multiple PaymentMethods/Cards
 class PaymentService {

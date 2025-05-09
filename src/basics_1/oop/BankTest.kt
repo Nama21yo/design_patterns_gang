@@ -1,4 +1,4 @@
-package basics.oop
+package basics_1.oop
 
 fun main() {
     // Step 1: Create a user with a bank account
