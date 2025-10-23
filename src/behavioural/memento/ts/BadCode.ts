@@ -1,6 +1,6 @@
 class TextEditorBad {
   private content: string = "";
-  private history: string[] = [];
+  private history: string[] = []; //stack
 
   write(text: string): void {
     this.history.push(this.content);
