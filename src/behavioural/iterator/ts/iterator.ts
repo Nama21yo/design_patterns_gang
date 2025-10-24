@@ -9,6 +9,7 @@ class Book {
 
 class BookCollectionV2 {
   private books: Set<Book> = new Set();
+  // private books: Books[] = []
 
   addBook(book: Book): void {
     this.books.add(book);
@@ -32,11 +33,13 @@ class BookCollectionV2 {
         throw new Error("No more books");
       }
       return this.booksArray[this.position++];
+      // return this.booksArray[this.position]
+      // this.position++
     }
   };
 
   // Factory method to return BookIteratorInterface<Book>
-  createIterator(): BookIteratorInterface<Book> {
+   createIterator(): BookIteratorInterface<Book> {
     return new this.BookIterator(this.books);
   }
 }

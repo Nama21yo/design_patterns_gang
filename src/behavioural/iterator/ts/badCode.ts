@@ -3,13 +3,14 @@ class Books {
 }
 
 class BookCollectionV1 {
-  private books: Book[] = [];
+  private books: Books[] = [];
+  // private books: Set<Books> = new Set()
 
-  addBook(book: Book): void {
+  addBook(book: Books): void {
     this.books.push(book);
   }
 
-  getBooks(): Book[] {
+  getBooks(): Books[] {
     return this.books;
   }
 }
