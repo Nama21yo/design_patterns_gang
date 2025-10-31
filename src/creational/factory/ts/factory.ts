@@ -14,16 +14,23 @@ class Bike implements Transport {
   }
 }
 
+class Bus implements Transport {
+  deliver(): void {
+    console.log("Deliver by Bus");
+  }
+}
 // Factory Class
 class TransportFactory {
   static createTransport(type: string): Transport {
     switch (type) {
-      case 'car':
+      case "car":
         return new Car();
-      case 'bike':
+      case "bike":
         return new Bike();
+      case "bus":
+        return new Bus();
       default:
-        throw new Error('Unknown transport type');
+        throw new Error("Unknown transport type");
     }
   }
 }
@@ -34,5 +41,5 @@ function clientCode(type: string) {
   transport.deliver();
 }
 
-clientCode('car');  
-clientCode('bike');
+clientCode("car");
+clientCode("bike");

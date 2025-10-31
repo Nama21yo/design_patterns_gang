@@ -1,8 +1,17 @@
+// // this is interface
+// // interface Transport {
+// //     deliver(): void
+// // }
 // type Transport = { deliver(): void };
 
 // class Car implements Transport {
 //   deliver(): void {
-//     console.log("Deliver by car");
+//     console.log("Deliver by car");b
+//   }
+// }
+// class Bus implements Transport {
+//   deliver(): void {
+//     console.log("Deliver by Bus");
 //   }
 // }
 
@@ -12,6 +21,7 @@
 //   }
 // }
 
+// // factory deisgn pattern
 // function clientCode(transportType: string) {
 //   let transport: Transport;
 
@@ -19,6 +29,8 @@
 //     transport = new Car();
 //   } else if (transportType === "bike") {
 //     transport = new Bike();
+//   } else if (transportType === "bus") {
+//     transport = new Bus();
 //   } else {
 //     throw new Error("Unknown transport type");
 //   }
@@ -26,5 +38,5 @@
 //   transport.deliver();
 // }
 
-// clientCode("car"); // Output: Deliver by car
-// clientCode("bike"); // Output: Deliver by bike
+// clientCode("car");
+// clientCode("bike");
