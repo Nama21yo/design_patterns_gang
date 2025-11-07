@@ -1,8 +1,11 @@
 class TextEditorBad {
+
   private content: string = "";
   private history: string[] = []; //stack
 
   write(text: string): void {
+    //  INSIDE the Class
+  // The undo/history logic directly copies and restores every single private field.
     this.history.push(this.content);
     this.content = text;
   }

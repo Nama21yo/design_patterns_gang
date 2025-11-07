@@ -1,11 +1,11 @@
 class EditorMemento {
-  private readonly content: string;
+  private readonly state: string; // for now the state is the content
 
-  constructor(content: string) {
-    this.content = content;
+  constructor(state: string) {
+    this.state = state;
   }
 
   getContent(): string {
-    return this.content;
+    return this.state;
   }
 }
