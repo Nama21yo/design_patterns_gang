@@ -16,7 +16,7 @@ class PlainPizza implements Pizza {
 
 // Decorator base class
 abstract class ToppingDecorator implements Pizza {
-  protected tempPizza: Pizza;
+  protected tempPizza: Pizza; //this is plain Pizza
 
   constructor(pizza: Pizza) {
     this.tempPizza = pizza;
@@ -53,7 +53,7 @@ class Olives extends ToppingDecorator {
     return this.tempPizza.getCost() + 2.5;
   }
 }
-
+// Class CheeseTomatoPizza not needed
 // Usage
 let pizza: Pizza = new PlainPizza();
 pizza = new Cheese(pizza);
