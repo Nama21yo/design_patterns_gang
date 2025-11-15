@@ -16,7 +16,7 @@ class WindowsScrollBar implements ScrollBar {
   paint() {
     console.log("Windows ScrollBar");
   }
-}
+}https://jalammar.github.io/illustrated-transformer/
 
 // Concrete products for Mac
 class MacButton implements Button {

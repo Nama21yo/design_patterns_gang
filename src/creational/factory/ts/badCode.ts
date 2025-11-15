@@ -1,42 +1,42 @@
-// // this is interface
-// // interface Transport {
-// //     deliver(): void
-// // }
-// type Transport = { deliver(): void };
-
-// class Car implements Transport {
-//   deliver(): void {
-//     console.log("Deliver by car");b
-//   }
+// this is interface
+// interface Transport {
+//     deliver(): void
 // }
-// class Bus implements Transport {
-//   deliver(): void {
-//     console.log("Deliver by Bus");
-//   }
-// }
+type Transport = { deliver(): void };
 
-// class Bike implements Transport {
-//   deliver(): void {
-//     console.log("Deliver by bike");
-//   }
-// }
+class Car implements Transport {
+  deliver(): void {
+    console.log("Deliver by car");b
+  }
+}
+class Bus implements Transport {
+  deliver(): void {
+    console.log("Deliver by Bus");
+  }
+}
 
-// // factory deisgn pattern
-// function clientCode(transportType: string) {
-//   let transport: Transport;
+class Bike implements Transport {
+  deliver(): void {
+    console.log("Deliver by bike");
+  }
+}
 
-//   if (transportType === "car") {
-//     transport = new Car();
-//   } else if (transportType === "bike") {
-//     transport = new Bike();
-//   } else if (transportType === "bus") {
-//     transport = new Bus();
-//   } else {
-//     throw new Error("Unknown transport type");
-//   }
+// factory deisgn pattern
+function clientCode(transportType: string) {
+  let transport: Transport;
 
-//   transport.deliver();
-// }
+  if (transportType === "car") {
+    transport = new Car();
+  } else if (transportType === "bike") {
+    transport = new Bike();
+  } else if (transportType === "bus") {
+    transport = new Bus();
+  } else {
+    throw new Error("Unknown transport type");
+  }
 
-// clientCode("car");
-// clientCode("bike");
+  transport.deliver();
+}
+
+clientCode("car");
+clientCode("bike");
