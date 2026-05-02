@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package streaming;
+
+// Single request from the client.
+message NumberRequest {
+  int32 limit = 1;
+}
+
+// One response item in the server stream.
+message NumberResponse {
+  int32 result = 1;
+  string message = 2;
+}
+
+service NumberGenerator {
+  // Server streaming: one request in, many responses out.
+  rpc GenerateNumbers(NumberRequest) returns (stream NumberResponse);
+}

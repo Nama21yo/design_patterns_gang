@@ -1,0 +1,30 @@
+default:
+    @just --list
+
+# Create or refresh the shared Python virtual environment.
+setup:
+    uv venv ../.venv
+    uv pip install --python ../.venv/bin/python grpcio grpcio-tools protobuf
+
+# Compile the bidirectional-streaming proto file into Python code.
+compile:
+    $(realpath -s ../.venv/bin/python) -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. chat.proto
+    @echo "Bidirectional-streaming protobuf compiled successfully."
+
+# Run the bidirectional-streaming RPC server.
+server: compile
+    $(realpath -s ../.venv/bin/python) server.py
+
+# Run the bidirectional-streaming RPC client.
+client: compile
+    $(realpath -s ../.venv/bin/python) client.py
+
+# Run the client with a custom user:
+# just client-user "Bob"
+client-user user: compile
+    $(realpath -s ../.venv/bin/python) client.py "{{user}}"
+
+# Remove generated protobuf files.
+clean:
+    rm -f *_pb2.py *_pb2_grpc.py
+    @echo "Cleaned generated files."

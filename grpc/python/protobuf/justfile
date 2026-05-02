@@ -1,0 +1,25 @@
+default:
+    @just --list
+
+# Create the virtual environment and install runtime/compiler dependencies.
+setup:
+    uv venv ../.venv
+    uv pip install --python ../.venv/bin/python grpcio grpcio-tools protobuf
+
+# Compile protobuf files into Python modules.
+compile:
+    $(realpath -s ../.venv/bin/python) -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. *.proto
+    @echo "Protobuf compilation successful."
+
+# Run the binary-level protobuf demo.
+run: compile
+    $(realpath -s ../.venv/bin/python) main.py
+
+# Show the generated binary as hexadecimal bytes.
+hexdump: run
+    hexdump -C person.bin
+
+# Remove generated Python and binary files.
+clean:
+    rm -f *_pb2.py *_pb2_grpc.py *.bin
+    @echo "Cleaned generated files."

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package chat;
+
+// One chat message in either direction.
+message ChatMessage {
+  string user = 1;
+  string text = 2;
+}
+
+service ChatService {
+  // Bidirectional streaming: both sides send a stream of messages.
+  rpc LiveChat(stream ChatMessage) returns (stream ChatMessage);
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package lb;
+
+message PingRequest {
+  string client_name = 1;
+}
+
+message PongResponse {
+  // The backend returns its identity so the client can see who handled the call.
+  string server_id = 1;
+}
+
+service PingService {
+  rpc Ping(PingRequest) returns (PongResponse);
+}

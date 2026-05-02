@@ -1,0 +1,38 @@
+default:
+    @just --list
+
+# Create or refresh the shared Python virtual environment.
+setup:
+    uv venv ../.venv
+    uv pip install --python ../.venv/bin/python grpcio grpcio-tools protobuf
+
+# Compile the load-balancing proto file into Python code.
+compile:
+    $(realpath -s ../.venv/bin/python) -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. lb.proto
+    @echo "Load-balancing protobuf compiled successfully."
+
+# Run backend server A.
+server1: compile
+    $(realpath -s ../.venv/bin/python) server.py 50061
+
+# Run backend server B.
+server2: compile
+    $(realpath -s ../.venv/bin/python) server.py 50062
+
+# Run Nginx as a gRPC reverse proxy.
+nginx:
+    docker run --rm --name grpc-nginx-lb --network host -v "{{justfile_directory()}}/nginx.conf:/etc/nginx/nginx.conf:ro" nginx:latest
+
+# Run the load-balancing client.
+client: compile
+    $(realpath -s ../.venv/bin/python) client.py
+
+# Run the client with a custom request count:
+# just client-count 20
+client-count count: compile
+    $(realpath -s ../.venv/bin/python) client.py "{{count}}"
+
+# Remove generated protobuf files.
+clean:
+    rm -f *_pb2.py *_pb2_grpc.py
+    @echo "Cleaned generated files."

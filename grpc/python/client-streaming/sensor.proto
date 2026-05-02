@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package sensor;
+
+// One sensor reading sent by the client.
+message SensorData {
+  int32 temperature = 1;
+}
+
+// One final summary returned by the server after the client closes the stream.
+message AverageResponse {
+  double average_temp = 1;
+  int32 total_readings = 2;
+}
+
+service DataProcessor {
+  // Client streaming: many requests in, one response out.
+  rpc ComputeAverage(stream SensorData) returns (AverageResponse);
+}

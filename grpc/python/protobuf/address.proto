@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+// Packages act like namespaces and prevent name collisions.
+package tutorial.v1;
+
+message Address {
+  string street = 1;
+  string city = 2;
+  string zip_code = 3;
+}

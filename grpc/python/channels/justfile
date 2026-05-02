@@ -1,0 +1,26 @@
+default:
+    @just --list
+
+# Create or refresh the shared Python virtual environment.
+setup:
+    uv venv ../.venv
+    uv pip install --python ../.venv/bin/python grpcio grpcio-tools protobuf
+
+# Compile the existing unary Greeter contract for this client demo.
+compile:
+    $(realpath -s ../.venv/bin/python) -m grpc_tools.protoc -I../unary-rpc --python_out=. --grpc_python_out=. ../unary-rpc/unary.proto
+    @echo "Channel demo protobuf compiled successfully."
+
+# Run the advanced channel-sharing client.
+client: compile
+    $(realpath -s ../.venv/bin/python) advanced_client.py
+
+# Run the advanced client with a custom worker count:
+# just client-workers 10
+client-workers workers: compile
+    $(realpath -s ../.venv/bin/python) advanced_client.py "{{workers}}"
+
+# Remove generated protobuf files.
+clean:
+    rm -f *_pb2.py *_pb2_grpc.py
+    @echo "Cleaned generated files."

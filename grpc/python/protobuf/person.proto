@@ -1,0 +1,51 @@
+// Single-line comment.
+/*
+ * Multi-line comment.
+ */
+
+syntax = "proto3";
+
+package tutorial.v1;
+
+// Imports let one proto file reuse messages from another proto file.
+import "address.proto";
+
+// Well-known wrapper types are useful when scalar field presence matters.
+import "google/protobuf/wrappers.proto";
+
+// Options guide language-specific code generation. They do not change the wire format.
+option java_package = "com.example.tutorial";
+option java_multiple_files = true;
+
+// The first enum value must be zero because it is the default.
+enum PhoneType {
+  PHONE_TYPE_UNSPECIFIED = 0;
+  PHONE_TYPE_MOBILE = 1;
+  PHONE_TYPE_HOME = 2;
+}
+
+message Person {
+  // Field names are not sent over the network. Numeric tags are.
+  string first_name = 1;
+  int32 age = 2;
+
+  // Composition: a message can contain another message.
+  tutorial.v1.Address address = 3;
+
+  // Collections.
+  repeated string courses = 4;
+
+  // Maps compile to a repeated map-entry message under the hood.
+  map<string, int32> course_grades = 5;
+
+  PhoneType phone_type = 6;
+
+  // Only one field in this group can be set at a time.
+  oneof identifier {
+    string email = 7;
+    string username = 8;
+  }
+
+  // Wrapper message, so presence can be checked separately from the value 0.
+  google.protobuf.Int32Value weight_kg = 9;
+}

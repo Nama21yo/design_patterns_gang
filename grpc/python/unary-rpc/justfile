@@ -1,0 +1,30 @@
+default:
+    @just --list
+
+# Create or refresh the shared Python virtual environment.
+setup:
+    uv venv ../.venv
+    uv pip install --python ../.venv/bin/python grpcio grpcio-tools protobuf
+
+# Compile the unary RPC proto file into Python code.
+compile:
+    $(realpath -s ../.venv/bin/python) -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. unary.proto
+    @echo "Unary protobuf compiled successfully."
+
+# Run the unary RPC server.
+server: compile
+    $(realpath -s ../.venv/bin/python) server.py
+
+# Run the unary RPC client.
+client: compile
+    $(realpath -s ../.venv/bin/python) client.py
+
+# Run the client with a custom name:
+# just client-name "Matania"
+client-name name: compile
+    $(realpath -s ../.venv/bin/python) client.py "{{name}}"
+
+# Remove generated protobuf files.
+clean:
+    rm -f *_pb2.py *_pb2_grpc.py
+    @echo "Cleaned generated files."
