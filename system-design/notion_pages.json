@@ -1,0 +1,572 @@
+{
+  "p0": {
+    "id": "3ccddfa5-e685-81ec-817d-c4b8c6102eec",
+    "title": "Part 0 - Orientation",
+    "url": "https://app.notion.com/p/Part-0-Orientation-3ccddfa5e68581ec817dc4b8c6102eec",
+    "parent": "3ccddfa5-e685-81bd-ae5f-ff6eaac21fb9"
+  },
+  "0.1-study-plan": {
+    "id": "3ccddfa5-e685-8152-bd19-c89a46660d8c",
+    "title": "0.1 How to use this syllabus + study plan",
+    "url": "https://app.notion.com/p/0-1-How-to-use-this-syllabus-study-plan-3ccddfa5e6858152bd19c89a46660d8c",
+    "parent": "3ccddfa5-e685-81ec-817d-c4b8c6102eec"
+  },
+  "0.2-interview-framework": {
+    "id": "3ccddfa5-e685-813e-a83b-ec069a4cf953",
+    "title": "0.2 The system design interview framework",
+    "url": "https://app.notion.com/p/0-2-The-system-design-interview-framework-3ccddfa5e685813ea83bec069a4cf953",
+    "parent": "3ccddfa5-e685-81ec-817d-c4b8c6102eec"
+  },
+  "0.3-estimation": {
+    "id": "3ccddfa5-e685-81b0-8055-fc65e1dfb8ed",
+    "title": "0.3 Back-of-the-envelope estimation + latency numbers",
+    "url": "https://app.notion.com/p/0-3-Back-of-the-envelope-estimation-latency-numbers-3ccddfa5e68581b08055fc65e1dfb8ed",
+    "parent": "3ccddfa5-e685-81ec-817d-c4b8c6102eec"
+  },
+  "p1": {
+    "id": "3ccddfa5-e685-81d3-b53c-e2a193bc39c3",
+    "title": "Part 1 - Fundamentals",
+    "url": "https://app.notion.com/p/Part-1-Fundamentals-3ccddfa5e68581d3b53ce2a193bc39c3",
+    "parent": "3ccddfa5-e685-81bd-ae5f-ff6eaac21fb9"
+  },
+  "1.1-func-nonfunc": {
+    "id": "3ccddfa5-e685-8160-96c2-c65376328543",
+    "title": "1.1 Functional vs non-functional requirements",
+    "url": "https://app.notion.com/p/1-1-Functional-vs-non-functional-requirements-3ccddfa5e685816096c2c65376328543",
+    "parent": "3ccddfa5-e685-81d3-b53c-e2a193bc39c3"
+  },
+  "1.2-availability-reliability": {
+    "id": "3ccddfa5-e685-81c8-b34c-c9f38c7c2083",
+    "title": "1.2 Availability, reliability, fault tolerance, resilience, durability",
+    "url": "https://app.notion.com/p/1-2-Availability-reliability-fault-tolerance-resilience-durability-3ccddfa5e68581c8b34cc9f38c7c2083",
+    "parent": "3ccddfa5-e685-81d3-b53c-e2a193bc39c3"
+  },
+  "1.3-scalability-performance": {
+    "id": "3ccddfa5-e685-8168-aad9-d1f1db43695d",
+    "title": "1.3 Scalability, performance, latency vs throughput, maintainability, cost",
+    "url": "https://app.notion.com/p/1-3-Scalability-performance-latency-vs-throughput-maintainability-cost-3ccddfa5e6858168aad9d1f1db43695d",
+    "parent": "3ccddfa5-e685-81d3-b53c-e2a193bc39c3"
+  },
+  "1.4-cap-pacelc": {
+    "id": "3ccddfa5-e685-817e-b648-f360dddb352c",
+    "title": "1.4 CAP theorem and PACELC",
+    "url": "https://app.notion.com/p/1-4-CAP-theorem-and-PACELC-3ccddfa5e685817eb648f360dddb352c",
+    "parent": "3ccddfa5-e685-81d3-b53c-e2a193bc39c3"
+  },
+  "1.5-consistency-models": {
+    "id": "3ccddfa5-e685-816a-ad79-cb0b0ee032a7",
+    "title": "1.5 Consistency models",
+    "url": "https://app.notion.com/p/1-5-Consistency-models-3ccddfa5e685816aad79cb0b0ee032a7",
+    "parent": "3ccddfa5-e685-81d3-b53c-e2a193bc39c3"
+  },
+  "1.6-acid-base": {
+    "id": "3ccddfa5-e685-8103-9025-ecad9d09a02a",
+    "title": "1.6 ACID vs BASE",
+    "url": "https://app.notion.com/p/1-6-ACID-vs-BASE-3ccddfa5e68581039025ecad9d09a02a",
+    "parent": "3ccddfa5-e685-81d3-b53c-e2a193bc39c3"
+  },
+  "1.7-distributed-models": {
+    "id": "3ccddfa5-e685-81a6-bb88-f2f6a2ca274e",
+    "title": "1.7 Distributed system models and the fallacies",
+    "url": "https://app.notion.com/p/1-7-Distributed-system-models-and-the-fallacies-3ccddfa5e68581a6bb88f2f6a2ca274e",
+    "parent": "3ccddfa5-e685-81d3-b53c-e2a193bc39c3"
+  },
+  "p2": {
+    "id": "3ccddfa5-e685-811f-b40f-d5a7148feaf4",
+    "title": "Part 2 - Communication",
+    "url": "https://app.notion.com/p/Part-2-Communication-3ccddfa5e685811fb40fd5a7148feaf4",
+    "parent": "3ccddfa5-e685-81bd-ae5f-ff6eaac21fb9"
+  },
+  "2.1-network-stack": {
+    "id": "3ccddfa5-e685-81ae-8e03-c5c9e379b510",
+    "title": "2.1 Network stack for backend: TCP/UDP, HTTP/1.1/2/3, TLS",
+    "url": "https://app.notion.com/p/3ccddfa5e68581ae8e03c5c9e379b510",
+    "parent": "3ccddfa5-e685-811f-b40f-d5a7148feaf4"
+  },
+  "2.2-rest-rpc-grpc-graphql": {
+    "id": "3ccddfa5-e685-8189-a512-f91479645632",
+    "title": "2.2 REST, RPC, gRPC, GraphQL",
+    "url": "https://app.notion.com/p/2-2-REST-RPC-gRPC-GraphQL-3ccddfa5e6858189a512f91479645632",
+    "parent": "3ccddfa5-e685-811f-b40f-d5a7148feaf4"
+  },
+  "2.3-realtime": {
+    "id": "3ccddfa5-e685-8102-8c3f-ffab45af5cc1",
+    "title": "2.3 Real-time delivery: polling, SSE, WebSockets, pub/sub",
+    "url": "https://app.notion.com/p/3ccddfa5e68581028c3fffab45af5cc1",
+    "parent": "3ccddfa5-e685-811f-b40f-d5a7148feaf4"
+  },
+  "2.4-failure-retries-idempotency": {
+    "id": "3ccddfa5-e685-815e-be95-e8bdd470691e",
+    "title": "2.4 Failure detection, timeouts, retries, backoff, idempotency",
+    "url": "https://app.notion.com/p/2-4-Failure-detection-timeouts-retries-backoff-idempotency-3ccddfa5e685815ebe95e8bdd470691e",
+    "parent": "3ccddfa5-e685-811f-b40f-d5a7148feaf4"
+  },
+  "2.5-load-balancing": {
+    "id": "3ccddfa5-e685-818d-897e-ca992f28559e",
+    "title": "2.5 Load balancing, reverse proxy, API gateway",
+    "url": "https://app.notion.com/p/2-5-Load-balancing-reverse-proxy-API-gateway-3ccddfa5e685818d897eca992f28559e",
+    "parent": "3ccddfa5-e685-811f-b40f-d5a7148feaf4"
+  },
+  "2.6-fault-tolerance-patterns": {
+    "id": "3ccddfa5-e685-8154-b96f-f432ea4110bd",
+    "title": "2.6 Fault tolerance patterns",
+    "url": "https://app.notion.com/p/2-6-Fault-tolerance-patterns-3ccddfa5e6858154b96ff432ea4110bd",
+    "parent": "3ccddfa5-e685-811f-b40f-d5a7148feaf4"
+  },
+  "p3": {
+    "id": "3ccddfa5-e685-81c9-8ad8-d5206d0c20a7",
+    "title": "Part 3 - Storage",
+    "url": "https://app.notion.com/p/Part-3-Storage-3ccddfa5e68581c98ad8d5206d0c20a7",
+    "parent": "3ccddfa5-e685-81bd-ae5f-ff6eaac21fb9"
+  },
+  "3.1-storage-engines": {
+    "id": "3ccddfa5-e685-81b0-b167-fb15dc94e24a",
+    "title": "3.1 Storage engine internals: B-Tree vs LSM-tree",
+    "url": "https://app.notion.com/p/3ccddfa5e68581b0b167fb15dc94e24a",
+    "parent": "3ccddfa5-e685-81c9-8ad8-d5206d0c20a7"
+  },
+  "3.2-sql-nosql-models": {
+    "id": "3ccddfa5-e685-814e-94ee-c1ffb2ec3638",
+    "title": "3.2 SQL vs NoSQL and data models",
+    "url": "https://app.notion.com/p/3-2-SQL-vs-NoSQL-and-data-models-3ccddfa5e685814e94eec1ffb2ec3638",
+    "parent": "3ccddfa5-e685-81c9-8ad8-d5206d0c20a7"
+  },
+  "3.3-indexing": {
+    "id": "3ccddfa5-e685-818d-89a5-d157d81d749b",
+    "title": "3.3 Indexing",
+    "url": "https://app.notion.com/p/3-3-Indexing-3ccddfa5e685818d89a5d157d81d749b",
+    "parent": "3ccddfa5-e685-81c9-8ad8-d5206d0c20a7"
+  },
+  "3.4-partitioning": {
+    "id": "3ccddfa5-e685-8195-adbe-f2860713932e",
+    "title": "3.4 Partitioning / sharding",
+    "url": "https://app.notion.com/p/3-4-Partitioning-sharding-3ccddfa5e6858195adbef2860713932e",
+    "parent": "3ccddfa5-e685-81c9-8ad8-d5206d0c20a7"
+  },
+  "3.5-replication": {
+    "id": "3ccddfa5-e685-8141-909f-c64ec308ea1e",
+    "title": "3.5 Replication",
+    "url": "https://app.notion.com/p/3-5-Replication-3ccddfa5e6858141909fc64ec308ea1e",
+    "parent": "3ccddfa5-e685-81c9-8ad8-d5206d0c20a7"
+  },
+  "3.6-consensus": {
+    "id": "3ccddfa5-e685-8121-8fc1-cdc9c12c4dd5",
+    "title": "3.6 Consensus and coordination",
+    "url": "https://app.notion.com/p/3-6-Consensus-and-coordination-3ccddfa5e68581218fc1cdc9c12c4dd5",
+    "parent": "3ccddfa5-e685-81c9-8ad8-d5206d0c20a7"
+  },
+  "3.7-distributed-transactions": {
+    "id": "3ccddfa5-e685-8175-b941-ff3bed3b1e6f",
+    "title": "3.7 Distributed transactions",
+    "url": "https://app.notion.com/p/3-7-Distributed-transactions-3ccddfa5e6858175b941ff3bed3b1e6f",
+    "parent": "3ccddfa5-e685-81c9-8ad8-d5206d0c20a7"
+  },
+  "3.8-cdc-event-sourcing-cqrs": {
+    "id": "3ccddfa5-e685-819e-a64c-f2a7c1bc85d1",
+    "title": "3.8 CDC, event sourcing, CQRS",
+    "url": "https://app.notion.com/p/3-8-CDC-event-sourcing-CQRS-3ccddfa5e685819ea64cf2a7c1bc85d1",
+    "parent": "3ccddfa5-e685-81c9-8ad8-d5206d0c20a7"
+  },
+  "3.9-object-file-storage": {
+    "id": "3ccddfa5-e685-81fd-8bac-dfd2982060a0",
+    "title": "3.9 Object/blob storage and distributed file systems",
+    "url": "https://app.notion.com/p/3-9-Object-blob-storage-and-distributed-file-systems-3ccddfa5e68581fd8bacdfd2982060a0",
+    "parent": "3ccddfa5-e685-81c9-8ad8-d5206d0c20a7"
+  },
+  "p4": {
+    "id": "3ccddfa5-e685-814e-aa75-d5e65238f470",
+    "title": "Part 4 - Memory and Caching",
+    "url": "https://app.notion.com/p/Part-4-Memory-and-Caching-3ccddfa5e685814eaa75d5e65238f470",
+    "parent": "3ccddfa5-e685-81bd-ae5f-ff6eaac21fb9"
+  },
+  "4.1-caching-strategies": {
+    "id": "3ccddfa5-e685-814d-a96b-dc72d6e439b3",
+    "title": "4.1 Caching strategies and eviction",
+    "url": "https://app.notion.com/p/4-1-Caching-strategies-and-eviction-3ccddfa5e685814da96bdc72d6e439b3",
+    "parent": "3ccddfa5-e685-814e-aa75-d5e65238f470"
+  },
+  "4.2-cache-invalidation": {
+    "id": "3ccddfa5-e685-81fc-9bef-eecfd9f348a1",
+    "title": "4.2 Cache invalidation and stampede protection",
+    "url": "https://app.notion.com/p/4-2-Cache-invalidation-and-stampede-protection-3ccddfa5e68581fc9befeecfd9f348a1",
+    "parent": "3ccddfa5-e685-814e-aa75-d5e65238f470"
+  },
+  "4.3-redis-memcached": {
+    "id": "3ccddfa5-e685-81a4-82d5-e081256a1551",
+    "title": "4.3 Redis and Memcached deep dive",
+    "url": "https://app.notion.com/p/4-3-Redis-and-Memcached-deep-dive-3ccddfa5e68581a482d5e081256a1551",
+    "parent": "3ccddfa5-e685-814e-aa75-d5e65238f470"
+  },
+  "4.4-cdn": {
+    "id": "3ccddfa5-e685-8139-9283-df0687feed7c",
+    "title": "4.4 CDN and edge caching",
+    "url": "https://app.notion.com/p/4-4-CDN-and-edge-caching-3ccddfa5e68581399283df0687feed7c",
+    "parent": "3ccddfa5-e685-814e-aa75-d5e65238f470"
+  },
+  "4.5-probabilistic-structures": {
+    "id": "3ccddfa5-e685-81ad-9b15-ffa73f408385",
+    "title": "4.5 Probabilistic data structures",
+    "url": "https://app.notion.com/p/4-5-Probabilistic-data-structures-3ccddfa5e68581ad9b15ffa73f408385",
+    "parent": "3ccddfa5-e685-814e-aa75-d5e65238f470"
+  },
+  "p5": {
+    "id": "3ccddfa5-e685-81a3-928c-cd7a7521ce0f",
+    "title": "Part 5 - Data Processing and Messaging",
+    "url": "https://app.notion.com/p/Part-5-Data-Processing-and-Messaging-3ccddfa5e68581a3928ccd7a7521ce0f",
+    "parent": "3ccddfa5-e685-81bd-ae5f-ff6eaac21fb9"
+  },
+  "5.1-queues-brokers": {
+    "id": "3ccddfa5-e685-81f5-9233-d34cc73c10d9",
+    "title": "5.1 Message queues and brokers",
+    "url": "https://app.notion.com/p/5-1-Message-queues-and-brokers-3ccddfa5e68581f59233d34cc73c10d9",
+    "parent": "3ccddfa5-e685-81a3-928c-cd7a7521ce0f"
+  },
+  "5.2-delivery-semantics": {
+    "id": "3ccddfa5-e685-81fc-b526-c67d9335859d",
+    "title": "5.2 Delivery semantics and ordering",
+    "url": "https://app.notion.com/p/5-2-Delivery-semantics-and-ordering-3ccddfa5e68581fcb526c67d9335859d",
+    "parent": "3ccddfa5-e685-81a3-928c-cd7a7521ce0f"
+  },
+  "5.3-stream-processing": {
+    "id": "3ccddfa5-e685-813a-a71c-e21d55f52a14",
+    "title": "5.3 Stream processing",
+    "url": "https://app.notion.com/p/5-3-Stream-processing-3ccddfa5e685813aa71ce21d55f52a14",
+    "parent": "3ccddfa5-e685-81a3-928c-cd7a7521ce0f"
+  },
+  "5.4-batch-lambda-kappa": {
+    "id": "3ccddfa5-e685-81ca-a791-ecdd5780470f",
+    "title": "5.4 Batch processing; Lambda vs Kappa",
+    "url": "https://app.notion.com/p/5-4-Batch-processing-Lambda-vs-Kappa-3ccddfa5e68581caa791ecdd5780470f",
+    "parent": "3ccddfa5-e685-81a3-928c-cd7a7521ce0f"
+  },
+  "5.5-pubsub-fanout": {
+    "id": "3ccddfa5-e685-81eb-98e1-fa470d7f623c",
+    "title": "5.5 Pub/Sub and fan-out patterns",
+    "url": "https://app.notion.com/p/5-5-Pub-Sub-and-fan-out-patterns-3ccddfa5e68581eb98e1fa470d7f623c",
+    "parent": "3ccddfa5-e685-81a3-928c-cd7a7521ce0f"
+  },
+  "p6": {
+    "id": "3ccddfa5-e685-81ca-90ff-c7d74acc2adc",
+    "title": "Part 6 - Infrastructure and Operations",
+    "url": "https://app.notion.com/p/Part-6-Infrastructure-and-Operations-3ccddfa5e68581ca90ffc7d74acc2adc",
+    "parent": "3ccddfa5-e685-81bd-ae5f-ff6eaac21fb9"
+  },
+  "6.1-containers-orchestration": {
+    "id": "3ccddfa5-e685-81c4-b2e1-e8ae85321c8b",
+    "title": "6.1 Containers, orchestration, service discovery, service mesh",
+    "url": "https://app.notion.com/p/6-1-Containers-orchestration-service-discovery-service-mesh-3ccddfa5e68581c4b2e1e8ae85321c8b",
+    "parent": "3ccddfa5-e685-81ca-90ff-c7d74acc2adc"
+  },
+  "6.2-multi-region": {
+    "id": "3ccddfa5-e685-8158-9540-e0fbe5922d3c",
+    "title": "6.2 Multi-region and geo-distribution",
+    "url": "https://app.notion.com/p/6-2-Multi-region-and-geo-distribution-3ccddfa5e68581589540e0fbe5922d3c",
+    "parent": "3ccddfa5-e685-81ca-90ff-c7d74acc2adc"
+  },
+  "6.3-observability": {
+    "id": "3ccddfa5-e685-812d-aca5-c4a8e57721dd",
+    "title": "6.3 Observability and SLOs",
+    "url": "https://app.notion.com/p/6-3-Observability-and-SLOs-3ccddfa5e685812daca5c4a8e57721dd",
+    "parent": "3ccddfa5-e685-81ca-90ff-c7d74acc2adc"
+  },
+  "6.4-rate-limiting": {
+    "id": "3ccddfa5-e685-8138-b0fd-db0ec78efd49",
+    "title": "6.4 Rate limiting and throttling algorithms",
+    "url": "https://app.notion.com/p/6-4-Rate-limiting-and-throttling-algorithms-3ccddfa5e6858138b0fddb0ec78efd49",
+    "parent": "3ccddfa5-e685-81ca-90ff-c7d74acc2adc"
+  },
+  "6.5-deployment": {
+    "id": "3ccddfa5-e685-8171-985a-dd1661a07929",
+    "title": "6.5 Deployment strategies, config, feature flags",
+    "url": "https://app.notion.com/p/6-5-Deployment-strategies-config-feature-flags-3ccddfa5e6858171985add1661a07929",
+    "parent": "3ccddfa5-e685-81ca-90ff-c7d74acc2adc"
+  },
+  "p7": {
+    "id": "3ccddfa5-e685-819e-bcb4-ddbb0f6f5b8a",
+    "title": "Part 7 - Security and Time",
+    "url": "https://app.notion.com/p/Part-7-Security-and-Time-3ccddfa5e685819ebcb4ddbb0f6f5b8a",
+    "parent": "3ccddfa5-e685-81bd-ae5f-ff6eaac21fb9"
+  },
+  "7.1-authn-authz": {
+    "id": "3ccddfa5-e685-8190-89c6-cce6d5f4f65f",
+    "title": "7.1 AuthN / AuthZ: OAuth2, OIDC, JWT, sessions, mTLS",
+    "url": "https://app.notion.com/p/3ccddfa5e685819089c6cce6d5f4f65f",
+    "parent": "3ccddfa5-e685-819e-bcb4-ddbb0f6f5b8a"
+  },
+  "7.2-encryption-secrets": {
+    "id": "3ccddfa5-e685-8157-9417-e4f42641a62f",
+    "title": "7.2 Encryption at rest and in transit, key management, secrets",
+    "url": "https://app.notion.com/p/7-2-Encryption-at-rest-and-in-transit-key-management-secrets-3ccddfa5e68581579417e4f42641a62f",
+    "parent": "3ccddfa5-e685-819e-bcb4-ddbb0f6f5b8a"
+  },
+  "7.3-threats-mitigations": {
+    "id": "3ccddfa5-e685-8163-b656-c60f3fb55da1",
+    "title": "7.3 Threats and mitigations",
+    "url": "https://app.notion.com/p/7-3-Threats-and-mitigations-3ccddfa5e6858163b656c60f3fb55da1",
+    "parent": "3ccddfa5-e685-819e-bcb4-ddbb0f6f5b8a"
+  },
+  "7.4-physical-clocks": {
+    "id": "3ccddfa5-e685-8161-93eb-d68bfbe34cab",
+    "title": "7.4 Time: physical clocks, NTP, clock skew",
+    "url": "https://app.notion.com/p/3ccddfa5e685816193ebd68bfbe34cab",
+    "parent": "3ccddfa5-e685-819e-bcb4-ddbb0f6f5b8a"
+  },
+  "7.5-logical-clocks": {
+    "id": "3ccddfa5-e685-81aa-a992-f9aa0c061eed",
+    "title": "7.5 Logical clocks: Lamport, vector, hybrid logical clocks, TrueTime",
+    "url": "https://app.notion.com/p/3ccddfa5e68581aaa992f9aa0c061eed",
+    "parent": "3ccddfa5-e685-819e-bcb4-ddbb0f6f5b8a"
+  },
+  "7.6-ordering-snapshots": {
+    "id": "3ccddfa5-e685-8153-bc23-cc63c7776f53",
+    "title": "7.6 Ordering, causality, distributed snapshots",
+    "url": "https://app.notion.com/p/7-6-Ordering-causality-distributed-snapshots-3ccddfa5e6858153bc23cc63c7776f53",
+    "parent": "3ccddfa5-e685-819e-bcb4-ddbb0f6f5b8a"
+  },
+  "p8": {
+    "id": "3ccddfa5-e685-81aa-8d01-e35a78cdffdb",
+    "title": "Part 8 - Product Thinking for Backend Engineers",
+    "url": "https://app.notion.com/p/Part-8-Product-Thinking-for-Backend-Engineers-3ccddfa5e68581aa8d01e35a78cdffdb",
+    "parent": "3ccddfa5-e685-81bd-ae5f-ff6eaac21fb9"
+  },
+  "8.1-scoping": {
+    "id": "3ccddfa5-e685-813f-a01e-e9cc129ce614",
+    "title": "8.1 Scoping a product and eliciting requirements",
+    "url": "https://app.notion.com/p/8-1-Scoping-a-product-and-eliciting-requirements-3ccddfa5e685813fa01ee9cc129ce614",
+    "parent": "3ccddfa5-e685-81aa-8d01-e35a78cdffdb"
+  },
+  "8.2-api-data-model-evolution": {
+    "id": "3ccddfa5-e685-8140-a439-d73a07b4085f",
+    "title": "8.2 API and data model design and evolution",
+    "url": "https://app.notion.com/p/8-2-API-and-data-model-design-and-evolution-3ccddfa5e6858140a439d73a07b4085f",
+    "parent": "3ccddfa5-e685-81aa-8d01-e35a78cdffdb"
+  },
+  "8.3-tradeoffs-capacity-cost-migration": {
+    "id": "3ccddfa5-e685-815a-abc3-dbe61f324cd2",
+    "title": "8.3 Trade-off analysis, capacity planning, cost, migrations",
+    "url": "https://app.notion.com/p/8-3-Trade-off-analysis-capacity-planning-cost-migrations-3ccddfa5e685815aabc3dbe61f324cd2",
+    "parent": "3ccddfa5-e685-81aa-8d01-e35a78cdffdb"
+  },
+  "p9": {
+    "id": "3ccddfa5-e685-8115-800e-f13988eac9ec",
+    "title": "Part 9 - Design Case Studies",
+    "url": "https://app.notion.com/p/Part-9-Design-Case-Studies-3ccddfa5e6858115800ef13988eac9ec",
+    "parent": "3ccddfa5-e685-81bd-ae5f-ff6eaac21fb9"
+  },
+  "9.1-url-shortener": {
+    "id": "3ccddfa5-e685-818a-9055-e17ea1098f7a",
+    "title": "9.1 URL shortener / Pastebin",
+    "url": "https://app.notion.com/p/9-1-URL-shortener-Pastebin-3ccddfa5e685818a9055e17ea1098f7a",
+    "parent": "3ccddfa5-e685-8115-800e-f13988eac9ec"
+  },
+  "9.2-rate-limiter": {
+    "id": "3ccddfa5-e685-81b9-b5bf-c7258a343c06",
+    "title": "9.2 Distributed rate limiter",
+    "url": "https://app.notion.com/p/9-2-Distributed-rate-limiter-3ccddfa5e68581b9b5bfc7258a343c06",
+    "parent": "3ccddfa5-e685-8115-800e-f13988eac9ec"
+  },
+  "9.3-notification-service": {
+    "id": "3ccddfa5-e685-81fc-b518-fa2680d4fb5e",
+    "title": "9.3 Notification / fan-out service",
+    "url": "https://app.notion.com/p/9-3-Notification-fan-out-service-3ccddfa5e68581fcb518fa2680d4fb5e",
+    "parent": "3ccddfa5-e685-8115-800e-f13988eac9ec"
+  },
+  "9.4-news-feed": {
+    "id": "3ccddfa5-e685-8151-9d77-e2e003336596",
+    "title": "9.4 News feed / timeline",
+    "url": "https://app.notion.com/p/9-4-News-feed-timeline-3ccddfa5e68581519d77e2e003336596",
+    "parent": "3ccddfa5-e685-8115-800e-f13988eac9ec"
+  },
+  "9.5-top-k": {
+    "id": "3ccddfa5-e685-8115-9bd8-d2e64d7b18ed",
+    "title": "9.5 Top-K / trending (heavy hitters)",
+    "url": "https://app.notion.com/p/9-5-Top-K-trending-heavy-hitters-3ccddfa5e68581159bd8d2e64d7b18ed",
+    "parent": "3ccddfa5-e685-8115-800e-f13988eac9ec"
+  },
+  "9.6-chat": {
+    "id": "3ccddfa5-e685-8149-94b7-cf3c76b4e45b",
+    "title": "9.6 Real-time chat and presence",
+    "url": "https://app.notion.com/p/9-6-Real-time-chat-and-presence-3ccddfa5e685814994b7cf3c76b4e45b",
+    "parent": "3ccddfa5-e685-8115-800e-f13988eac9ec"
+  },
+  "9.7-autocomplete": {
+    "id": "3ccddfa5-e685-817d-add1-d02cb9ea505d",
+    "title": "9.7 Search autocomplete / typeahead",
+    "url": "https://app.notion.com/p/9-7-Search-autocomplete-typeahead-3ccddfa5e685817dadd1d02cb9ea505d",
+    "parent": "3ccddfa5-e685-8115-800e-f13988eac9ec"
+  },
+  "9.8-distributed-cache": {
+    "id": "3ccddfa5-e685-8187-ad02-c742db331d4e",
+    "title": "9.8 Distributed cache",
+    "url": "https://app.notion.com/p/9-8-Distributed-cache-3ccddfa5e6858187ad02c742db331d4e",
+    "parent": "3ccddfa5-e685-8115-800e-f13988eac9ec"
+  },
+  "9.9-object-store": {
+    "id": "3ccddfa5-e685-8140-a5a5-fb180080707b",
+    "title": "9.9 Object storage service (S3-like)",
+    "url": "https://app.notion.com/p/9-9-Object-storage-service-S3-like-3ccddfa5e6858140a5a5fb180080707b",
+    "parent": "3ccddfa5-e685-8115-800e-f13988eac9ec"
+  },
+  "9.10-web-crawler": {
+    "id": "3ccddfa5-e685-815d-beda-f322eaf42dff",
+    "title": "9.10 Web crawler",
+    "url": "https://app.notion.com/p/9-10-Web-crawler-3ccddfa5e685815dbedaf322eaf42dff",
+    "parent": "3ccddfa5-e685-8115-800e-f13988eac9ec"
+  },
+  "9.11-metrics-system": {
+    "id": "3ccddfa5-e685-81c2-99ef-f2f15416123f",
+    "title": "9.11 Metrics / time-series monitoring system",
+    "url": "https://app.notion.com/p/9-11-Metrics-time-series-monitoring-system-3ccddfa5e68581c299eff2f15416123f",
+    "parent": "3ccddfa5-e685-8115-800e-f13988eac9ec"
+  },
+  "9.12-job-scheduler": {
+    "id": "3ccddfa5-e685-81c9-8924-d6bde3e5ce51",
+    "title": "9.12 Distributed job scheduler",
+    "url": "https://app.notion.com/p/9-12-Distributed-job-scheduler-3ccddfa5e68581c98924d6bde3e5ce51",
+    "parent": "3ccddfa5-e685-8115-800e-f13988eac9ec"
+  },
+  "p10": {
+    "id": "3ccddfa5-e685-8194-b9e2-f3825e3ef322",
+    "title": "Part 10 - Bloomberg Interview Prep",
+    "url": "https://app.notion.com/p/Part-10-Bloomberg-Interview-Prep-3ccddfa5e6858194b9e2f3825e3ef322",
+    "parent": "3ccddfa5-e685-81bd-ae5f-ff6eaac21fb9"
+  },
+  "10.0-bloomberg-overview": {
+    "id": "3ccddfa5-e685-815c-a90e-d91c945d387b",
+    "title": "10.0 Bloomberg system design interview: process and what they test",
+    "url": "https://app.notion.com/p/3ccddfa5e685815ca90ed91c945d387b",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.1-custom-index": {
+    "id": "3ccddfa5-e685-81b0-a621-faf299f68442",
+    "title": "10.1 [bl] Custom Index - core system",
+    "url": "https://app.notion.com/p/10-1-bl-Custom-Index-core-system-3ccddfa5e68581b0a621faf299f68442",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.2-custom-index-pubsub": {
+    "id": "3ccddfa5-e685-81db-b82f-e071362aede1",
+    "title": "10.2 [bl] Custom Index - pub/sub extension",
+    "url": "https://app.notion.com/p/10-2-bl-Custom-Index-pub-sub-extension-3ccddfa5e68581dbb82fe071362aede1",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.3-stock-alert": {
+    "id": "3ccddfa5-e685-81a6-81aa-eb45342766ae",
+    "title": "10.3 [bl] Stock price alert / notification system",
+    "url": "https://app.notion.com/p/10-3-bl-Stock-price-alert-notification-system-3ccddfa5e68581a681aaeb45342766ae",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.4-top-k-news": {
+    "id": "3ccddfa5-e685-8152-a49b-c04b9ab4daf5",
+    "title": "10.4 [bl] Top-K most popular news on the Terminal",
+    "url": "https://app.notion.com/p/10-4-bl-Top-K-most-popular-news-on-the-Terminal-3ccddfa5e6858152a49bc04b9ab4daf5",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.5-news-notification": {
+    "id": "3ccddfa5-e685-8165-8dab-da5ca1aacc7a",
+    "title": "10.5 [bl] News notification system",
+    "url": "https://app.notion.com/p/10-5-bl-News-notification-system-3ccddfa5e68581658dabda5ca1aacc7a",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.6-news-feed": {
+    "id": "3ccddfa5-e685-819b-929c-c929e5a732a0",
+    "title": "10.6 [bl] News feed design",
+    "url": "https://app.notion.com/p/10-6-bl-News-feed-design-3ccddfa5e685819b929cc929e5a732a0",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.7-notes-collab": {
+    "id": "3ccddfa5-e685-812c-817b-ca14c7817a9c",
+    "title": "10.7 [bl] Collaborative note-taking app with sharing and permissions",
+    "url": "https://app.notion.com/p/10-7-bl-Collaborative-note-taking-app-with-sharing-and-permissions-3ccddfa5e685812c817bca14c7817a9c",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.8-notes-offline": {
+    "id": "3ccddfa5-e685-812c-951e-f7a528c2f8d2",
+    "title": "10.8 [bl] Note-taking app with offline support (mobile)",
+    "url": "https://app.notion.com/p/10-8-bl-Note-taking-app-with-offline-support-mobile-3ccddfa5e685812c951ef7a528c2f8d2",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.9-terminal-memo": {
+    "id": "3ccddfa5-e685-81fd-9662-d6fb2b726088",
+    "title": "10.9 [bl] 'Memo' for the Bloomberg Terminal",
+    "url": "https://app.notion.com/p/10-9-bl-Memo-for-the-Bloomberg-Terminal-3ccddfa5e68581fd9662d6fb2b726088",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.10-twitter-sentiment": {
+    "id": "3ccddfa5-e685-811c-b9be-e0f925b14f5a",
+    "title": "10.10 [bl] Twitter sentiment analysis for a company over time",
+    "url": "https://app.notion.com/p/10-10-bl-Twitter-sentiment-analysis-for-a-company-over-time-3ccddfa5e685811cb9bee0f925b14f5a",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.11-offline-video": {
+    "id": "3ccddfa5-e685-8107-b847-e1c3276c81a5",
+    "title": "10.11 [bl] Offline video mobile app",
+    "url": "https://app.notion.com/p/10-11-bl-Offline-video-mobile-app-3ccddfa5e6858107b847e1c3276c81a5",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.12-distributed-tracing": {
+    "id": "3ccddfa5-e685-8130-9d71-e5d18bbb8d36",
+    "title": "10.12 [bl] Distributed tracing system that scales",
+    "url": "https://app.notion.com/p/10-12-bl-Distributed-tracing-system-that-scales-3ccddfa5e68581309d71e5d18bbb8d36",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.13-log-pipeline-warehouse": {
+    "id": "3ccddfa5-e685-8100-ad82-e191afcf7f7c",
+    "title": "10.13 [bl] Log processing pipeline to a warehouse",
+    "url": "https://app.notion.com/p/10-13-bl-Log-processing-pipeline-to-a-warehouse-3ccddfa5e6858100ad82e191afcf7f7c",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.14-audit-logging": {
+    "id": "3ccddfa5-e685-8170-b7ab-ea4997391802",
+    "title": "10.14 [bl] Audit logging service for stock logs",
+    "url": "https://app.notion.com/p/10-14-bl-Audit-logging-service-for-stock-logs-3ccddfa5e6858170b7abea4997391802",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.15-distributed-logging": {
+    "id": "3ccddfa5-e685-8120-af04-d20e56224b1d",
+    "title": "10.15 [bl] Distributed logging system",
+    "url": "https://app.notion.com/p/10-15-bl-Distributed-logging-system-3ccddfa5e6858120af04d20e56224b1d",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.16-market-data-ipc": {
+    "id": "3ccddfa5-e685-81ab-8834-ef0050e1f8d5",
+    "title": "10.16 [bl] Market-data fan-out to local processes",
+    "url": "https://app.notion.com/p/10-16-bl-Market-data-fan-out-to-local-processes-3ccddfa5e68581ab8834ef0050e1f8d5",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.17-rate-limiting-service": {
+    "id": "3ccddfa5-e685-8199-b761-e2172243b769",
+    "title": "10.17 [bl] Rate limiting service",
+    "url": "https://app.notion.com/p/10-17-bl-Rate-limiting-service-3ccddfa5e6858199b761e2172243b769",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "10.18-notification-service": {
+    "id": "3ccddfa5-e685-818e-9d47-fa1316032de8",
+    "title": "10.18 [bl] Generic notification service",
+    "url": "https://app.notion.com/p/10-18-bl-Generic-notification-service-3ccddfa5e685818e9d47fa1316032de8",
+    "parent": "3ccddfa5-e685-8194-b9e2-f3825e3ef322"
+  },
+  "p11": {
+    "id": "3ccddfa5-e685-81e8-ac24-c63ddf85f5fd",
+    "title": "Part 11 - Resources: Blogs and Papers",
+    "url": "https://app.notion.com/p/3ccddfa5e68581e8ac24c63ddf85f5fd",
+    "parent": "3ccddfa5-e685-81bd-ae5f-ff6eaac21fb9"
+  },
+  "11.1-papers": {
+    "id": "3ccddfa5-e685-815c-b439-fad697a1bd6f",
+    "title": "11.1 Papers list (annotated)",
+    "url": "https://app.notion.com/p/11-1-Papers-list-annotated-3ccddfa5e685815cb439fad697a1bd6f",
+    "parent": "3ccddfa5-e685-81e8-ac24-c63ddf85f5fd"
+  },
+  "11.2-books-courses": {
+    "id": "3ccddfa5-e685-816f-a8e6-cdca3b3b4c8f",
+    "title": "11.2 Books and courses",
+    "url": "https://app.notion.com/p/11-2-Books-and-courses-3ccddfa5e685816fa8e6cdca3b3b4c8f",
+    "parent": "3ccddfa5-e685-81e8-ac24-c63ddf85f5fd"
+  },
+  "11.3-blogs": {
+    "id": "3ccddfa5-e685-8174-b429-f02c165f1dc7",
+    "title": "11.3 Engineering blogs and curated lists",
+    "url": "https://app.notion.com/p/11-3-Engineering-blogs-and-curated-lists-3ccddfa5e6858174b429f02c165f1dc7",
+    "parent": "3ccddfa5-e685-81e8-ac24-c63ddf85f5fd"
+  }
+}
