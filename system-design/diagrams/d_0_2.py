@@ -109,8 +109,34 @@ def hld_template():
     """)
 
 
+def worked_urlshortener():
+    render("0-2-worked-urlshortener", f"""
+    rankdir=LR;
+    client [label="Client", fillcolor="{GRAY}", color="{SLATE}"];
+    lb     [label="Load\\lbalancer", fillcolor="{LIGHTBLUE}", color="{BLUE}"];
+    w      [label="Write service\\lPOST /urls", fillcolor="{LIGHTBLUE}", color="{BLUE}"];
+    r      [label="Redirect service\\lGET /{{code}}", fillcolor="{LIGHTBLUE}", color="{BLUE}"];
+    idgen  [label="ID generator\\l(counter -> base62)", fillcolor="white"];
+    cache  [label="Cache (Redis)\\lcode -> long URL", fillcolor="{LIGHTTEAL}", color="{TEAL}"];
+    kv     [label="KV store\\lcode -> long URL, owner,\\lcreated_at   (sharded, RF=3)", fillcolor="{LIGHTTEAL}", color="{TEAL}"];
+    q      [label="Click events\\l-> queue", fillcolor="{LIGHTAMBER}", color="{AMBER}"];
+    an     [label="Analytics\\lworker + store", fillcolor="{LIGHTAMBER}", color="{AMBER}"];
+
+    client -> lb;
+    lb -> w; lb -> r;
+    w -> idgen;
+    w -> kv [label="  write"];
+    r -> cache [label="  1. lookup", dir=both];
+    r -> kv [label="  2. miss -> read + backfill"];
+    r -> q -> an;
+    r -> client [label="  301 redirect", style=dashed, color="{SLATE}", constraint=false];
+    {{ rank=same; cache; kv }}
+    """)
+
+
 if __name__ == "__main__":
     phases_timeline()
     framework_flow()
     requirements_tree()
     hld_template()
+    worked_urlshortener()
