@@ -23,5 +23,6 @@ Per note, repeat:
 - Bloomberg (`[bl]`) pages: keep the verbatim prompt block at top, then the worked design.
 
 ## Progress
-- [x] 0.2 The system design interview framework
+- [x] Part 0 - Orientation (0.1 study plan, 0.2 interview framework, 0.3 estimation) - COMPLETE
+- [ ] Part 1 - Fundamentals (next)
 - [ ] everything else
