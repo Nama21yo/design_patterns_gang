@@ -43,5 +43,15 @@
  "1.6-max-consecutive-ones": "7fb142183cf7bcdc906cca84d9074e5325f918cc28103f132e12d31fa04c8781",
  "1.7-number-of-ships-in-a-rectangle": "8aff4b785753e1a5b581edfe727dd3dd0c6e1b6ecc8eb58354fcd7fd25e141a0",
  "1.8-check-if-array-is-sorted-and-rotated": "c5399c900626892b6814820bcca75f75fa5c2f7396faf331ff72309bfd5642d6",
- "1.9-contiguous-array": "08961eec976dae53f9fc13157bf7d88a788c227bce7a895685b106177efb2800"
+ "1.9-contiguous-array": "08961eec976dae53f9fc13157bf7d88a788c227bce7a895685b106177efb2800",
+ "2.0-primer": "4fe16bb2811814615a6ef2fc01d518b1c560746fd22f50e732bf0694d5f4fcfb",
+ "2.1-3sum": "f1123479e1fcec31c0d97659e1dacabd2e488360906262c936aef28aeefb826e",
+ "2.2-remove-duplicates-from-sorted-array": "3b11885b40e0c57a67ef909a7b6919550b9b7a4c1a4a04c8b7a883b5c02dfc33",
+ "2.3-valid-palindrome": "dc658ec803c95593cf00cac512c499383fdcd14dcce3c0fa7cad97af3515a3ae",
+ "2.4-container-with-most-water": "b82582ef0633fe3dc30160195797ce277f831c0eab0f7f7ec46f00d6eb4891da",
+ "2.5-next-permutation": "191b9fe84fd6bd7382d067a637fd2946dc74db383eed5818dcb4e97f535bd139",
+ "2.6-merge-sorted-array": "a85156062b3dd5c8f8efa4ea85f609f7eaa6abc9b1807553982534afd2e1a511",
+ "2.7-move-zeroes": "0fa115dfe2e1afe44d7e2e0eb12873c13b04172cce0891fc3115d6695627f297",
+ "2.8-4sum": "5b75a4fb25cfc427e5cfe3ba41bbe487302e5484533536602e256db5167fc7d5",
+ "2.10-find-the-index-of-the-first-occurrence-in-a-string": "31839bb2617f82f450d74490b90c5089ededcfd6e0c4add9c5fb416485b16974"
 }

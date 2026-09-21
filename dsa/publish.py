@@ -67,9 +67,16 @@ def main():
             print(f"would push  {slug} -> {page_id}")
             continue
 
-        p = subprocess.run(["ntn", "pages", "edit", page_id],
-                           input=body, capture_output=True, text=True, cwd=WORKDIR)
-        if p.returncode != 0:
+        # The public API returns transient failures under sustained load; retry.
+        for attempt in range(5):
+            p = subprocess.run(["ntn", "pages", "edit", page_id],
+                               input=body, capture_output=True, text=True, cwd=WORKDIR)
+            if p.returncode == 0:
+                break
+            print(f"retry {attempt + 1}/5  {slug}: {p.stderr.strip()[:120]}",
+                  file=sys.stderr)
+            time.sleep(2 * (attempt + 1))
+        else:
             print(f"FAIL  {slug}\n{p.stderr}", file=sys.stderr)
             json.dump(CACHE, open(CACHE_PATH, "w"), indent=1)
             sys.exit(1)
