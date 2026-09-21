@@ -61,5 +61,15 @@
  "2.15-rearrange-array-elements-by-sign": "68497ca7d35eab11cd5ba899c890d080f44da632729d8f197aa969e00f690bca",
  "2.16-rotate-array": "b5fa1515c9b53ca7d89712bcd12859100b51af00f0230cc844f841242518a488",
  "2.17-reverse-string": "5d74498411a19fa564b1f3a6b46ab0e800e98bba0fdc86830cf86ea9ef6bb2a2",
- "2.9-remove-element": "471a91ea99f2e87416935dc4ce4b8c2118f65bb27f0c84376c21ccfe1711b2ed"
+ "2.9-remove-element": "471a91ea99f2e87416935dc4ce4b8c2118f65bb27f0c84376c21ccfe1711b2ed",
+ "3.0-primer": "4626854e3e43879a2e3a38ea1b69502945a15a6c4f4da55a0c15fd6c39d361ed",
+ "3.1-longest-substring-without-repeating-characters": "d46114d0fe550444333602176048d91a92a90d55d62c85ac3d6fa66ee4b4e016",
+ "3.2-sliding-window-maximum": "266d02b48e677275491f9924f4fea83acddab2ca383cbeeca9224422ae822c24",
+ "3.3-find-all-anagrams-in-a-string": "4b8096d66289c9d9d40211bd0579d60d4a1f094a4546a1f69a6b371c7a570457",
+ "3.4-longest-repeating-character-replacement": "32efd637f7b670ad4e8697200dbceff1dd71d3599245e38892d9458f54754237",
+ "3.5-substring-with-concatenation-of-all-words": "4c54bf514869f5a8a305f0e3165e2ca6d2950a507cb886700712e1686e973453",
+ "3.6-minimum-size-subarray-sum": "bbbc3e55af50cb06f5deb53124e6fec498ce3d1c6f85947f95b06ee680e97c59",
+ "3.7-contains-duplicate-ii": "27e2c24a2beeb6a9894e99ae225a16c3532c7a39b030180c99cad1f0659b50fd",
+ "3.8-fruit-into-baskets": "e0d17ea465d6f5d58c2c500c3b10af566d819bab894f0f15788bcc0a3c34dbe8",
+ "3.9-binary-subarrays-with-sum": "18b03dbcaa5a4dcc8284f270a8aaf8e82a62b2ad396b1b70953e69035bea08ab"
 }
