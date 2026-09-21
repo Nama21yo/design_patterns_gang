@@ -71,5 +71,8 @@
  "3.6-minimum-size-subarray-sum": "bbbc3e55af50cb06f5deb53124e6fec498ce3d1c6f85947f95b06ee680e97c59",
  "3.7-contains-duplicate-ii": "27e2c24a2beeb6a9894e99ae225a16c3532c7a39b030180c99cad1f0659b50fd",
  "3.8-fruit-into-baskets": "e0d17ea465d6f5d58c2c500c3b10af566d819bab894f0f15788bcc0a3c34dbe8",
- "3.9-binary-subarrays-with-sum": "18b03dbcaa5a4dcc8284f270a8aaf8e82a62b2ad396b1b70953e69035bea08ab"
+ "3.9-binary-subarrays-with-sum": "18b03dbcaa5a4dcc8284f270a8aaf8e82a62b2ad396b1b70953e69035bea08ab",
+ "3.10-frequency-of-the-most-frequent-element": "39c58c0c801e329a61ca87f1ed752bfec59ee8427814f557fce27397246081ef",
+ "3.11-jump-game-vii": "0937d219167838a264379bf254a51837b8b7bbada4f7b5390402b04b329260ff",
+ "3.12-permutation-in-string": "13370cb3effaa8188d4de49bc7a43e203383db50d8c9062142204321d63cb478"
 }
