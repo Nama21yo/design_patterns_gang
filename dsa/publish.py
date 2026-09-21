@@ -47,6 +47,7 @@ def main():
         f[:-3] for f in os.listdir(NOTES_DIR) if f.endswith(".md"))
 
     pushed = skipped = 0
+    failures = []
     for slug in slugs:
         path = os.path.join(NOTES_DIR, f"{slug}.md")
         if not os.path.exists(path):
@@ -77,9 +78,12 @@ def main():
                   file=sys.stderr)
             time.sleep(2 * (attempt + 1))
         else:
-            print(f"FAIL  {slug}\n{p.stderr}", file=sys.stderr)
+            # Do not abort the batch: record it and carry on, so one flaky page
+            # does not block every note after it.
+            print(f"FAIL  {slug}: {p.stderr.strip()[:120]}", file=sys.stderr)
+            failures.append(slug)
             json.dump(CACHE, open(CACHE_PATH, "w"), indent=1)
-            sys.exit(1)
+            continue
         CACHE[slug] = digest
         json.dump(CACHE, open(CACHE_PATH, "w"), indent=1)
         pushed += 1
@@ -87,6 +91,9 @@ def main():
         time.sleep(0.35)
 
     print(f"\npushed {pushed}, unchanged {skipped}")
+    if failures:
+        print(f"FAILED ({len(failures)}): " + ", ".join(failures), file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":

@@ -53,5 +53,13 @@
  "2.6-merge-sorted-array": "a85156062b3dd5c8f8efa4ea85f609f7eaa6abc9b1807553982534afd2e1a511",
  "2.7-move-zeroes": "0fa115dfe2e1afe44d7e2e0eb12873c13b04172cce0891fc3115d6695627f297",
  "2.8-4sum": "5b75a4fb25cfc427e5cfe3ba41bbe487302e5484533536602e256db5167fc7d5",
- "2.10-find-the-index-of-the-first-occurrence-in-a-string": "31839bb2617f82f450d74490b90c5089ededcfd6e0c4add9c5fb416485b16974"
+ "2.10-find-the-index-of-the-first-occurrence-in-a-string": "31839bb2617f82f450d74490b90c5089ededcfd6e0c4add9c5fb416485b16974",
+ "2.11-sort-colors": "1540e1f92147fded72ee69f21adb69c69feaab3b8e85562906590953c4ab93e9",
+ "2.12-squares-of-a-sorted-array": "72f02ff786710084d13f48a4c2eac9406529be870ed5ef0c79c570cfee08b0a5",
+ "2.13-merge-strings-alternately": "e6466062af5286b08a74afd881f7ce4226a75525dc24a3fd61c9f87d24ca5116",
+ "2.14-next-greater-element-iii": "4c60cc9794db5231b62c00fafdd7efbb64b8b707ad7209dff6fff7c4bfead24a",
+ "2.15-rearrange-array-elements-by-sign": "68497ca7d35eab11cd5ba899c890d080f44da632729d8f197aa969e00f690bca",
+ "2.16-rotate-array": "b5fa1515c9b53ca7d89712bcd12859100b51af00f0230cc844f841242518a488",
+ "2.17-reverse-string": "5d74498411a19fa564b1f3a6b46ab0e800e98bba0fdc86830cf86ea9ef6bb2a2",
+ "2.9-remove-element": "471a91ea99f2e87416935dc4ce4b8c2118f65bb27f0c84376c21ccfe1711b2ed"
 }
