@@ -1,0 +1,10 @@
+{
+ "23.1-bl-invalid-transactions": "ce04f79b90305942e2cc7681fe20f4edf82f9ad8f4afdf4bb07b9558d56dca07",
+ "23.2-bl-collatz": "1d51e822d03a8c3dc774c4d0ef592c4802fbf829a64b077a4551d8a6546921af",
+ "23.3-bl-underground-system": "ffefe167a8229768ca47be77f19622530db151deac125bdb09dcee76eb26c10a",
+ "23.4-bl-fuel-grid": "bfebb516bedd9fe923c757a9b748bbf9fbc83b5ead7343e8aeeca8a78986826d",
+ "23.5-bl-remove-three-consecutive": "485da0799bc15726c19dee09de8c5754b35145084151fe3589745be5f5f4a268",
+ "23.6-bl-lottery-system": "0088149075a6b146969d129166e01b9e3dedf52631577bb86b4eed513682f84f",
+ "23.7-bl-all-paths": "b1b9c1db7947e613bbb9f9c9dfdcb4f7e3d2c3c6cfc9a23b4e8b53905e965330",
+ "23.8-bl-cctv-top-n": "f2f14b17fc60fc65fc2dede6425edf2fd703d3230842371d1b39fbc609203093"
+}

@@ -1,0 +1,2042 @@
+{
+ "root": {
+  "id": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1",
+  "title": "DSA",
+  "url": "https://app.notion.com/p/DSA-3e2ddfa5e68581faa7a8c0d81da3d3a1",
+  "parent": null
+ },
+ "p0": {
+  "id": "3e2ddfa5-e685-81a9-874a-ea7aea51e195",
+  "title": "Part 0 - Orientation",
+  "url": "https://app.notion.com/p/Part-0-Orientation-3e2ddfa5e68581a9874aea7aea51e195",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "0.1-study-plan": {
+  "id": "3e2ddfa5-e685-81fe-8818-f9472ea4a7e4",
+  "title": "0.1 How to use this syllabus + 8-week study plan",
+  "url": "https://app.notion.com/p/0-1-How-to-use-this-syllabus-8-week-study-plan-3e2ddfa5e68581fe8818f9472ea4a7e4",
+  "parent": "3e2ddfa5-e685-81a9-874a-ea7aea51e195"
+ },
+ "0.2-bloomberg-loop": {
+  "id": "3e2ddfa5-e685-81f5-8db9-f7c47e95dd12",
+  "title": "0.2 The Bloomberg coding interview: the loop and what each round tests",
+  "url": "https://app.notion.com/p/0-2-The-Bloomberg-coding-interview-the-loop-and-what-each-round-tests-3e2ddfa5e68581f58db9f7c47e95dd12",
+  "parent": "3e2ddfa5-e685-81a9-874a-ea7aea51e195"
+ },
+ "0.3-solving-framework": {
+  "id": "3e2ddfa5-e685-81d7-baa1-ea2ae55af96b",
+  "title": "0.3 The solving framework",
+  "url": "https://app.notion.com/p/0-3-The-solving-framework-3e2ddfa5e68581d7baa1ea2ae55af96b",
+  "parent": "3e2ddfa5-e685-81a9-874a-ea7aea51e195"
+ },
+ "0.4-how-to-present": {
+  "id": "3e2ddfa5-e685-817d-9aa1-f49a49898131",
+  "title": "0.4 How to present a solution out loud",
+  "url": "https://app.notion.com/p/0-4-How-to-present-a-solution-out-loud-3e2ddfa5e685817d9aa1f49a49898131",
+  "parent": "3e2ddfa5-e685-81a9-874a-ea7aea51e195"
+ },
+ "0.5-complexity": {
+  "id": "3e2ddfa5-e685-81cb-90e8-cb0d292e1f49",
+  "title": "0.5 Complexity analysis cheat sheet",
+  "url": "https://app.notion.com/p/0-5-Complexity-analysis-cheat-sheet-3e2ddfa5e68581cb90e8cb0d292e1f49",
+  "parent": "3e2ddfa5-e685-81a9-874a-ea7aea51e195"
+ },
+ "0.6-python-toolkit": {
+  "id": "3e2ddfa5-e685-816d-83d9-cb57116eebe3",
+  "title": "0.6 Python toolkit for interviews",
+  "url": "https://app.notion.com/p/0-6-Python-toolkit-for-interviews-3e2ddfa5e685816d83d9cb57116eebe3",
+  "parent": "3e2ddfa5-e685-81a9-874a-ea7aea51e195"
+ },
+ "0.7-testing-in-the-room": {
+  "id": "3e2ddfa5-e685-812e-ba27-d37d3f531cdd",
+  "title": "0.7 Testing your own code in the room",
+  "url": "https://app.notion.com/p/0-7-Testing-your-own-code-in-the-room-3e2ddfa5e685812eba27d37d3f531cdd",
+  "parent": "3e2ddfa5-e685-81a9-874a-ea7aea51e195"
+ },
+ "p1": {
+  "id": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa",
+  "title": "Part 1 - Arrays, Hashing and Prefix Sums",
+  "url": "https://app.notion.com/p/Part-1-Arrays-Hashing-and-Prefix-Sums-3e2ddfa5e68581ba8e1df8d820f6e0aa",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "1.0-primer": {
+  "id": "3e2ddfa5-e685-81cd-88a5-e60034965ba8",
+  "title": "1.0 Arrays, Hashing and Prefix Sums - pattern primer",
+  "url": "https://app.notion.com/p/1-0-Arrays-Hashing-and-Prefix-Sums-pattern-primer-3e2ddfa5e68581cd88a5e60034965ba8",
+  "parent": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa"
+ },
+ "1.1-two-sum": {
+  "id": "3e2ddfa5-e685-8168-af49-ec8e95f82560",
+  "title": "1.1 Two Sum",
+  "url": "https://app.notion.com/p/1-1-Two-Sum-3e2ddfa5e6858168af49ec8e95f82560",
+  "parent": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa"
+ },
+ "1.2-subarray-sum-equals-k": {
+  "id": "3e2ddfa5-e685-81a8-b76e-f42a4f7b27a9",
+  "title": "1.2 Subarray Sum Equals K",
+  "url": "https://app.notion.com/p/1-2-Subarray-Sum-Equals-K-3e2ddfa5e68581a8b76ef42a4f7b27a9",
+  "parent": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa"
+ },
+ "1.3-find-pivot-index": {
+  "id": "3e2ddfa5-e685-81c7-a30e-f5169e1b55d4",
+  "title": "1.3 Find Pivot Index",
+  "url": "https://app.notion.com/p/1-3-Find-Pivot-Index-3e2ddfa5e68581c7a30ef5169e1b55d4",
+  "parent": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa"
+ },
+ "1.4-find-the-maximum-number-of-elements-in-subset": {
+  "id": "3e2ddfa5-e685-81a5-b870-ca8ac0da16f4",
+  "title": "1.4 Find the Maximum Number of Elements in Subset",
+  "url": "https://app.notion.com/p/1-4-Find-the-Maximum-Number-of-Elements-in-Subset-3e2ddfa5e68581a5b870ca8ac0da16f4",
+  "parent": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa"
+ },
+ "1.5-product-of-array-except-self": {
+  "id": "3e2ddfa5-e685-8147-891d-c37ae4db0e1a",
+  "title": "1.5 Product of Array Except Self",
+  "url": "https://app.notion.com/p/1-5-Product-of-Array-Except-Self-3e2ddfa5e6858147891dc37ae4db0e1a",
+  "parent": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa"
+ },
+ "1.6-max-consecutive-ones": {
+  "id": "3e2ddfa5-e685-81dd-9bff-e54b4b80269f",
+  "title": "1.6 Max Consecutive Ones",
+  "url": "https://app.notion.com/p/1-6-Max-Consecutive-Ones-3e2ddfa5e68581dd9bffe54b4b80269f",
+  "parent": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa"
+ },
+ "1.7-number-of-ships-in-a-rectangle": {
+  "id": "3e2ddfa5-e685-8138-8dd5-e846470d41ca",
+  "title": "1.7 Number of Ships in a Rectangle",
+  "url": "https://app.notion.com/p/1-7-Number-of-Ships-in-a-Rectangle-3e2ddfa5e68581388dd5e846470d41ca",
+  "parent": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa"
+ },
+ "1.8-check-if-array-is-sorted-and-rotated": {
+  "id": "3e2ddfa5-e685-8153-b1a1-fd23e85fc969",
+  "title": "1.8 Check if Array Is Sorted and Rotated",
+  "url": "https://app.notion.com/p/1-8-Check-if-Array-Is-Sorted-and-Rotated-3e2ddfa5e6858153b1a1fd23e85fc969",
+  "parent": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa"
+ },
+ "1.9-contiguous-array": {
+  "id": "3e2ddfa5-e685-819d-994e-dc1d9bfc582f",
+  "title": "1.9 Contiguous Array",
+  "url": "https://app.notion.com/p/1-9-Contiguous-Array-3e2ddfa5e685819d994edc1d9bfc582f",
+  "parent": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa"
+ },
+ "1.10-valid-mountain-array": {
+  "id": "3e2ddfa5-e685-815e-9793-fbd3881e20bf",
+  "title": "1.10 Valid Mountain Array",
+  "url": "https://app.notion.com/p/1-10-Valid-Mountain-Array-3e2ddfa5e685815e9793fbd3881e20bf",
+  "parent": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa"
+ },
+ "1.11-kids-with-the-greatest-number-of-candies": {
+  "id": "3e2ddfa5-e685-810e-92e1-e7fb365f2aba",
+  "title": "1.11 Kids With the Greatest Number of Candies",
+  "url": "https://app.notion.com/p/1-11-Kids-With-the-Greatest-Number-of-Candies-3e2ddfa5e685810e92e1e7fb365f2aba",
+  "parent": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa"
+ },
+ "1.12-index": {
+  "id": "3e2ddfa5-e685-81e8-8a10-d3d2458c7421",
+  "title": "1.12 Full Bloomberg index - Arrays, Hashing and Prefix Sums",
+  "url": "https://app.notion.com/p/1-12-Full-Bloomberg-index-Arrays-Hashing-and-Prefix-Sums-3e2ddfa5e68581e88a10d3d2458c7421",
+  "parent": "3e2ddfa5-e685-81ba-8e1d-f8d820f6e0aa"
+ },
+ "p2": {
+  "id": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c",
+  "title": "Part 2 - Two Pointers",
+  "url": "https://app.notion.com/p/Part-2-Two-Pointers-3e2ddfa5e68581fcb167c8e1d4b3ae8c",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "2.0-primer": {
+  "id": "3e2ddfa5-e685-8164-b5c1-e67225b92c92",
+  "title": "2.0 Two Pointers - pattern primer",
+  "url": "https://app.notion.com/p/2-0-Two-Pointers-pattern-primer-3e2ddfa5e6858164b5c1e67225b92c92",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.1-3sum": {
+  "id": "3e2ddfa5-e685-81a3-9fe7-cc750e666ac2",
+  "title": "2.1 3Sum",
+  "url": "https://app.notion.com/p/2-1-3Sum-3e2ddfa5e68581a39fe7cc750e666ac2",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.2-remove-duplicates-from-sorted-array": {
+  "id": "3e2ddfa5-e685-8172-96f8-de3bc24e27f7",
+  "title": "2.2 Remove Duplicates from Sorted Array",
+  "url": "https://app.notion.com/p/2-2-Remove-Duplicates-from-Sorted-Array-3e2ddfa5e685817296f8de3bc24e27f7",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.3-valid-palindrome": {
+  "id": "3e2ddfa5-e685-8156-8611-ea3603fb2d46",
+  "title": "2.3 Valid Palindrome",
+  "url": "https://app.notion.com/p/2-3-Valid-Palindrome-3e2ddfa5e68581568611ea3603fb2d46",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.4-container-with-most-water": {
+  "id": "3e2ddfa5-e685-810b-a871-ddd6e6a8c2b5",
+  "title": "2.4 Container With Most Water",
+  "url": "https://app.notion.com/p/2-4-Container-With-Most-Water-3e2ddfa5e685810ba871ddd6e6a8c2b5",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.5-next-permutation": {
+  "id": "3e2ddfa5-e685-8153-a1d8-de79dc4e251f",
+  "title": "2.5 Next Permutation",
+  "url": "https://app.notion.com/p/2-5-Next-Permutation-3e2ddfa5e6858153a1d8de79dc4e251f",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.6-merge-sorted-array": {
+  "id": "3e2ddfa5-e685-8149-9132-f6a43863d431",
+  "title": "2.6 Merge Sorted Array",
+  "url": "https://app.notion.com/p/2-6-Merge-Sorted-Array-3e2ddfa5e68581499132f6a43863d431",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.7-move-zeroes": {
+  "id": "3e2ddfa5-e685-81bd-ab50-e5420e46103b",
+  "title": "2.7 Move Zeroes",
+  "url": "https://app.notion.com/p/2-7-Move-Zeroes-3e2ddfa5e68581bdab50e5420e46103b",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.8-4sum": {
+  "id": "3e2ddfa5-e685-81b0-83cd-eae189d948eb",
+  "title": "2.8 4Sum",
+  "url": "https://app.notion.com/p/2-8-4Sum-3e2ddfa5e68581b083cdeae189d948eb",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.9-remove-element": {
+  "id": "3e2ddfa5-e685-81d0-a185-f21bb79d88a7",
+  "title": "2.9 Remove Element",
+  "url": "https://app.notion.com/p/2-9-Remove-Element-3e2ddfa5e68581d0a185f21bb79d88a7",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.10-find-the-index-of-the-first-occurrence-in-a-string": {
+  "id": "3e2ddfa5-e685-817c-9519-f9646bf53f90",
+  "title": "2.10 Find the Index of the First Occurrence in a String",
+  "url": "https://app.notion.com/p/2-10-Find-the-Index-of-the-First-Occurrence-in-a-String-3e2ddfa5e685817c9519f9646bf53f90",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.11-sort-colors": {
+  "id": "3e2ddfa5-e685-8100-b370-f954754f0df4",
+  "title": "2.11 Sort Colors",
+  "url": "https://app.notion.com/p/2-11-Sort-Colors-3e2ddfa5e6858100b370f954754f0df4",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.12-squares-of-a-sorted-array": {
+  "id": "3e2ddfa5-e685-8177-9a19-fc25fc05240d",
+  "title": "2.12 Squares of a Sorted Array",
+  "url": "https://app.notion.com/p/2-12-Squares-of-a-Sorted-Array-3e2ddfa5e68581779a19fc25fc05240d",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.13-merge-strings-alternately": {
+  "id": "3e2ddfa5-e685-81cd-b6a9-fa9855142006",
+  "title": "2.13 Merge Strings Alternately",
+  "url": "https://app.notion.com/p/2-13-Merge-Strings-Alternately-3e2ddfa5e68581cdb6a9fa9855142006",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.14-next-greater-element-iii": {
+  "id": "3e2ddfa5-e685-811a-959a-e9c2c39b6c05",
+  "title": "2.14 Next Greater Element III",
+  "url": "https://app.notion.com/p/2-14-Next-Greater-Element-III-3e2ddfa5e685811a959ae9c2c39b6c05",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.15-rearrange-array-elements-by-sign": {
+  "id": "3e2ddfa5-e685-8143-9b0d-fb20df55ba0b",
+  "title": "2.15 Rearrange Array Elements by Sign",
+  "url": "https://app.notion.com/p/2-15-Rearrange-Array-Elements-by-Sign-3e2ddfa5e68581439b0dfb20df55ba0b",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.16-rotate-array": {
+  "id": "3e2ddfa5-e685-8183-8bec-ec10b81cd61b",
+  "title": "2.16 Rotate Array",
+  "url": "https://app.notion.com/p/2-16-Rotate-Array-3e2ddfa5e68581838becec10b81cd61b",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.17-reverse-string": {
+  "id": "3e2ddfa5-e685-810b-b0c0-d1fe60831677",
+  "title": "2.17 Reverse String",
+  "url": "https://app.notion.com/p/2-17-Reverse-String-3e2ddfa5e685810bb0c0d1fe60831677",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "2.18-index": {
+  "id": "3e2ddfa5-e685-8181-82bc-e67897dd20f4",
+  "title": "2.18 Full Bloomberg index - Two Pointers",
+  "url": "https://app.notion.com/p/2-18-Full-Bloomberg-index-Two-Pointers-3e2ddfa5e685818182bce67897dd20f4",
+  "parent": "3e2ddfa5-e685-81fc-b167-c8e1d4b3ae8c"
+ },
+ "p3": {
+  "id": "3e2ddfa5-e685-812a-920c-c8896a33baf1",
+  "title": "Part 3 - Sliding Window",
+  "url": "https://app.notion.com/p/Part-3-Sliding-Window-3e2ddfa5e685812a920cc8896a33baf1",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "3.0-primer": {
+  "id": "3e2ddfa5-e685-810a-91a1-fc2fc9572478",
+  "title": "3.0 Sliding Window - pattern primer",
+  "url": "https://app.notion.com/p/3-0-Sliding-Window-pattern-primer-3e2ddfa5e685810a91a1fc2fc9572478",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "3.1-longest-substring-without-repeating-characters": {
+  "id": "3e2ddfa5-e685-819b-b84d-d57dcd87a3d4",
+  "title": "3.1 Longest Substring Without Repeating Characters",
+  "url": "https://app.notion.com/p/3-1-Longest-Substring-Without-Repeating-Characters-3e2ddfa5e685819bb84dd57dcd87a3d4",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "3.2-sliding-window-maximum": {
+  "id": "3e2ddfa5-e685-8127-9b3a-c0620f20251c",
+  "title": "3.2 Sliding Window Maximum",
+  "url": "https://app.notion.com/p/3-2-Sliding-Window-Maximum-3e2ddfa5e68581279b3ac0620f20251c",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "3.3-find-all-anagrams-in-a-string": {
+  "id": "3e2ddfa5-e685-8124-a0fd-c7ada4bdd292",
+  "title": "3.3 Find All Anagrams in a String",
+  "url": "https://app.notion.com/p/3-3-Find-All-Anagrams-in-a-String-3e2ddfa5e6858124a0fdc7ada4bdd292",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "3.4-longest-repeating-character-replacement": {
+  "id": "3e2ddfa5-e685-815b-8384-f136dff0fb1d",
+  "title": "3.4 Longest Repeating Character Replacement",
+  "url": "https://app.notion.com/p/3-4-Longest-Repeating-Character-Replacement-3e2ddfa5e685815b8384f136dff0fb1d",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "3.5-substring-with-concatenation-of-all-words": {
+  "id": "3e2ddfa5-e685-8121-9253-f379b5fbd06b",
+  "title": "3.5 Substring with Concatenation of All Words",
+  "url": "https://app.notion.com/p/3-5-Substring-with-Concatenation-of-All-Words-3e2ddfa5e68581219253f379b5fbd06b",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "3.6-minimum-size-subarray-sum": {
+  "id": "3e2ddfa5-e685-8166-ab75-f5341f1a38d4",
+  "title": "3.6 Minimum Size Subarray Sum",
+  "url": "https://app.notion.com/p/3-6-Minimum-Size-Subarray-Sum-3e2ddfa5e6858166ab75f5341f1a38d4",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "3.7-contains-duplicate-ii": {
+  "id": "3e2ddfa5-e685-81e2-8672-f1b5624766af",
+  "title": "3.7 Contains Duplicate II",
+  "url": "https://app.notion.com/p/3-7-Contains-Duplicate-II-3e2ddfa5e68581e28672f1b5624766af",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "3.8-fruit-into-baskets": {
+  "id": "3e2ddfa5-e685-81b4-8d05-cdacaa26bf23",
+  "title": "3.8 Fruit Into Baskets",
+  "url": "https://app.notion.com/p/3-8-Fruit-Into-Baskets-3e2ddfa5e68581b48d05cdacaa26bf23",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "3.9-binary-subarrays-with-sum": {
+  "id": "3e2ddfa5-e685-8145-bddb-e7c190af8c35",
+  "title": "3.9 Binary Subarrays With Sum",
+  "url": "https://app.notion.com/p/3-9-Binary-Subarrays-With-Sum-3e2ddfa5e6858145bddbe7c190af8c35",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "3.10-frequency-of-the-most-frequent-element": {
+  "id": "3e2ddfa5-e685-815d-8f51-c62b60ce77fb",
+  "title": "3.10 Frequency of the Most Frequent Element",
+  "url": "https://app.notion.com/p/3-10-Frequency-of-the-Most-Frequent-Element-3e2ddfa5e685815d8f51c62b60ce77fb",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "3.11-jump-game-vii": {
+  "id": "3e2ddfa5-e685-8153-97ca-e4c77b00243e",
+  "title": "3.11 Jump Game VII",
+  "url": "https://app.notion.com/p/3-11-Jump-Game-VII-3e2ddfa5e685815397cae4c77b00243e",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "3.12-permutation-in-string": {
+  "id": "3e2ddfa5-e685-8116-80e3-c5495a430f75",
+  "title": "3.12 Permutation in String",
+  "url": "https://app.notion.com/p/3-12-Permutation-in-String-3e2ddfa5e685811680e3c5495a430f75",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "3.13-index": {
+  "id": "3e2ddfa5-e685-81c9-9cce-ce8b051c720f",
+  "title": "3.13 Full Bloomberg index - Sliding Window",
+  "url": "https://app.notion.com/p/3-13-Full-Bloomberg-index-Sliding-Window-3e2ddfa5e68581c99ccece8b051c720f",
+  "parent": "3e2ddfa5-e685-812a-920c-c8896a33baf1"
+ },
+ "p4": {
+  "id": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3",
+  "title": "Part 4 - Stacks, Queues and Monotonic Stacks",
+  "url": "https://app.notion.com/p/Part-4-Stacks-Queues-and-Monotonic-Stacks-3e2ddfa5e68581a59a3fe64a14dc0cb3",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "4.0-primer": {
+  "id": "3e2ddfa5-e685-819a-b399-e06ed52bdcea",
+  "title": "4.0 Stacks, Queues and Monotonic Stacks - pattern primer",
+  "url": "https://app.notion.com/p/4-0-Stacks-Queues-and-Monotonic-Stacks-pattern-primer-3e2ddfa5e685819ab399e06ed52bdcea",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.1-trapping-rain-water": {
+  "id": "3e2ddfa5-e685-8114-9bcc-e4084cebe358",
+  "title": "4.1 Trapping Rain Water",
+  "url": "https://app.notion.com/p/4-1-Trapping-Rain-Water-3e2ddfa5e68581149bcce4084cebe358",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.2-basic-calculator": {
+  "id": "3e2ddfa5-e685-8141-809f-feebecfa84fb",
+  "title": "4.2 Basic Calculator",
+  "url": "https://app.notion.com/p/4-2-Basic-Calculator-3e2ddfa5e6858141809ffeebecfa84fb",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.3-next-greater-element-i": {
+  "id": "3e2ddfa5-e685-8161-aa6c-c67673585d25",
+  "title": "4.3 Next Greater Element I",
+  "url": "https://app.notion.com/p/4-3-Next-Greater-Element-I-3e2ddfa5e6858161aa6cc67673585d25",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.4-next-greater-element-ii": {
+  "id": "3e2ddfa5-e685-8115-b9d1-eaedf5d41984",
+  "title": "4.4 Next Greater Element II",
+  "url": "https://app.notion.com/p/4-4-Next-Greater-Element-II-3e2ddfa5e6858115b9d1eaedf5d41984",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.5-valid-parentheses": {
+  "id": "3e2ddfa5-e685-814e-b35b-dac8754fda54",
+  "title": "4.5 Valid Parentheses",
+  "url": "https://app.notion.com/p/4-5-Valid-Parentheses-3e2ddfa5e685814eb35bdac8754fda54",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.6-decode-string": {
+  "id": "3e2ddfa5-e685-8197-a596-d94c206e5c5d",
+  "title": "4.6 Decode String",
+  "url": "https://app.notion.com/p/4-6-Decode-String-3e2ddfa5e6858197a596d94c206e5c5d",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.7-first-unique-character-in-a-string": {
+  "id": "3e2ddfa5-e685-81d3-9a46-ccca28288fa8",
+  "title": "4.7 First Unique Character in a String",
+  "url": "https://app.notion.com/p/4-7-First-Unique-Character-in-a-String-3e2ddfa5e68581d39a46ccca28288fa8",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.8-asteroid-collision": {
+  "id": "3e2ddfa5-e685-81b4-acbf-f81ed94b53d4",
+  "title": "4.8 Asteroid Collision",
+  "url": "https://app.notion.com/p/4-8-Asteroid-Collision-3e2ddfa5e68581b4acbff81ed94b53d4",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.9-largest-rectangle-in-histogram": {
+  "id": "3e2ddfa5-e685-8190-b574-e8b6d8be5dcb",
+  "title": "4.9 Largest Rectangle in Histogram",
+  "url": "https://app.notion.com/p/4-9-Largest-Rectangle-in-Histogram-3e2ddfa5e6858190b574e8b6d8be5dcb",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.10-daily-temperatures": {
+  "id": "3e2ddfa5-e685-8191-96d3-d4b091b95f58",
+  "title": "4.10 Daily Temperatures",
+  "url": "https://app.notion.com/p/4-10-Daily-Temperatures-3e2ddfa5e685819196d3d4b091b95f58",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.11-maximal-rectangle": {
+  "id": "3e2ddfa5-e685-8168-afd4-db38e7141133",
+  "title": "4.11 Maximal Rectangle",
+  "url": "https://app.notion.com/p/4-11-Maximal-Rectangle-3e2ddfa5e6858168afd4db38e7141133",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.12-number-of-students-unable-to-eat-lunch": {
+  "id": "3e2ddfa5-e685-8107-9ddc-ea595805ffdf",
+  "title": "4.12 Number of Students Unable to Eat Lunch",
+  "url": "https://app.notion.com/p/4-12-Number-of-Students-Unable-to-Eat-Lunch-3e2ddfa5e68581079ddcea595805ffdf",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.13-remove-all-adjacent-duplicates-in-string-ii": {
+  "id": "3e2ddfa5-e685-81bb-ae77-d38ac44c5f51",
+  "title": "4.13 Remove All Adjacent Duplicates in String II",
+  "url": "https://app.notion.com/p/4-13-Remove-All-Adjacent-Duplicates-in-String-II-3e2ddfa5e68581bbae77d38ac44c5f51",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.14-minimum-remove-to-make-valid-parentheses": {
+  "id": "3e2ddfa5-e685-81b0-96b1-c4f5c6efb201",
+  "title": "4.14 Minimum Remove to Make Valid Parentheses",
+  "url": "https://app.notion.com/p/4-14-Minimum-Remove-to-Make-Valid-Parentheses-3e2ddfa5e68581b096b1c4f5c6efb201",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "4.15-index": {
+  "id": "3e2ddfa5-e685-81f1-b76c-edb7bafedd9b",
+  "title": "4.15 Full Bloomberg index - Stacks, Queues and Monotonic Stacks",
+  "url": "https://app.notion.com/p/4-15-Full-Bloomberg-index-Stacks-Queues-and-Monotonic-Stacks-3e2ddfa5e68581f1b76cedb7bafedd9b",
+  "parent": "3e2ddfa5-e685-81a5-9a3f-e64a14dc0cb3"
+ },
+ "p5": {
+  "id": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38",
+  "title": "Part 5 - Binary Search",
+  "url": "https://app.notion.com/p/Part-5-Binary-Search-3e2ddfa5e68581aea9d2ffefe1a12e38",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "5.0-primer": {
+  "id": "3e2ddfa5-e685-81d5-9c16-c472a6dc6eeb",
+  "title": "5.0 Binary Search - pattern primer",
+  "url": "https://app.notion.com/p/5-0-Binary-Search-pattern-primer-3e2ddfa5e68581d59c16c472a6dc6eeb",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.1-median-of-two-sorted-arrays": {
+  "id": "3e2ddfa5-e685-8171-9468-c4611d37aded",
+  "title": "5.1 Median of Two Sorted Arrays",
+  "url": "https://app.notion.com/p/5-1-Median-of-Two-Sorted-Arrays-3e2ddfa5e68581719468c4611d37aded",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.2-search-in-rotated-sorted-array": {
+  "id": "3e2ddfa5-e685-818b-8116-dcc1c17ed0de",
+  "title": "5.2 Search in Rotated Sorted Array",
+  "url": "https://app.notion.com/p/5-2-Search-in-Rotated-Sorted-Array-3e2ddfa5e685818b8116dcc1c17ed0de",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.3-find-first-and-last-position-of-element-in-sorted-array": {
+  "id": "3e2ddfa5-e685-8123-a498-c08f1da49a07",
+  "title": "5.3 Find First and Last Position of Element in Sorted Array",
+  "url": "https://app.notion.com/p/5-3-Find-First-and-Last-Position-of-Element-in-Sorted-Array-3e2ddfa5e6858123a498c08f1da49a07",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.4-search-insert-position": {
+  "id": "3e2ddfa5-e685-81f4-a2d9-e3b918ee8261",
+  "title": "5.4 Search Insert Position",
+  "url": "https://app.notion.com/p/5-4-Search-Insert-Position-3e2ddfa5e68581f4a2d9e3b918ee8261",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.5-find-peak-element": {
+  "id": "3e2ddfa5-e685-81f3-9eeb-e2e35c79a3c4",
+  "title": "5.5 Find Peak Element",
+  "url": "https://app.notion.com/p/5-5-Find-Peak-Element-3e2ddfa5e68581f39eebe2e35c79a3c4",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.6-koko-eating-bananas": {
+  "id": "3e2ddfa5-e685-8101-9d80-c0544c113774",
+  "title": "5.6 Koko Eating Bananas",
+  "url": "https://app.notion.com/p/5-6-Koko-Eating-Bananas-3e2ddfa5e68581019d80c0544c113774",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.7-missing-number": {
+  "id": "3e2ddfa5-e685-8100-b278-c8a1ed24abc9",
+  "title": "5.7 Missing Number",
+  "url": "https://app.notion.com/p/5-7-Missing-Number-3e2ddfa5e6858100b278c8a1ed24abc9",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.8-first-bad-version": {
+  "id": "3e2ddfa5-e685-8139-ab74-e9c8da1ff479",
+  "title": "5.8 First Bad Version",
+  "url": "https://app.notion.com/p/5-8-First-Bad-Version-3e2ddfa5e6858139ab74e9c8da1ff479",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.9-intersection-of-two-arrays": {
+  "id": "3e2ddfa5-e685-81f1-b4aa-f8b942ca62f2",
+  "title": "5.9 Intersection of Two Arrays",
+  "url": "https://app.notion.com/p/5-9-Intersection-of-Two-Arrays-3e2ddfa5e68581f1b4aaf8b942ca62f2",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.10-valid-triangle-number": {
+  "id": "3e2ddfa5-e685-818c-b041-f0d211f63a0b",
+  "title": "5.10 Valid Triangle Number",
+  "url": "https://app.notion.com/p/5-10-Valid-Triangle-Number-3e2ddfa5e685818cb041f0d211f63a0b",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.11-peak-index-in-a-mountain-array": {
+  "id": "3e2ddfa5-e685-81cd-9c08-deec4c001ebc",
+  "title": "5.11 Peak Index in a Mountain Array",
+  "url": "https://app.notion.com/p/5-11-Peak-Index-in-a-Mountain-Array-3e2ddfa5e68581cd9c08deec4c001ebc",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.12-capacity-to-ship-packages-within-d-days": {
+  "id": "3e2ddfa5-e685-81d6-82df-dabf7bc0a053",
+  "title": "5.12 Capacity To Ship Packages Within D Days",
+  "url": "https://app.notion.com/p/5-12-Capacity-To-Ship-Packages-Within-D-Days-3e2ddfa5e68581d682dfdabf7bc0a053",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.13-earliest-finish-time-for-land-and-water-rides-i": {
+  "id": "3e2ddfa5-e685-819d-bcf5-d5b494084da1",
+  "title": "5.13 Earliest Finish Time for Land and Water Rides I",
+  "url": "https://app.notion.com/p/5-13-Earliest-Finish-Time-for-Land-and-Water-Rides-I-3e2ddfa5e685819dbcf5d5b494084da1",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.14-minimum-number-of-days-to-make-m-bouquets": {
+  "id": "3e2ddfa5-e685-8192-918f-fb585ff928e7",
+  "title": "5.14 Minimum Number of Days to Make m Bouquets",
+  "url": "https://app.notion.com/p/5-14-Minimum-Number-of-Days-to-Make-m-Bouquets-3e2ddfa5e6858192918ffb585ff928e7",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.15-closest-equal-element-queries": {
+  "id": "3e2ddfa5-e685-814c-9979-e25348eede84",
+  "title": "5.15 Closest Equal Element Queries",
+  "url": "https://app.notion.com/p/5-15-Closest-Equal-Element-Queries-3e2ddfa5e685814c9979e25348eede84",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.16-sqrtx": {
+  "id": "3e2ddfa5-e685-81fe-bfb7-d9dd1747e29a",
+  "title": "5.16 Sqrt(x)",
+  "url": "https://app.notion.com/p/5-16-Sqrt-x-3e2ddfa5e68581febfb7d9dd1747e29a",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.17-find-minimum-in-rotated-sorted-array": {
+  "id": "3e2ddfa5-e685-81e0-b964-d64875b66768",
+  "title": "5.17 Find Minimum in Rotated Sorted Array",
+  "url": "https://app.notion.com/p/5-17-Find-Minimum-in-Rotated-Sorted-Array-3e2ddfa5e68581e0b964d64875b66768",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.18-two-sum-ii-input-array-is-sorted": {
+  "id": "3e2ddfa5-e685-8152-a440-d9e7865bd43e",
+  "title": "5.18 Two Sum II - Input Array Is Sorted",
+  "url": "https://app.notion.com/p/5-18-Two-Sum-II-Input-Array-Is-Sorted-3e2ddfa5e6858152a440d9e7865bd43e",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "5.19-index": {
+  "id": "3e2ddfa5-e685-8131-85e9-da209c383a48",
+  "title": "5.19 Full Bloomberg index - Binary Search",
+  "url": "https://app.notion.com/p/5-19-Full-Bloomberg-index-Binary-Search-3e2ddfa5e685813185e9da209c383a48",
+  "parent": "3e2ddfa5-e685-81ae-a9d2-ffefe1a12e38"
+ },
+ "p6": {
+  "id": "3e2ddfa5-e685-8114-8633-c4fa953e0b37",
+  "title": "Part 6 - Sorting and Custom Ordering",
+  "url": "https://app.notion.com/p/Part-6-Sorting-and-Custom-Ordering-3e2ddfa5e68581148633c4fa953e0b37",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "6.0-primer": {
+  "id": "3e2ddfa5-e685-816e-9d1d-ffe52b415635",
+  "title": "6.0 Sorting and Custom Ordering - pattern primer",
+  "url": "https://app.notion.com/p/6-0-Sorting-and-Custom-Ordering-pattern-primer-3e2ddfa5e685816e9d1dffe52b415635",
+  "parent": "3e2ddfa5-e685-8114-8633-c4fa953e0b37"
+ },
+ "6.1-group-anagrams": {
+  "id": "3e2ddfa5-e685-818e-98a4-cb4562a73cbc",
+  "title": "6.1 Group Anagrams",
+  "url": "https://app.notion.com/p/6-1-Group-Anagrams-3e2ddfa5e685818e98a4cb4562a73cbc",
+  "parent": "3e2ddfa5-e685-8114-8633-c4fa953e0b37"
+ },
+ "6.2-majority-element": {
+  "id": "3e2ddfa5-e685-8126-bc51-d761500b8dcd",
+  "title": "6.2 Majority Element",
+  "url": "https://app.notion.com/p/6-2-Majority-Element-3e2ddfa5e6858126bc51d761500b8dcd",
+  "parent": "3e2ddfa5-e685-8114-8633-c4fa953e0b37"
+ },
+ "6.3-valid-anagram": {
+  "id": "3e2ddfa5-e685-8107-8333-c03acd6ecde3",
+  "title": "6.3 Valid Anagram",
+  "url": "https://app.notion.com/p/6-3-Valid-Anagram-3e2ddfa5e68581078333c03acd6ecde3",
+  "parent": "3e2ddfa5-e685-8114-8633-c4fa953e0b37"
+ },
+ "6.4-contains-duplicate": {
+  "id": "3e2ddfa5-e685-8144-a59f-d8dbc5312ada",
+  "title": "6.4 Contains Duplicate",
+  "url": "https://app.notion.com/p/6-4-Contains-Duplicate-3e2ddfa5e6858144a59fd8dbc5312ada",
+  "parent": "3e2ddfa5-e685-8114-8633-c4fa953e0b37"
+ },
+ "6.5-majority-element-ii": {
+  "id": "3e2ddfa5-e685-8155-9c50-c5fd500ddfb8",
+  "title": "6.5 Majority Element II",
+  "url": "https://app.notion.com/p/6-5-Majority-Element-II-3e2ddfa5e68581559c50c5fd500ddfb8",
+  "parent": "3e2ddfa5-e685-8114-8633-c4fa953e0b37"
+ },
+ "6.6-can-make-arithmetic-progression-from-sequence": {
+  "id": "3e2ddfa5-e685-81a1-8788-d80c5357e7be",
+  "title": "6.6 Can Make Arithmetic Progression From Sequence",
+  "url": "https://app.notion.com/p/6-6-Can-Make-Arithmetic-Progression-From-Sequence-3e2ddfa5e68581a18788d80c5357e7be",
+  "parent": "3e2ddfa5-e685-8114-8633-c4fa953e0b37"
+ },
+ "6.7-maximum-building-height": {
+  "id": "3e2ddfa5-e685-81ba-abc3-c071ce363b03",
+  "title": "6.7 Maximum Building Height",
+  "url": "https://app.notion.com/p/6-7-Maximum-Building-Height-3e2ddfa5e68581baabc3c071ce363b03",
+  "parent": "3e2ddfa5-e685-8114-8633-c4fa953e0b37"
+ },
+ "6.8-invalid-transactions": {
+  "id": "3e2ddfa5-e685-8118-8585-ef462b91d091",
+  "title": "6.8 Invalid Transactions",
+  "url": "https://app.notion.com/p/6-8-Invalid-Transactions-3e2ddfa5e68581188585ef462b91d091",
+  "parent": "3e2ddfa5-e685-8114-8633-c4fa953e0b37"
+ },
+ "6.9-index": {
+  "id": "3e2ddfa5-e685-8162-9a1b-f9d447fa8cb7",
+  "title": "6.9 Full Bloomberg index - Sorting and Custom Ordering",
+  "url": "https://app.notion.com/p/6-9-Full-Bloomberg-index-Sorting-and-Custom-Ordering-3e2ddfa5e68581629a1bf9d447fa8cb7",
+  "parent": "3e2ddfa5-e685-8114-8633-c4fa953e0b37"
+ },
+ "p7": {
+  "id": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0",
+  "title": "Part 7 - Linked Lists",
+  "url": "https://app.notion.com/p/Part-7-Linked-Lists-3e2ddfa5e68581319a3cfad5b5cd4ed0",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "7.0-primer": {
+  "id": "3e2ddfa5-e685-81cd-b63f-dd565e3d2781",
+  "title": "7.0 Linked Lists - pattern primer",
+  "url": "https://app.notion.com/p/7-0-Linked-Lists-pattern-primer-3e2ddfa5e68581cdb63fdd565e3d2781",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.1-merge-k-sorted-lists": {
+  "id": "3e2ddfa5-e685-81a8-a669-c5420f561c00",
+  "title": "7.1 Merge k Sorted Lists",
+  "url": "https://app.notion.com/p/7-1-Merge-k-Sorted-Lists-3e2ddfa5e68581a8a669c5420f561c00",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.2-swap-nodes-in-pairs": {
+  "id": "3e2ddfa5-e685-81af-8753-c4d2ef89cd8c",
+  "title": "7.2 Swap Nodes in Pairs",
+  "url": "https://app.notion.com/p/7-2-Swap-Nodes-in-Pairs-3e2ddfa5e68581af8753c4d2ef89cd8c",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.3-add-two-numbers": {
+  "id": "3e2ddfa5-e685-81c8-ab08-ca4494552b18",
+  "title": "7.3 Add Two Numbers",
+  "url": "https://app.notion.com/p/7-3-Add-Two-Numbers-3e2ddfa5e68581c8ab08ca4494552b18",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.4-merge-two-sorted-lists": {
+  "id": "3e2ddfa5-e685-819a-b714-e9ea58887896",
+  "title": "7.4 Merge Two Sorted Lists",
+  "url": "https://app.notion.com/p/7-4-Merge-Two-Sorted-Lists-3e2ddfa5e685819ab714e9ea58887896",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.5-reverse-linked-list": {
+  "id": "3e2ddfa5-e685-813a-8319-f948ef662519",
+  "title": "7.5 Reverse Linked List",
+  "url": "https://app.notion.com/p/7-5-Reverse-Linked-List-3e2ddfa5e685813a8319f948ef662519",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.6-reverse-nodes-in-k-group": {
+  "id": "3e2ddfa5-e685-812b-89ed-dc6926b92b56",
+  "title": "7.6 Reverse Nodes in k-Group",
+  "url": "https://app.notion.com/p/7-6-Reverse-Nodes-in-k-Group-3e2ddfa5e685812b89eddc6926b92b56",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.7-rotate-list": {
+  "id": "3e2ddfa5-e685-81e9-8401-fe02741ff5bb",
+  "title": "7.7 Rotate List",
+  "url": "https://app.notion.com/p/7-7-Rotate-List-3e2ddfa5e68581e98401fe02741ff5bb",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.8-remove-duplicates-from-sorted-list": {
+  "id": "3e2ddfa5-e685-8125-b2d9-dce5a939816e",
+  "title": "7.8 Remove Duplicates from Sorted List",
+  "url": "https://app.notion.com/p/7-8-Remove-Duplicates-from-Sorted-List-3e2ddfa5e6858125b2d9dce5a939816e",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.9-reorder-list": {
+  "id": "3e2ddfa5-e685-815d-b359-efa77fa5881d",
+  "title": "7.9 Reorder List",
+  "url": "https://app.notion.com/p/7-9-Reorder-List-3e2ddfa5e685815db359efa77fa5881d",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.10-partition-list": {
+  "id": "3e2ddfa5-e685-81e1-bf2a-de244c7af146",
+  "title": "7.10 Partition List",
+  "url": "https://app.notion.com/p/7-10-Partition-List-3e2ddfa5e68581e1bf2ade244c7af146",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.11-palindrome-linked-list": {
+  "id": "3e2ddfa5-e685-8129-ba10-c6e5a2ddc308",
+  "title": "7.11 Palindrome Linked List",
+  "url": "https://app.notion.com/p/7-11-Palindrome-Linked-List-3e2ddfa5e6858129ba10c6e5a2ddc308",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.12-copy-list-with-random-pointer": {
+  "id": "3e2ddfa5-e685-8145-ae66-d5adb99e3331",
+  "title": "7.12 Copy List with Random Pointer",
+  "url": "https://app.notion.com/p/7-12-Copy-List-with-Random-Pointer-3e2ddfa5e6858145ae66d5adb99e3331",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.13-add-two-numbers-ii": {
+  "id": "3e2ddfa5-e685-81e0-9c0a-fe32d763522e",
+  "title": "7.13 Add Two Numbers II",
+  "url": "https://app.notion.com/p/7-13-Add-Two-Numbers-II-3e2ddfa5e68581e09c0afe32d763522e",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "7.14-index": {
+  "id": "3e2ddfa5-e685-81a0-9468-ef18e3ee31a4",
+  "title": "7.14 Full Bloomberg index - Linked Lists",
+  "url": "https://app.notion.com/p/7-14-Full-Bloomberg-index-Linked-Lists-3e2ddfa5e68581a09468ef18e3ee31a4",
+  "parent": "3e2ddfa5-e685-8131-9a3c-fad5b5cd4ed0"
+ },
+ "p8": {
+  "id": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03",
+  "title": "Part 8 - Trees and Binary Search Trees",
+  "url": "https://app.notion.com/p/Part-8-Trees-and-Binary-Search-Trees-3e2ddfa5e685814395a6dc7e9ec80c03",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "8.0-primer": {
+  "id": "3e2ddfa5-e685-8142-85d8-f103acf142e6",
+  "title": "8.0 Trees and Binary Search Trees - pattern primer",
+  "url": "https://app.notion.com/p/8-0-Trees-and-Binary-Search-Trees-pattern-primer-3e2ddfa5e685814285d8f103acf142e6",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.1-count-subarrays-with-majority-element-i": {
+  "id": "3e2ddfa5-e685-81a7-9a43-c45ff5088021",
+  "title": "8.1 Count Subarrays With Majority Element I",
+  "url": "https://app.notion.com/p/8-1-Count-Subarrays-With-Majority-Element-I-3e2ddfa5e68581a79a43c45ff5088021",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.2-symmetric-tree": {
+  "id": "3e2ddfa5-e685-81e9-8a9d-f0e30f9275d9",
+  "title": "8.2 Symmetric Tree",
+  "url": "https://app.notion.com/p/8-2-Symmetric-Tree-3e2ddfa5e68581e98a9df0e30f9275d9",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.3-maximum-depth-of-binary-tree": {
+  "id": "3e2ddfa5-e685-8162-9c63-d884ea4f9ad8",
+  "title": "8.3 Maximum Depth of Binary Tree",
+  "url": "https://app.notion.com/p/8-3-Maximum-Depth-of-Binary-Tree-3e2ddfa5e68581629c63d884ea4f9ad8",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.4-construct-binary-tree-from-preorder-and-inorder-traversal": {
+  "id": "3e2ddfa5-e685-81da-9bd2-d413877c2295",
+  "title": "8.4 Construct Binary Tree from Preorder and Inorder Traversal",
+  "url": "https://app.notion.com/p/8-4-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal-3e2ddfa5e68581da9bd2d413877c2295",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.5-balanced-binary-tree": {
+  "id": "3e2ddfa5-e685-81ac-9fdc-ef338b1dc56c",
+  "title": "8.5 Balanced Binary Tree",
+  "url": "https://app.notion.com/p/8-5-Balanced-Binary-Tree-3e2ddfa5e68581ac9fdcef338b1dc56c",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.6-lowest-common-ancestor-of-a-binary-search-tree": {
+  "id": "3e2ddfa5-e685-815f-9d60-f9f07c383712",
+  "title": "8.6 Lowest Common Ancestor of a Binary Search Tree",
+  "url": "https://app.notion.com/p/8-6-Lowest-Common-Ancestor-of-a-Binary-Search-Tree-3e2ddfa5e685815f9d60f9f07c383712",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.7-lowest-common-ancestor-of-a-binary-tree": {
+  "id": "3e2ddfa5-e685-8114-acf4-d080c2933953",
+  "title": "8.7 Lowest Common Ancestor of a Binary Tree",
+  "url": "https://app.notion.com/p/8-7-Lowest-Common-Ancestor-of-a-Binary-Tree-3e2ddfa5e6858114acf4d080c2933953",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.8-number-of-longest-increasing-subsequence": {
+  "id": "3e2ddfa5-e685-81ec-814e-f7622043c170",
+  "title": "8.8 Number of Longest Increasing Subsequence",
+  "url": "https://app.notion.com/p/8-8-Number-of-Longest-Increasing-Subsequence-3e2ddfa5e68581ec814ef7622043c170",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.9-binary-tree-maximum-path-sum": {
+  "id": "3e2ddfa5-e685-818b-a36d-efaa9a4a6508",
+  "title": "8.9 Binary Tree Maximum Path Sum",
+  "url": "https://app.notion.com/p/8-9-Binary-Tree-Maximum-Path-Sum-3e2ddfa5e685818ba36defaa9a4a6508",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.10-employee-importance": {
+  "id": "3e2ddfa5-e685-8111-9992-fab15c57e4fb",
+  "title": "8.10 Employee Importance",
+  "url": "https://app.notion.com/p/8-10-Employee-Importance-3e2ddfa5e68581119992fab15c57e4fb",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.11-create-binary-tree-from-descriptions": {
+  "id": "3e2ddfa5-e685-816e-904d-dac841a0bac6",
+  "title": "8.11 Create Binary Tree From Descriptions",
+  "url": "https://app.notion.com/p/8-11-Create-Binary-Tree-From-Descriptions-3e2ddfa5e685816e904ddac841a0bac6",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.12-number-of-ways-to-assign-edge-weights-ii": {
+  "id": "3e2ddfa5-e685-817b-81d0-fe6e9ad6c15a",
+  "title": "8.12 Number of Ways to Assign Edge Weights II",
+  "url": "https://app.notion.com/p/8-12-Number-of-Ways-to-Assign-Edge-Weights-II-3e2ddfa5e685817b81d0fe6e9ad6c15a",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.13-validate-binary-search-tree": {
+  "id": "3e2ddfa5-e685-81a2-9a3e-d397ab9d44cb",
+  "title": "8.13 Validate Binary Search Tree",
+  "url": "https://app.notion.com/p/8-13-Validate-Binary-Search-Tree-3e2ddfa5e68581a29a3ed397ab9d44cb",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.14-diameter-of-binary-tree": {
+  "id": "3e2ddfa5-e685-8157-b8d6-e30b9520520c",
+  "title": "8.14 Diameter of Binary Tree",
+  "url": "https://app.notion.com/p/8-14-Diameter-of-Binary-Tree-3e2ddfa5e6858157b8d6e30b9520520c",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "8.15-index": {
+  "id": "3e2ddfa5-e685-8199-bf84-f557e8a0c15d",
+  "title": "8.15 Full Bloomberg index - Trees and Binary Search Trees",
+  "url": "https://app.notion.com/p/8-15-Full-Bloomberg-index-Trees-and-Binary-Search-Trees-3e2ddfa5e6858199bf84f557e8a0c15d",
+  "parent": "3e2ddfa5-e685-8143-95a6-dc7e9ec80c03"
+ },
+ "p9": {
+  "id": "3e2ddfa5-e685-8149-af9a-dacf835b24ea",
+  "title": "Part 9 - Tries and Prefix Structures",
+  "url": "https://app.notion.com/p/Part-9-Tries-and-Prefix-Structures-3e2ddfa5e6858149af9adacf835b24ea",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "9.0-primer": {
+  "id": "3e2ddfa5-e685-81fe-9ec7-cd0fdefc00c8",
+  "title": "9.0 Tries and Prefix Structures - pattern primer",
+  "url": "https://app.notion.com/p/9-0-Tries-and-Prefix-Structures-pattern-primer-3e2ddfa5e68581fe9ec7cd0fdefc00c8",
+  "parent": "3e2ddfa5-e685-8149-af9a-dacf835b24ea"
+ },
+ "9.1-longest-common-prefix": {
+  "id": "3e2ddfa5-e685-81fd-b40c-f5121da2d9a6",
+  "title": "9.1 Longest Common Prefix",
+  "url": "https://app.notion.com/p/9-1-Longest-Common-Prefix-3e2ddfa5e68581fdb40cf5121da2d9a6",
+  "parent": "3e2ddfa5-e685-8149-af9a-dacf835b24ea"
+ },
+ "9.2-word-break": {
+  "id": "3e2ddfa5-e685-81cc-80f1-ca99fe889f93",
+  "title": "9.2 Word Break",
+  "url": "https://app.notion.com/p/9-2-Word-Break-3e2ddfa5e68581cc80f1ca99fe889f93",
+  "parent": "3e2ddfa5-e685-8149-af9a-dacf835b24ea"
+ },
+ "9.3-word-break-ii": {
+  "id": "3e2ddfa5-e685-8132-bbb0-c82eb3fad033",
+  "title": "9.3 Word Break II",
+  "url": "https://app.notion.com/p/9-3-Word-Break-II-3e2ddfa5e6858132bbb0c82eb3fad033",
+  "parent": "3e2ddfa5-e685-8149-af9a-dacf835b24ea"
+ },
+ "9.4-implement-trie-prefix-tree": {
+  "id": "3e2ddfa5-e685-81db-bf45-ff5bd1f18abc",
+  "title": "9.4 Implement Trie (Prefix Tree)",
+  "url": "https://app.notion.com/p/9-4-Implement-Trie-Prefix-Tree-3e2ddfa5e68581dbbf45ff5bd1f18abc",
+  "parent": "3e2ddfa5-e685-8149-af9a-dacf835b24ea"
+ },
+ "9.5-lexicographical-numbers": {
+  "id": "3e2ddfa5-e685-81e9-9768-e04bd4f5f976",
+  "title": "9.5 Lexicographical Numbers",
+  "url": "https://app.notion.com/p/9-5-Lexicographical-Numbers-3e2ddfa5e68581e99768e04bd4f5f976",
+  "parent": "3e2ddfa5-e685-8149-af9a-dacf835b24ea"
+ },
+ "9.6-maximum-xor-of-two-numbers-in-an-array": {
+  "id": "3e2ddfa5-e685-8114-9973-edfcc0fe6d5b",
+  "title": "9.6 Maximum XOR of Two Numbers in an Array",
+  "url": "https://app.notion.com/p/9-6-Maximum-XOR-of-Two-Numbers-in-an-Array-3e2ddfa5e68581149973edfcc0fe6d5b",
+  "parent": "3e2ddfa5-e685-8149-af9a-dacf835b24ea"
+ },
+ "9.7-search-suggestions-system": {
+  "id": "3e2ddfa5-e685-819a-96ee-c76b3f00635f",
+  "title": "9.7 Search Suggestions System",
+  "url": "https://app.notion.com/p/9-7-Search-Suggestions-System-3e2ddfa5e685819a96eec76b3f00635f",
+  "parent": "3e2ddfa5-e685-8149-af9a-dacf835b24ea"
+ },
+ "9.8-find-the-length-of-the-longest-common-prefix": {
+  "id": "3e2ddfa5-e685-8115-9753-e11886e6539d",
+  "title": "9.8 Find the Length of the Longest Common Prefix",
+  "url": "https://app.notion.com/p/9-8-Find-the-Length-of-the-Longest-Common-Prefix-3e2ddfa5e68581159753e11886e6539d",
+  "parent": "3e2ddfa5-e685-8149-af9a-dacf835b24ea"
+ },
+ "9.9-index": {
+  "id": "3e2ddfa5-e685-81fb-9a5e-ee974f7ab358",
+  "title": "9.9 Full Bloomberg index - Tries and Prefix Structures",
+  "url": "https://app.notion.com/p/9-9-Full-Bloomberg-index-Tries-and-Prefix-Structures-3e2ddfa5e68581fb9a5eee974f7ab358",
+  "parent": "3e2ddfa5-e685-8149-af9a-dacf835b24ea"
+ },
+ "p10": {
+  "id": "3e2ddfa5-e685-8164-92ff-e4c31ddd470c",
+  "title": "Part 10 - Heaps and Top-K",
+  "url": "https://app.notion.com/p/Part-10-Heaps-and-Top-K-3e2ddfa5e685816492ffe4c31ddd470c",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "10.0-primer": {
+  "id": "3e2ddfa5-e685-8110-b37d-f75d9b13ca1c",
+  "title": "10.0 Heaps and Top-K - pattern primer",
+  "url": "https://app.notion.com/p/10-0-Heaps-and-Top-K-pattern-primer-3e2ddfa5e6858110b37df75d9b13ca1c",
+  "parent": "3e2ddfa5-e685-8164-92ff-e4c31ddd470c"
+ },
+ "10.1-kth-largest-element-in-an-array": {
+  "id": "3e2ddfa5-e685-819e-8237-ebbb47ae12db",
+  "title": "10.1 Kth Largest Element in an Array",
+  "url": "https://app.notion.com/p/10-1-Kth-Largest-Element-in-an-Array-3e2ddfa5e685819e8237ebbb47ae12db",
+  "parent": "3e2ddfa5-e685-8164-92ff-e4c31ddd470c"
+ },
+ "10.2-top-k-frequent-elements": {
+  "id": "3e2ddfa5-e685-810f-bd56-c9791d46958f",
+  "title": "10.2 Top K Frequent Elements",
+  "url": "https://app.notion.com/p/10-2-Top-K-Frequent-Elements-3e2ddfa5e685810fbd56c9791d46958f",
+  "parent": "3e2ddfa5-e685-8164-92ff-e4c31ddd470c"
+ },
+ "10.3-sort-characters-by-frequency": {
+  "id": "3e2ddfa5-e685-8133-840d-d49d8c5684e1",
+  "title": "10.3 Sort Characters By Frequency",
+  "url": "https://app.notion.com/p/10-3-Sort-Characters-By-Frequency-3e2ddfa5e6858133840dd49d8c5684e1",
+  "parent": "3e2ddfa5-e685-8164-92ff-e4c31ddd470c"
+ },
+ "10.4-reorganize-string": {
+  "id": "3e2ddfa5-e685-8123-ac24-cf2086247f76",
+  "title": "10.4 Reorganize String",
+  "url": "https://app.notion.com/p/10-4-Reorganize-String-3e2ddfa5e6858123ac24cf2086247f76",
+  "parent": "3e2ddfa5-e685-8164-92ff-e4c31ddd470c"
+ },
+ "10.5-index": {
+  "id": "3e2ddfa5-e685-81b7-b897-da78e8a0b175",
+  "title": "10.5 Full Bloomberg index - Heaps and Top-K",
+  "url": "https://app.notion.com/p/10-5-Full-Bloomberg-index-Heaps-and-Top-K-3e2ddfa5e68581b7b897da78e8a0b175",
+  "parent": "3e2ddfa5-e685-8164-92ff-e4c31ddd470c"
+ },
+ "p11": {
+  "id": "3e2ddfa5-e685-8138-97d7-f4771a2fe811",
+  "title": "Part 11 - Intervals and Line Sweep",
+  "url": "https://app.notion.com/p/Part-11-Intervals-and-Line-Sweep-3e2ddfa5e685813897d7f4771a2fe811",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "11.0-primer": {
+  "id": "3e2ddfa5-e685-8185-b0b7-d4af2c887197",
+  "title": "11.0 Intervals and Line Sweep - pattern primer",
+  "url": "https://app.notion.com/p/11-0-Intervals-and-Line-Sweep-pattern-primer-3e2ddfa5e6858185b0b7d4af2c887197",
+  "parent": "3e2ddfa5-e685-8138-97d7-f4771a2fe811"
+ },
+ "11.1-merge-intervals": {
+  "id": "3e2ddfa5-e685-8135-9014-c773ff2aa972",
+  "title": "11.1 Merge Intervals",
+  "url": "https://app.notion.com/p/11-1-Merge-Intervals-3e2ddfa5e68581359014c773ff2aa972",
+  "parent": "3e2ddfa5-e685-8138-97d7-f4771a2fe811"
+ },
+ "11.2-meeting-rooms-ii": {
+  "id": "3e2ddfa5-e685-8136-8080-fc33f6ff025c",
+  "title": "11.2 Meeting Rooms II",
+  "url": "https://app.notion.com/p/11-2-Meeting-Rooms-II-3e2ddfa5e68581368080fc33f6ff025c",
+  "parent": "3e2ddfa5-e685-8138-97d7-f4771a2fe811"
+ },
+ "11.3-remove-covered-intervals": {
+  "id": "3e2ddfa5-e685-8176-80b6-d953c33029bd",
+  "title": "11.3 Remove Covered Intervals",
+  "url": "https://app.notion.com/p/11-3-Remove-Covered-Intervals-3e2ddfa5e685817680b6d953c33029bd",
+  "parent": "3e2ddfa5-e685-8138-97d7-f4771a2fe811"
+ },
+ "11.4-non-overlapping-intervals": {
+  "id": "3e2ddfa5-e685-8100-8358-ef7c14ffaf84",
+  "title": "11.4 Non-overlapping Intervals",
+  "url": "https://app.notion.com/p/11-4-Non-overlapping-Intervals-3e2ddfa5e68581008358ef7c14ffaf84",
+  "parent": "3e2ddfa5-e685-8138-97d7-f4771a2fe811"
+ },
+ "11.5-index": {
+  "id": "3e2ddfa5-e685-81fd-8a90-f4047aab54af",
+  "title": "11.5 Full Bloomberg index - Intervals and Line Sweep",
+  "url": "https://app.notion.com/p/11-5-Full-Bloomberg-index-Intervals-and-Line-Sweep-3e2ddfa5e68581fd8a90f4047aab54af",
+  "parent": "3e2ddfa5-e685-8138-97d7-f4771a2fe811"
+ },
+ "p12": {
+  "id": "3e2ddfa5-e685-8134-8829-e88d43712968",
+  "title": "Part 12 - Greedy",
+  "url": "https://app.notion.com/p/Part-12-Greedy-3e2ddfa5e68581348829e88d43712968",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "12.0-primer": {
+  "id": "3e2ddfa5-e685-810a-b2b2-f565c8132bac",
+  "title": "12.0 Greedy - pattern primer",
+  "url": "https://app.notion.com/p/12-0-Greedy-pattern-primer-3e2ddfa5e685810ab2b2f565c8132bac",
+  "parent": "3e2ddfa5-e685-8134-8829-e88d43712968"
+ },
+ "12.1-longest-palindrome": {
+  "id": "3e2ddfa5-e685-8113-8484-d218c7695877",
+  "title": "12.1 Longest Palindrome",
+  "url": "https://app.notion.com/p/12-1-Longest-Palindrome-3e2ddfa5e68581138484d218c7695877",
+  "parent": "3e2ddfa5-e685-8134-8829-e88d43712968"
+ },
+ "12.2-maximum-element-after-decreasing-and-rearranging": {
+  "id": "3e2ddfa5-e685-81a1-a3d2-e60a0551ebd2",
+  "title": "12.2 Maximum Element After Decreasing and Rearranging",
+  "url": "https://app.notion.com/p/12-2-Maximum-Element-After-Decreasing-and-Rearranging-3e2ddfa5e68581a1a3d2e60a0551ebd2",
+  "parent": "3e2ddfa5-e685-8134-8829-e88d43712968"
+ },
+ "12.3-candy": {
+  "id": "3e2ddfa5-e685-8173-8d5d-d09119531be2",
+  "title": "12.3 Candy",
+  "url": "https://app.notion.com/p/12-3-Candy-3e2ddfa5e68581738d5dd09119531be2",
+  "parent": "3e2ddfa5-e685-8134-8829-e88d43712968"
+ },
+ "12.4-minimum-cost-of-buying-candies-with-discount": {
+  "id": "3e2ddfa5-e685-81e2-b115-c9a135015fe3",
+  "title": "12.4 Minimum Cost of Buying Candies With Discount",
+  "url": "https://app.notion.com/p/12-4-Minimum-Cost-of-Buying-Candies-With-Discount-3e2ddfa5e68581e2b115c9a135015fe3",
+  "parent": "3e2ddfa5-e685-8134-8829-e88d43712968"
+ },
+ "12.5-two-city-scheduling": {
+  "id": "3e2ddfa5-e685-815a-ade2-f4b4985eadd9",
+  "title": "12.5 Two City Scheduling",
+  "url": "https://app.notion.com/p/12-5-Two-City-Scheduling-3e2ddfa5e685815aade2f4b4985eadd9",
+  "parent": "3e2ddfa5-e685-8134-8829-e88d43712968"
+ },
+ "12.6-gas-station": {
+  "id": "3e2ddfa5-e685-8107-83aa-f90664810281",
+  "title": "12.6 Gas Station",
+  "url": "https://app.notion.com/p/12-6-Gas-Station-3e2ddfa5e685810783aaf90664810281",
+  "parent": "3e2ddfa5-e685-8134-8829-e88d43712968"
+ },
+ "12.7-index": {
+  "id": "3e2ddfa5-e685-8146-b0a8-feff16b57806",
+  "title": "12.7 Full Bloomberg index - Greedy",
+  "url": "https://app.notion.com/p/12-7-Full-Bloomberg-index-Greedy-3e2ddfa5e6858146b0a8feff16b57806",
+  "parent": "3e2ddfa5-e685-8134-8829-e88d43712968"
+ },
+ "p13": {
+  "id": "3e2ddfa5-e685-8148-a601-ce786c3d10c1",
+  "title": "Part 13 - Recursion and Backtracking",
+  "url": "https://app.notion.com/p/Part-13-Recursion-and-Backtracking-3e2ddfa5e6858148a601ce786c3d10c1",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "13.0-primer": {
+  "id": "3e2ddfa5-e685-81f7-861d-ee5cf50018e7",
+  "title": "13.0 Recursion and Backtracking - pattern primer",
+  "url": "https://app.notion.com/p/13-0-Recursion-and-Backtracking-pattern-primer-3e2ddfa5e68581f7861dee5cf50018e7",
+  "parent": "3e2ddfa5-e685-8148-a601-ce786c3d10c1"
+ },
+ "13.1-letter-combinations-of-a-phone-number": {
+  "id": "3e2ddfa5-e685-813a-b937-c62f434d11ed",
+  "title": "13.1 Letter Combinations of a Phone Number",
+  "url": "https://app.notion.com/p/13-1-Letter-Combinations-of-a-Phone-Number-3e2ddfa5e685813ab937c62f434d11ed",
+  "parent": "3e2ddfa5-e685-8148-a601-ce786c3d10c1"
+ },
+ "13.2-subsets-ii": {
+  "id": "3e2ddfa5-e685-8133-8e62-d375f11c1a0e",
+  "title": "13.2 Subsets II",
+  "url": "https://app.notion.com/p/13-2-Subsets-II-3e2ddfa5e68581338e62d375f11c1a0e",
+  "parent": "3e2ddfa5-e685-8148-a601-ce786c3d10c1"
+ },
+ "13.3-subsets": {
+  "id": "3e2ddfa5-e685-81d1-9fb1-ffc93af5f4d6",
+  "title": "13.3 Subsets",
+  "url": "https://app.notion.com/p/13-3-Subsets-3e2ddfa5e68581d19fb1ffc93af5f4d6",
+  "parent": "3e2ddfa5-e685-8148-a601-ce786c3d10c1"
+ },
+ "13.4-word-search": {
+  "id": "3e2ddfa5-e685-8171-a561-d4abd67a3a57",
+  "title": "13.4 Word Search",
+  "url": "https://app.notion.com/p/13-4-Word-Search-3e2ddfa5e6858171a561d4abd67a3a57",
+  "parent": "3e2ddfa5-e685-8148-a601-ce786c3d10c1"
+ },
+ "13.5-generate-parentheses": {
+  "id": "3e2ddfa5-e685-8198-a2d6-fae7b97015b6",
+  "title": "13.5 Generate Parentheses",
+  "url": "https://app.notion.com/p/13-5-Generate-Parentheses-3e2ddfa5e6858198a2d6fae7b97015b6",
+  "parent": "3e2ddfa5-e685-8148-a601-ce786c3d10c1"
+ },
+ "13.6-sudoku-solver": {
+  "id": "3e2ddfa5-e685-8185-bce3-ddeaf1897be4",
+  "title": "13.6 Sudoku Solver",
+  "url": "https://app.notion.com/p/13-6-Sudoku-Solver-3e2ddfa5e6858185bce3ddeaf1897be4",
+  "parent": "3e2ddfa5-e685-8148-a601-ce786c3d10c1"
+ },
+ "13.7-permutations": {
+  "id": "3e2ddfa5-e685-8114-93c1-ccc997ff026d",
+  "title": "13.7 Permutations",
+  "url": "https://app.notion.com/p/13-7-Permutations-3e2ddfa5e685811493c1ccc997ff026d",
+  "parent": "3e2ddfa5-e685-8148-a601-ce786c3d10c1"
+ },
+ "13.8-index": {
+  "id": "3e2ddfa5-e685-81ad-be42-dad1d34c5449",
+  "title": "13.8 Full Bloomberg index - Recursion and Backtracking",
+  "url": "https://app.notion.com/p/13-8-Full-Bloomberg-index-Recursion-and-Backtracking-3e2ddfa5e68581adbe42dad1d34c5449",
+  "parent": "3e2ddfa5-e685-8148-a601-ce786c3d10c1"
+ },
+ "p14": {
+  "id": "3e2ddfa5-e685-8138-9305-c7890937cbe3",
+  "title": "Part 14 - Graphs, Grids and Union-Find",
+  "url": "https://app.notion.com/p/Part-14-Graphs-Grids-and-Union-Find-3e2ddfa5e68581389305c7890937cbe3",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "14.0-primer": {
+  "id": "3e2ddfa5-e685-8131-b973-e247dfcdb884",
+  "title": "14.0 Graphs, Grids and Union-Find - pattern primer",
+  "url": "https://app.notion.com/p/14-0-Graphs-Grids-and-Union-Find-pattern-primer-3e2ddfa5e6858131b973e247dfcdb884",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.1-accounts-merge": {
+  "id": "3e2ddfa5-e685-81dc-829d-fda9083acfb6",
+  "title": "14.1 Accounts Merge",
+  "url": "https://app.notion.com/p/14-1-Accounts-Merge-3e2ddfa5e68581dc829dfda9083acfb6",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.2-network-recovery-pathways": {
+  "id": "3e2ddfa5-e685-81bc-9af2-f889ecae0922",
+  "title": "14.2 Network Recovery Pathways",
+  "url": "https://app.notion.com/p/14-2-Network-Recovery-Pathways-3e2ddfa5e68581bc9af2f889ecae0922",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.3-number-of-islands": {
+  "id": "3e2ddfa5-e685-81b4-904d-dd75c26e6667",
+  "title": "14.3 Number of Islands",
+  "url": "https://app.notion.com/p/14-3-Number-of-Islands-3e2ddfa5e68581b4904ddd75c26e6667",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.4-longest-consecutive-sequence": {
+  "id": "3e2ddfa5-e685-812d-a24e-d16157122f1c",
+  "title": "14.4 Longest Consecutive Sequence",
+  "url": "https://app.notion.com/p/14-4-Longest-Consecutive-Sequence-3e2ddfa5e685812da24ed16157122f1c",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.5-flatten-a-multilevel-doubly-linked-list": {
+  "id": "3e2ddfa5-e685-8132-84ef-de69940cdceb",
+  "title": "14.5 Flatten a Multilevel Doubly Linked List",
+  "url": "https://app.notion.com/p/14-5-Flatten-a-Multilevel-Doubly-Linked-List-3e2ddfa5e685813284efde69940cdceb",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.6-word-ladder": {
+  "id": "3e2ddfa5-e685-81d8-9e3d-d4ae25a5cae4",
+  "title": "14.6 Word Ladder",
+  "url": "https://app.notion.com/p/14-6-Word-Ladder-3e2ddfa5e68581d89e3dd4ae25a5cae4",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.7-coin-change": {
+  "id": "3e2ddfa5-e685-8130-882d-c3c71224547b",
+  "title": "14.7 Coin Change",
+  "url": "https://app.notion.com/p/14-7-Coin-Change-3e2ddfa5e6858130882dc3c71224547b",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.8-evaluate-division": {
+  "id": "3e2ddfa5-e685-8179-84f1-e8c1e3c4b780",
+  "title": "14.8 Evaluate Division",
+  "url": "https://app.notion.com/p/14-8-Evaluate-Division-3e2ddfa5e685817984f1e8c1e3c4b780",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.9-rotting-oranges": {
+  "id": "3e2ddfa5-e685-8146-9d72-dd75694c45f9",
+  "title": "14.9 Rotting Oranges",
+  "url": "https://app.notion.com/p/14-9-Rotting-Oranges-3e2ddfa5e68581469d72dd75694c45f9",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.10-perfect-squares": {
+  "id": "3e2ddfa5-e685-813a-ae6f-d60aeaa6f231",
+  "title": "14.10 Perfect Squares",
+  "url": "https://app.notion.com/p/14-10-Perfect-Squares-3e2ddfa5e685813aae6fd60aeaa6f231",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.11-number-of-provinces": {
+  "id": "3e2ddfa5-e685-8103-b41d-d541a7a9e964",
+  "title": "14.11 Number of Provinces",
+  "url": "https://app.notion.com/p/14-11-Number-of-Provinces-3e2ddfa5e6858103b41dd541a7a9e964",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.12-surrounded-regions": {
+  "id": "3e2ddfa5-e685-81bd-82b5-c7d8c0ac7962",
+  "title": "14.12 Surrounded Regions",
+  "url": "https://app.notion.com/p/14-12-Surrounded-Regions-3e2ddfa5e68581bd82b5c7d8c0ac7962",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.13-minimize-hamming-distance-after-swap-operations": {
+  "id": "3e2ddfa5-e685-8173-9344-f8d7f5005a83",
+  "title": "14.13 Minimize Hamming Distance After Swap Operations",
+  "url": "https://app.notion.com/p/14-13-Minimize-Hamming-Distance-After-Swap-Operations-3e2ddfa5e68581739344f8d7f5005a83",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.14-all-paths-from-source-to-target": {
+  "id": "3e2ddfa5-e685-81df-a4d5-ea480f37ea85",
+  "title": "14.14 All Paths From Source to Target",
+  "url": "https://app.notion.com/p/14-14-All-Paths-From-Source-to-Target-3e2ddfa5e68581dfa4d5ea480f37ea85",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "14.15-index": {
+  "id": "3e2ddfa5-e685-819b-ac46-ea2da9891718",
+  "title": "14.15 Full Bloomberg index - Graphs, Grids and Union-Find",
+  "url": "https://app.notion.com/p/14-15-Full-Bloomberg-index-Graphs-Grids-and-Union-Find-3e2ddfa5e685819bac46ea2da9891718",
+  "parent": "3e2ddfa5-e685-8138-9305-c7890937cbe3"
+ },
+ "p15": {
+  "id": "3e2ddfa5-e685-8132-8402-c83534f2b1bb",
+  "title": "Part 15 - Dynamic Programming",
+  "url": "https://app.notion.com/p/Part-15-Dynamic-Programming-3e2ddfa5e68581328402c83534f2b1bb",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "15.0-primer": {
+  "id": "3e2ddfa5-e685-81dd-b5f4-dbeb15bb4d4a",
+  "title": "15.0 Dynamic Programming - pattern primer",
+  "url": "https://app.notion.com/p/15-0-Dynamic-Programming-pattern-primer-3e2ddfa5e68581ddb5f4dbeb15bb4d4a",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.1-best-time-to-buy-and-sell-stock": {
+  "id": "3e2ddfa5-e685-81c5-a268-fa6b932c1edf",
+  "title": "15.1 Best Time to Buy and Sell Stock",
+  "url": "https://app.notion.com/p/15-1-Best-Time-to-Buy-and-Sell-Stock-3e2ddfa5e68581c5a268fa6b932c1edf",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.2-regular-expression-matching": {
+  "id": "3e2ddfa5-e685-81d5-b3e2-c7a152540efa",
+  "title": "15.2 Regular Expression Matching",
+  "url": "https://app.notion.com/p/15-2-Regular-Expression-Matching-3e2ddfa5e68581d5b3e2c7a152540efa",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.3-maximum-subarray": {
+  "id": "3e2ddfa5-e685-81a8-9409-f38a7a1e340d",
+  "title": "15.3 Maximum Subarray",
+  "url": "https://app.notion.com/p/15-3-Maximum-Subarray-3e2ddfa5e68581a89409f38a7a1e340d",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.4-climbing-stairs": {
+  "id": "3e2ddfa5-e685-81eb-9706-d12cc5ac58d2",
+  "title": "15.4 Climbing Stairs",
+  "url": "https://app.notion.com/p/15-4-Climbing-Stairs-3e2ddfa5e68581eb9706d12cc5ac58d2",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.5-triangle": {
+  "id": "3e2ddfa5-e685-8189-812b-d2f2f344aa31",
+  "title": "15.5 Triangle",
+  "url": "https://app.notion.com/p/15-5-Triangle-3e2ddfa5e6858189812bd2f2f344aa31",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.6-jump-game": {
+  "id": "3e2ddfa5-e685-8162-9ff9-cd47e86cc9e6",
+  "title": "15.6 Jump Game",
+  "url": "https://app.notion.com/p/15-6-Jump-Game-3e2ddfa5e68581629ff9cd47e86cc9e6",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.7-valid-parenthesis-string": {
+  "id": "3e2ddfa5-e685-81cb-834b-dc90cd578541",
+  "title": "15.7 Valid Parenthesis String",
+  "url": "https://app.notion.com/p/15-7-Valid-Parenthesis-String-3e2ddfa5e68581cb834bdc90cd578541",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.8-longest-palindromic-substring": {
+  "id": "3e2ddfa5-e685-81e6-a7aa-d06896aed03e",
+  "title": "15.8 Longest Palindromic Substring",
+  "url": "https://app.notion.com/p/15-8-Longest-Palindromic-Substring-3e2ddfa5e68581e6a7aad06896aed03e",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.9-house-robber": {
+  "id": "3e2ddfa5-e685-81fb-a1af-f4542704c0f8",
+  "title": "15.9 House Robber",
+  "url": "https://app.notion.com/p/15-9-House-Robber-3e2ddfa5e68581fba1aff4542704c0f8",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.10-jump-game-ii": {
+  "id": "3e2ddfa5-e685-8149-89b5-d07db422bc95",
+  "title": "15.10 Jump Game II",
+  "url": "https://app.notion.com/p/15-10-Jump-Game-II-3e2ddfa5e685814989b5d07db422bc95",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.11-unique-paths-ii": {
+  "id": "3e2ddfa5-e685-8100-89d8-c2060026f845",
+  "title": "15.11 Unique Paths II",
+  "url": "https://app.notion.com/p/15-11-Unique-Paths-II-3e2ddfa5e685810089d8c2060026f845",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.12-best-time-to-buy-and-sell-stock-ii": {
+  "id": "3e2ddfa5-e685-81fd-a293-c30de4105fa7",
+  "title": "15.12 Best Time to Buy and Sell Stock II",
+  "url": "https://app.notion.com/p/15-12-Best-Time-to-Buy-and-Sell-Stock-II-3e2ddfa5e68581fda293c30de4105fa7",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.13-maximum-product-subarray": {
+  "id": "3e2ddfa5-e685-8126-a87d-cedbf818364b",
+  "title": "15.13 Maximum Product Subarray",
+  "url": "https://app.notion.com/p/15-13-Maximum-Product-Subarray-3e2ddfa5e6858126a87dcedbf818364b",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.14-longest-increasing-subsequence": {
+  "id": "3e2ddfa5-e685-811d-9049-dd21431283e7",
+  "title": "15.14 Longest Increasing Subsequence",
+  "url": "https://app.notion.com/p/15-14-Longest-Increasing-Subsequence-3e2ddfa5e685811d9049dd21431283e7",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.15-split-array-largest-sum": {
+  "id": "3e2ddfa5-e685-81d0-ad4c-ce7059efdfc9",
+  "title": "15.15 Split Array Largest Sum",
+  "url": "https://app.notion.com/p/15-15-Split-Array-Largest-Sum-3e2ddfa5e68581d0ad4cce7059efdfc9",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.16-total-waviness-of-numbers-in-range-ii": {
+  "id": "3e2ddfa5-e685-8121-a3b7-e0d77ac4ca16",
+  "title": "15.16 Total Waviness of Numbers in Range II",
+  "url": "https://app.notion.com/p/15-16-Total-Waviness-of-Numbers-in-Range-II-3e2ddfa5e6858121a3b7e0d77ac4ca16",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.17-decode-ways": {
+  "id": "3e2ddfa5-e685-81c4-a7d9-c53c0e4f22b9",
+  "title": "15.17 Decode Ways",
+  "url": "https://app.notion.com/p/15-17-Decode-Ways-3e2ddfa5e68581c4a7d9c53c0e4f22b9",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.18-guess-number-higher-or-lower-ii": {
+  "id": "3e2ddfa5-e685-81d9-8f54-ec175b91c4b6",
+  "title": "15.18 Guess Number Higher or Lower II",
+  "url": "https://app.notion.com/p/15-18-Guess-Number-Higher-or-Lower-II-3e2ddfa5e68581d98f54ec175b91c4b6",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.19-maximum-profit-in-job-scheduling": {
+  "id": "3e2ddfa5-e685-819f-b105-e2b87b5b12b7",
+  "title": "15.19 Maximum Profit in Job Scheduling",
+  "url": "https://app.notion.com/p/15-19-Maximum-Profit-in-Job-Scheduling-3e2ddfa5e685819fb105e2b87b5b12b7",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.20-number-of-paths-with-max-score": {
+  "id": "3e2ddfa5-e685-8178-b5d6-c275270d3864",
+  "title": "15.20 Number of Paths with Max Score",
+  "url": "https://app.notion.com/p/15-20-Number-of-Paths-with-Max-Score-3e2ddfa5e6858178b5d6c275270d3864",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.21-number-of-zigzag-arrays-ii": {
+  "id": "3e2ddfa5-e685-81fe-bae1-cf647d90c9c5",
+  "title": "15.21 Number of ZigZag Arrays II",
+  "url": "https://app.notion.com/p/15-21-Number-of-ZigZag-Arrays-II-3e2ddfa5e68581febae1cf647d90c9c5",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.22-pascals-triangle": {
+  "id": "3e2ddfa5-e685-815d-95f4-db7ec6165e3a",
+  "title": "15.22 Pascal's Triangle",
+  "url": "https://app.notion.com/p/15-22-Pascal-s-Triangle-3e2ddfa5e685815d95f4db7ec6165e3a",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.23-sort-integers-by-the-power-value": {
+  "id": "3e2ddfa5-e685-8168-b8e0-feef65819b06",
+  "title": "15.23 Sort Integers by The Power Value",
+  "url": "https://app.notion.com/p/15-23-Sort-Integers-by-The-Power-Value-3e2ddfa5e6858168b8e0feef65819b06",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "15.24-index": {
+  "id": "3e2ddfa5-e685-8178-b6ee-df71beb27915",
+  "title": "15.24 Full Bloomberg index - Dynamic Programming",
+  "url": "https://app.notion.com/p/15-24-Full-Bloomberg-index-Dynamic-Programming-3e2ddfa5e6858178b6eedf71beb27915",
+  "parent": "3e2ddfa5-e685-8132-8402-c83534f2b1bb"
+ },
+ "p16": {
+  "id": "3e2ddfa5-e685-8105-98cc-cd5eb861ab92",
+  "title": "Part 16 - Bit Manipulation",
+  "url": "https://app.notion.com/p/Part-16-Bit-Manipulation-3e2ddfa5e685810598cccd5eb861ab92",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "16.0-primer": {
+  "id": "3e2ddfa5-e685-818c-85b3-f88da8526e79",
+  "title": "16.0 Bit Manipulation - pattern primer",
+  "url": "https://app.notion.com/p/16-0-Bit-Manipulation-pattern-primer-3e2ddfa5e685818c85b3f88da8526e79",
+  "parent": "3e2ddfa5-e685-8105-98cc-cd5eb861ab92"
+ },
+ "16.1-single-number": {
+  "id": "3e2ddfa5-e685-81bd-a08e-f4dd14191336",
+  "title": "16.1 Single Number",
+  "url": "https://app.notion.com/p/16-1-Single-Number-3e2ddfa5e68581bda08ef4dd14191336",
+  "parent": "3e2ddfa5-e685-8105-98cc-cd5eb861ab92"
+ },
+ "16.2-divide-two-integers": {
+  "id": "3e2ddfa5-e685-8121-9356-d7880731f736",
+  "title": "16.2 Divide Two Integers",
+  "url": "https://app.notion.com/p/16-2-Divide-Two-Integers-3e2ddfa5e68581219356d7880731f736",
+  "parent": "3e2ddfa5-e685-8105-98cc-cd5eb861ab92"
+ },
+ "16.3-power-of-two": {
+  "id": "3e2ddfa5-e685-814f-8305-e00908564c9d",
+  "title": "16.3 Power of Two",
+  "url": "https://app.notion.com/p/16-3-Power-of-Two-3e2ddfa5e685814f8305e00908564c9d",
+  "parent": "3e2ddfa5-e685-8105-98cc-cd5eb861ab92"
+ },
+ "16.4-set-mismatch": {
+  "id": "3e2ddfa5-e685-81b8-8fa3-face2591911e",
+  "title": "16.4 Set Mismatch",
+  "url": "https://app.notion.com/p/16-4-Set-Mismatch-3e2ddfa5e68581b88fa3face2591911e",
+  "parent": "3e2ddfa5-e685-8105-98cc-cd5eb861ab92"
+ },
+ "16.5-find-the-prefix-common-array-of-two-arrays": {
+  "id": "3e2ddfa5-e685-8117-9eb2-eed7abe63846",
+  "title": "16.5 Find the Prefix Common Array of Two Arrays",
+  "url": "https://app.notion.com/p/16-5-Find-the-Prefix-Common-Array-of-Two-Arrays-3e2ddfa5e68581179eb2eed7abe63846",
+  "parent": "3e2ddfa5-e685-8105-98cc-cd5eb861ab92"
+ },
+ "16.6-index": {
+  "id": "3e2ddfa5-e685-8137-ab2e-c96d1c151d30",
+  "title": "16.6 Full Bloomberg index - Bit Manipulation",
+  "url": "https://app.notion.com/p/16-6-Full-Bloomberg-index-Bit-Manipulation-3e2ddfa5e6858137ab2ec96d1c151d30",
+  "parent": "3e2ddfa5-e685-8105-98cc-cd5eb861ab92"
+ },
+ "p17": {
+  "id": "3e2ddfa5-e685-81b9-a7a8-ee83408dc7dc",
+  "title": "Part 17 - Math, Number Theory and Geometry",
+  "url": "https://app.notion.com/p/Part-17-Math-Number-Theory-and-Geometry-3e2ddfa5e68581b9a7a8ee83408dc7dc",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "17.0-primer": {
+  "id": "3e2ddfa5-e685-8139-b4e1-fdad7fe6aa44",
+  "title": "17.0 Math, Number Theory and Geometry - pattern primer",
+  "url": "https://app.notion.com/p/17-0-Math-Number-Theory-and-Geometry-pattern-primer-3e2ddfa5e6858139b4e1fdad7fe6aa44",
+  "parent": "3e2ddfa5-e685-81b9-a7a8-ee83408dc7dc"
+ },
+ "17.1-palindrome-number": {
+  "id": "3e2ddfa5-e685-81cd-81dd-dc1b6e59913c",
+  "title": "17.1 Palindrome Number",
+  "url": "https://app.notion.com/p/17-1-Palindrome-Number-3e2ddfa5e68581cd81dddc1b6e59913c",
+  "parent": "3e2ddfa5-e685-81b9-a7a8-ee83408dc7dc"
+ },
+ "17.2-angle-between-hands-of-a-clock": {
+  "id": "3e2ddfa5-e685-81c2-9912-e134149d3b86",
+  "title": "17.2 Angle Between Hands of a Clock",
+  "url": "https://app.notion.com/p/17-2-Angle-Between-Hands-of-a-Clock-3e2ddfa5e68581c29912e134149d3b86",
+  "parent": "3e2ddfa5-e685-81b9-a7a8-ee83408dc7dc"
+ },
+ "17.3-reverse-integer": {
+  "id": "3e2ddfa5-e685-8187-8713-ebf8f1c72474",
+  "title": "17.3 Reverse Integer",
+  "url": "https://app.notion.com/p/17-3-Reverse-Integer-3e2ddfa5e68581878713ebf8f1c72474",
+  "parent": "3e2ddfa5-e685-81b9-a7a8-ee83408dc7dc"
+ },
+ "17.4-powx-n": {
+  "id": "3e2ddfa5-e685-81e8-be0b-d18c4c75817c",
+  "title": "17.4 Pow(x, n)",
+  "url": "https://app.notion.com/p/17-4-Pow-x-n-3e2ddfa5e68581e8be0bd18c4c75817c",
+  "parent": "3e2ddfa5-e685-81b9-a7a8-ee83408dc7dc"
+ },
+ "17.5-plus-one": {
+  "id": "3e2ddfa5-e685-8195-bc00-f2d368db1e35",
+  "title": "17.5 Plus One",
+  "url": "https://app.notion.com/p/17-5-Plus-One-3e2ddfa5e6858195bc00f2d368db1e35",
+  "parent": "3e2ddfa5-e685-81b9-a7a8-ee83408dc7dc"
+ },
+ "17.6-find-numbers-with-even-number-of-digits": {
+  "id": "3e2ddfa5-e685-81d5-a072-e8e5fc16d480",
+  "title": "17.6 Find Numbers with Even Number of Digits",
+  "url": "https://app.notion.com/p/17-6-Find-Numbers-with-Even-Number-of-Digits-3e2ddfa5e68581d5a072e8e5fc16d480",
+  "parent": "3e2ddfa5-e685-81b9-a7a8-ee83408dc7dc"
+ },
+ "17.7-index": {
+  "id": "3e2ddfa5-e685-8116-a87f-e31ae2ee255a",
+  "title": "17.7 Full Bloomberg index - Math, Number Theory and Geometry",
+  "url": "https://app.notion.com/p/17-7-Full-Bloomberg-index-Math-Number-Theory-and-Geometry-3e2ddfa5e6858116a87fe31ae2ee255a",
+  "parent": "3e2ddfa5-e685-81b9-a7a8-ee83408dc7dc"
+ },
+ "p18": {
+  "id": "3e2ddfa5-e685-8188-98e2-fda3045a9954",
+  "title": "Part 18 - Matrix and Simulation",
+  "url": "https://app.notion.com/p/Part-18-Matrix-and-Simulation-3e2ddfa5e685818898e2fda3045a9954",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "18.0-primer": {
+  "id": "3e2ddfa5-e685-81ea-9f25-de212940a42d",
+  "title": "18.0 Matrix and Simulation - pattern primer",
+  "url": "https://app.notion.com/p/18-0-Matrix-and-Simulation-pattern-primer-3e2ddfa5e68581ea9f25de212940a42d",
+  "parent": "3e2ddfa5-e685-8188-98e2-fda3045a9954"
+ },
+ "18.1-multiply-strings": {
+  "id": "3e2ddfa5-e685-8181-b7ba-c71e2d2471ff",
+  "title": "18.1 Multiply Strings",
+  "url": "https://app.notion.com/p/18-1-Multiply-Strings-3e2ddfa5e6858181b7bac71e2d2471ff",
+  "parent": "3e2ddfa5-e685-8188-98e2-fda3045a9954"
+ },
+ "18.2-process-string-with-special-operations-i": {
+  "id": "3e2ddfa5-e685-8114-97c0-c34282ac1c44",
+  "title": "18.2 Process String with Special Operations I",
+  "url": "https://app.notion.com/p/18-2-Process-String-with-Special-Operations-I-3e2ddfa5e685811497c0c34282ac1c44",
+  "parent": "3e2ddfa5-e685-8188-98e2-fda3045a9954"
+ },
+ "18.3-rotate-image": {
+  "id": "3e2ddfa5-e685-81b1-85fe-dd6cd3ce06d3",
+  "title": "18.3 Rotate Image",
+  "url": "https://app.notion.com/p/18-3-Rotate-Image-3e2ddfa5e68581b185fedd6cd3ce06d3",
+  "parent": "3e2ddfa5-e685-8188-98e2-fda3045a9954"
+ },
+ "18.4-spiral-matrix": {
+  "id": "3e2ddfa5-e685-8167-b4ab-ebbfe317e7fd",
+  "title": "18.4 Spiral Matrix",
+  "url": "https://app.notion.com/p/18-4-Spiral-Matrix-3e2ddfa5e6858167b4abebbfe317e7fd",
+  "parent": "3e2ddfa5-e685-8188-98e2-fda3045a9954"
+ },
+ "18.5-set-matrix-zeroes": {
+  "id": "3e2ddfa5-e685-816f-94fa-ed96768f03e1",
+  "title": "18.5 Set Matrix Zeroes",
+  "url": "https://app.notion.com/p/18-5-Set-Matrix-Zeroes-3e2ddfa5e685816f94faed96768f03e1",
+  "parent": "3e2ddfa5-e685-8188-98e2-fda3045a9954"
+ },
+ "18.6-valid-sudoku": {
+  "id": "3e2ddfa5-e685-8118-800d-d56d376b881b",
+  "title": "18.6 Valid Sudoku",
+  "url": "https://app.notion.com/p/18-6-Valid-Sudoku-3e2ddfa5e6858118800dd56d376b881b",
+  "parent": "3e2ddfa5-e685-8188-98e2-fda3045a9954"
+ },
+ "18.7-concatenation-of-array": {
+  "id": "3e2ddfa5-e685-811f-b72c-c8080658a795",
+  "title": "18.7 Concatenation of Array",
+  "url": "https://app.notion.com/p/18-7-Concatenation-of-Array-3e2ddfa5e685811fb72cc8080658a795",
+  "parent": "3e2ddfa5-e685-8188-98e2-fda3045a9954"
+ },
+ "18.8-fizz-buzz": {
+  "id": "3e2ddfa5-e685-8156-b845-c1fa0183cbea",
+  "title": "18.8 Fizz Buzz",
+  "url": "https://app.notion.com/p/18-8-Fizz-Buzz-3e2ddfa5e6858156b845c1fa0183cbea",
+  "parent": "3e2ddfa5-e685-8188-98e2-fda3045a9954"
+ },
+ "18.9-robot-return-to-origin": {
+  "id": "3e2ddfa5-e685-8181-a658-dadf1a44a461",
+  "title": "18.9 Robot Return to Origin",
+  "url": "https://app.notion.com/p/18-9-Robot-Return-to-Origin-3e2ddfa5e6858181a658dadf1a44a461",
+  "parent": "3e2ddfa5-e685-8188-98e2-fda3045a9954"
+ },
+ "18.10-index": {
+  "id": "3e2ddfa5-e685-814d-9401-f77ed14ecc68",
+  "title": "18.10 Full Bloomberg index - Matrix and Simulation",
+  "url": "https://app.notion.com/p/18-10-Full-Bloomberg-index-Matrix-and-Simulation-3e2ddfa5e685814d9401f77ed14ecc68",
+  "parent": "3e2ddfa5-e685-8188-98e2-fda3045a9954"
+ },
+ "p19": {
+  "id": "3e2ddfa5-e685-8118-afd0-d47ab92f621a",
+  "title": "Part 19 - Strings and Parsing",
+  "url": "https://app.notion.com/p/Part-19-Strings-and-Parsing-3e2ddfa5e6858118afd0d47ab92f621a",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "19.0-primer": {
+  "id": "3e2ddfa5-e685-81ad-a424-f60acdfa94ec",
+  "title": "19.0 Strings and Parsing - pattern primer",
+  "url": "https://app.notion.com/p/19-0-Strings-and-Parsing-pattern-primer-3e2ddfa5e68581ada424f60acdfa94ec",
+  "parent": "3e2ddfa5-e685-8118-afd0-d47ab92f621a"
+ },
+ "19.1-ransom-note": {
+  "id": "3e2ddfa5-e685-8134-9858-f50c68ed7359",
+  "title": "19.1 Ransom Note",
+  "url": "https://app.notion.com/p/19-1-Ransom-Note-3e2ddfa5e68581349858f50c68ed7359",
+  "parent": "3e2ddfa5-e685-8118-afd0-d47ab92f621a"
+ },
+ "19.2-maximum-number-of-balloons": {
+  "id": "3e2ddfa5-e685-8189-bf2e-ccabafba27a1",
+  "title": "19.2 Maximum Number of Balloons",
+  "url": "https://app.notion.com/p/19-2-Maximum-Number-of-Balloons-3e2ddfa5e6858189bf2eccabafba27a1",
+  "parent": "3e2ddfa5-e685-8118-afd0-d47ab92f621a"
+ },
+ "19.3-roman-to-integer": {
+  "id": "3e2ddfa5-e685-8171-b709-f6c777754826",
+  "title": "19.3 Roman to Integer",
+  "url": "https://app.notion.com/p/19-3-Roman-to-Integer-3e2ddfa5e6858171b709f6c777754826",
+  "parent": "3e2ddfa5-e685-8118-afd0-d47ab92f621a"
+ },
+ "19.4-string-to-integer-atoi": {
+  "id": "3e2ddfa5-e685-81fe-bd90-da87ef0f42ed",
+  "title": "19.4 String to Integer (atoi)",
+  "url": "https://app.notion.com/p/19-4-String-to-Integer-atoi-3e2ddfa5e68581febd90da87ef0f42ed",
+  "parent": "3e2ddfa5-e685-8118-afd0-d47ab92f621a"
+ },
+ "19.5-remove-letter-to-equalize-frequency": {
+  "id": "3e2ddfa5-e685-813d-a71d-c249ac4a4527",
+  "title": "19.5 Remove Letter To Equalize Frequency",
+  "url": "https://app.notion.com/p/19-5-Remove-Letter-To-Equalize-Frequency-3e2ddfa5e685813da71dc249ac4a4527",
+  "parent": "3e2ddfa5-e685-8118-afd0-d47ab92f621a"
+ },
+ "19.6-furthest-point-from-origin": {
+  "id": "3e2ddfa5-e685-81f5-b5b9-d50cb7635ce7",
+  "title": "19.6 Furthest Point From Origin",
+  "url": "https://app.notion.com/p/19-6-Furthest-Point-From-Origin-3e2ddfa5e68581f5b5b9d50cb7635ce7",
+  "parent": "3e2ddfa5-e685-8118-afd0-d47ab92f621a"
+ },
+ "19.7-length-of-last-word": {
+  "id": "3e2ddfa5-e685-8120-8f8f-c236159c8042",
+  "title": "19.7 Length of Last Word",
+  "url": "https://app.notion.com/p/19-7-Length-of-Last-Word-3e2ddfa5e68581208f8fc236159c8042",
+  "parent": "3e2ddfa5-e685-8118-afd0-d47ab92f621a"
+ },
+ "19.8-isomorphic-strings": {
+  "id": "3e2ddfa5-e685-81d8-bb27-cecb1bcea726",
+  "title": "19.8 Isomorphic Strings",
+  "url": "https://app.notion.com/p/19-8-Isomorphic-Strings-3e2ddfa5e68581d8bb27cecb1bcea726",
+  "parent": "3e2ddfa5-e685-8118-afd0-d47ab92f621a"
+ },
+ "19.9-rotate-string": {
+  "id": "3e2ddfa5-e685-81d4-a885-c8276fcda1d4",
+  "title": "19.9 Rotate String",
+  "url": "https://app.notion.com/p/19-9-Rotate-String-3e2ddfa5e68581d4a885c8276fcda1d4",
+  "parent": "3e2ddfa5-e685-8118-afd0-d47ab92f621a"
+ },
+ "19.10-bulls-and-cows": {
+  "id": "3e2ddfa5-e685-8172-9030-debdce11c36d",
+  "title": "19.10 Bulls and Cows",
+  "url": "https://app.notion.com/p/19-10-Bulls-and-Cows-3e2ddfa5e68581729030debdce11c36d",
+  "parent": "3e2ddfa5-e685-8118-afd0-d47ab92f621a"
+ },
+ "19.11-index": {
+  "id": "3e2ddfa5-e685-817b-b7de-edf9f810d05b",
+  "title": "19.11 Full Bloomberg index - Strings and Parsing",
+  "url": "https://app.notion.com/p/19-11-Full-Bloomberg-index-Strings-and-Parsing-3e2ddfa5e685817bb7deedf9f810d05b",
+  "parent": "3e2ddfa5-e685-8118-afd0-d47ab92f621a"
+ },
+ "p20": {
+  "id": "3e2ddfa5-e685-819b-a5a0-c77671d727bc",
+  "title": "Part 20 - Data Structure Design",
+  "url": "https://app.notion.com/p/Part-20-Data-Structure-Design-3e2ddfa5e685819ba5a0c77671d727bc",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "20.0-primer": {
+  "id": "3e2ddfa5-e685-8173-bfac-dcb1ea089155",
+  "title": "20.0 Data Structure Design - pattern primer",
+  "url": "https://app.notion.com/p/20-0-Data-Structure-Design-pattern-primer-3e2ddfa5e6858173bfacdcb1ea089155",
+  "parent": "3e2ddfa5-e685-819b-a5a0-c77671d727bc"
+ },
+ "20.1-design-underground-system": {
+  "id": "3e2ddfa5-e685-817a-8c38-d23f5e65c395",
+  "title": "20.1 Design Underground System",
+  "url": "https://app.notion.com/p/20-1-Design-Underground-System-3e2ddfa5e685817a8c38d23f5e65c395",
+  "parent": "3e2ddfa5-e685-819b-a5a0-c77671d727bc"
+ },
+ "20.2-insert-delete-getrandom-o1": {
+  "id": "3e2ddfa5-e685-814a-987b-f290abef426c",
+  "title": "20.2 Insert Delete GetRandom O(1)",
+  "url": "https://app.notion.com/p/20-2-Insert-Delete-GetRandom-O-1-3e2ddfa5e685814a987bf290abef426c",
+  "parent": "3e2ddfa5-e685-819b-a5a0-c77671d727bc"
+ },
+ "20.3-lru-cache": {
+  "id": "3e2ddfa5-e685-81a4-9ab1-f8bbdb2d4dce",
+  "title": "20.3 LRU Cache",
+  "url": "https://app.notion.com/p/20-3-LRU-Cache-3e2ddfa5e68581a49ab1f8bbdb2d4dce",
+  "parent": "3e2ddfa5-e685-819b-a5a0-c77671d727bc"
+ },
+ "20.4-min-stack": {
+  "id": "3e2ddfa5-e685-8135-bbae-e2a8e52413b4",
+  "title": "20.4 Min Stack",
+  "url": "https://app.notion.com/p/20-4-Min-Stack-3e2ddfa5e6858135bbaee2a8e52413b4",
+  "parent": "3e2ddfa5-e685-819b-a5a0-c77671d727bc"
+ },
+ "20.5-number-of-recent-calls": {
+  "id": "3e2ddfa5-e685-812c-9f7c-ec9efc546a39",
+  "title": "20.5 Number of Recent Calls",
+  "url": "https://app.notion.com/p/20-5-Number-of-Recent-Calls-3e2ddfa5e685812c9f7cec9efc546a39",
+  "parent": "3e2ddfa5-e685-819b-a5a0-c77671d727bc"
+ },
+ "20.6-design-a-leaderboard": {
+  "id": "3e2ddfa5-e685-81ad-acbb-dccac912370a",
+  "title": "20.6 Design A Leaderboard",
+  "url": "https://app.notion.com/p/20-6-Design-A-Leaderboard-3e2ddfa5e68581adacbbdccac912370a",
+  "parent": "3e2ddfa5-e685-819b-a5a0-c77671d727bc"
+ },
+ "20.7-find-median-from-data-stream": {
+  "id": "3e2ddfa5-e685-8190-b364-cc903e0d70ca",
+  "title": "20.7 Find Median from Data Stream",
+  "url": "https://app.notion.com/p/20-7-Find-Median-from-Data-Stream-3e2ddfa5e6858190b364cc903e0d70ca",
+  "parent": "3e2ddfa5-e685-819b-a5a0-c77671d727bc"
+ },
+ "20.8-time-based-key-value-store": {
+  "id": "3e2ddfa5-e685-81ed-9d67-dc1d362cbb70",
+  "title": "20.8 Time Based Key-Value Store",
+  "url": "https://app.notion.com/p/20-8-Time-Based-Key-Value-Store-3e2ddfa5e68581ed9d67dc1d362cbb70",
+  "parent": "3e2ddfa5-e685-819b-a5a0-c77671d727bc"
+ },
+ "20.9-design-an-ordered-stream": {
+  "id": "3e2ddfa5-e685-813f-bb9a-ef52b1ece11a",
+  "title": "20.9 Design an Ordered Stream",
+  "url": "https://app.notion.com/p/20-9-Design-an-Ordered-Stream-3e2ddfa5e685813fbb9aef52b1ece11a",
+  "parent": "3e2ddfa5-e685-819b-a5a0-c77671d727bc"
+ },
+ "20.10-index": {
+  "id": "3e2ddfa5-e685-813c-9573-f626514ec554",
+  "title": "20.10 Full Bloomberg index - Data Structure Design",
+  "url": "https://app.notion.com/p/20-10-Full-Bloomberg-index-Data-Structure-Design-3e2ddfa5e685813c9573f626514ec554",
+  "parent": "3e2ddfa5-e685-819b-a5a0-c77671d727bc"
+ },
+ "p21": {
+  "id": "3e2ddfa5-e685-8111-9d8b-d000d82f8297",
+  "title": "Part 21 - Concurrency and Python Internals",
+  "url": "https://app.notion.com/p/Part-21-Concurrency-and-Python-Internals-3e2ddfa5e68581119d8bd000d82f8297",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "21.0-primer": {
+  "id": "3e2ddfa5-e685-8140-b296-e795a28e7300",
+  "title": "21.0 Concurrency and Python Internals - pattern primer",
+  "url": "https://app.notion.com/p/21-0-Concurrency-and-Python-Internals-pattern-primer-3e2ddfa5e6858140b296e795a28e7300",
+  "parent": "3e2ddfa5-e685-8111-9d8b-d000d82f8297"
+ },
+ "21.1-index": {
+  "id": "3e2ddfa5-e685-81fb-a453-c4fa2d3ceb74",
+  "title": "21.1 Full Bloomberg index - Concurrency and Python Internals",
+  "url": "https://app.notion.com/p/21-1-Full-Bloomberg-index-Concurrency-and-Python-Internals-3e2ddfa5e68581fba453c4fa2d3ceb74",
+  "parent": "3e2ddfa5-e685-8111-9d8b-d000d82f8297"
+ },
+ "p22": {
+  "id": "3e2ddfa5-e685-8197-acb3-d7bf6cb0648d",
+  "title": "Part 22 - SQL, Shell and Language-Specific (secondary track)",
+  "url": "https://app.notion.com/p/Part-22-SQL-Shell-and-Language-Specific-secondary-track-3e2ddfa5e6858197acb3d7bf6cb0648d",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "22.0-primer": {
+  "id": "3e2ddfa5-e685-8103-b617-d576a2c7347d",
+  "title": "22.0 SQL, Shell and Language-Specific (secondary track) - pattern primer",
+  "url": "https://app.notion.com/p/22-0-SQL-Shell-and-Language-Specific-secondary-track-pattern-primer-3e2ddfa5e6858103b617d576a2c7347d",
+  "parent": "3e2ddfa5-e685-8197-acb3-d7bf6cb0648d"
+ },
+ "22.1-combine-two-tables": {
+  "id": "3e2ddfa5-e685-8109-9690-fb05aac3adc3",
+  "title": "22.1 Combine Two Tables",
+  "url": "https://app.notion.com/p/22-1-Combine-Two-Tables-3e2ddfa5e68581099690fb05aac3adc3",
+  "parent": "3e2ddfa5-e685-8197-acb3-d7bf6cb0648d"
+ },
+ "22.2-second-highest-salary": {
+  "id": "3e2ddfa5-e685-81a7-b658-f4ed9ae98ed4",
+  "title": "22.2 Second Highest Salary",
+  "url": "https://app.notion.com/p/22-2-Second-Highest-Salary-3e2ddfa5e68581a7b658f4ed9ae98ed4",
+  "parent": "3e2ddfa5-e685-8197-acb3-d7bf6cb0648d"
+ },
+ "22.3-duplicate-emails": {
+  "id": "3e2ddfa5-e685-81a4-8a13-e79d48279283",
+  "title": "22.3 Duplicate Emails",
+  "url": "https://app.notion.com/p/22-3-Duplicate-Emails-3e2ddfa5e68581a48a13e79d48279283",
+  "parent": "3e2ddfa5-e685-8197-acb3-d7bf6cb0648d"
+ },
+ "22.4-big-countries": {
+  "id": "3e2ddfa5-e685-815e-8ea4-e9ccaaf450ea",
+  "title": "22.4 Big Countries",
+  "url": "https://app.notion.com/p/22-4-Big-Countries-3e2ddfa5e685815e8ea4e9ccaaf450ea",
+  "parent": "3e2ddfa5-e685-8197-acb3-d7bf6cb0648d"
+ },
+ "22.5-students-and-examinations": {
+  "id": "3e2ddfa5-e685-8105-80e0-f6a0d4932c55",
+  "title": "22.5 Students and Examinations",
+  "url": "https://app.notion.com/p/22-5-Students-and-Examinations-3e2ddfa5e685810580e0f6a0d4932c55",
+  "parent": "3e2ddfa5-e685-8197-acb3-d7bf6cb0648d"
+ },
+ "22.6-recyclable-and-low-fat-products": {
+  "id": "3e2ddfa5-e685-815c-89ff-edb752eda927",
+  "title": "22.6 Recyclable and Low Fat Products",
+  "url": "https://app.notion.com/p/22-6-Recyclable-and-Low-Fat-Products-3e2ddfa5e685815c89ffedb752eda927",
+  "parent": "3e2ddfa5-e685-8197-acb3-d7bf6cb0648d"
+ },
+ "22.7-product-sales-analysis-iii": {
+  "id": "3e2ddfa5-e685-814b-b9fd-fc98975a7859",
+  "title": "22.7 Product Sales Analysis III",
+  "url": "https://app.notion.com/p/22-7-Product-Sales-Analysis-III-3e2ddfa5e685814bb9fdfc98975a7859",
+  "parent": "3e2ddfa5-e685-8197-acb3-d7bf6cb0648d"
+ },
+ "22.8-create-hello-world-function": {
+  "id": "3e2ddfa5-e685-8168-a054-c7e31d62dcbc",
+  "title": "22.8 Create Hello World Function",
+  "url": "https://app.notion.com/p/22-8-Create-Hello-World-Function-3e2ddfa5e6858168a054c7e31d62dcbc",
+  "parent": "3e2ddfa5-e685-8197-acb3-d7bf6cb0648d"
+ },
+ "22.9-index": {
+  "id": "3e2ddfa5-e685-8128-9822-e8229600d5df",
+  "title": "22.9 Full Bloomberg index - SQL, Shell and Language-Specific (secondary track)",
+  "url": "https://app.notion.com/p/22-9-Full-Bloomberg-index-SQL-Shell-and-Language-Specific-secondary-track-3e2ddfa5e68581289822e8229600d5df",
+  "parent": "3e2ddfa5-e685-8197-acb3-d7bf6cb0648d"
+ },
+ "p23": {
+  "id": "3e2ddfa5-e685-813b-9133-f434d35e7834",
+  "title": "Part 23 - Bloomberg Real Interview Bank",
+  "url": "https://app.notion.com/p/Part-23-Bloomberg-Real-Interview-Bank-3e2ddfa5e685813b9133f434d35e7834",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "23.1-bl-invalid-transactions": {
+  "id": "3e2ddfa5-e685-81c3-aa4b-e4e2f27f7ec8",
+  "title": "23.1 Invalid / potentially fraudulent transactions",
+  "url": "https://app.notion.com/p/23-1-Invalid-potentially-fraudulent-transactions-3e2ddfa5e68581c3aa4be4e2f27f7ec8",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.2-bl-collatz": {
+  "id": "3e2ddfa5-e685-8151-8670-faba8d2c7902",
+  "title": "23.2 Collatz steps (3n+1) with memoisation",
+  "url": "https://app.notion.com/p/23-2-Collatz-steps-3n-1-with-memoisation-3e2ddfa5e68581518670faba8d2c7902",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.3-bl-underground-system": {
+  "id": "3e2ddfa5-e685-8117-ab8f-e0e9fdabee77",
+  "title": "23.3 Design Underground System",
+  "url": "https://app.notion.com/p/23-3-Design-Underground-System-3e2ddfa5e6858117ab8fe0e9fdabee77",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.4-bl-fuel-grid": {
+  "id": "3e2ddfa5-e685-81a5-9ddc-eb19ffd90e3a",
+  "title": "23.4 Desert grid with fuel: can the car reach the oasis",
+  "url": "https://app.notion.com/p/23-4-Desert-grid-with-fuel-can-the-car-reach-the-oasis-3e2ddfa5e68581a59ddceb19ffd90e3a",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.5-bl-remove-three-consecutive": {
+  "id": "3e2ddfa5-e685-8182-8b5b-e103c502a789",
+  "title": "23.5 Repeatedly remove 3+ consecutive identical characters",
+  "url": "https://app.notion.com/p/23-5-Repeatedly-remove-3-consecutive-identical-characters-3e2ddfa5e68581828b5be103c502a789",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.6-bl-lottery-system": {
+  "id": "3e2ddfa5-e685-8195-a3a4-e7921f59ef35",
+  "title": "23.6 Lottery system: add / remove / draw in O(1)",
+  "url": "https://app.notion.com/p/23-6-Lottery-system-add-remove-draw-in-O-1-3e2ddfa5e6858195a3a4e7921f59ef35",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.7-bl-all-paths": {
+  "id": "3e2ddfa5-e685-8130-ba0f-d6b4c134c463",
+  "title": "23.7 Print all paths between two nodes / flight routes",
+  "url": "https://app.notion.com/p/23-7-Print-all-paths-between-two-nodes-flight-routes-3e2ddfa5e6858130ba0fd6b4c134c463",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.8-bl-cctv-top-n": {
+  "id": "3e2ddfa5-e685-81c7-b303-f0ee4da0080e",
+  "title": "23.8 Highway CCTV: record vehicles, top-N brands in a time range",
+  "url": "https://app.notion.com/p/23-8-Highway-CCTV-record-vehicles-top-N-brands-in-a-time-range-3e2ddfa5e68581c7b303f0ee4da0080e",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.9-bl-min-stack": {
+  "id": "3e2ddfa5-e685-8116-bb16-c0ed02effd93",
+  "title": "23.9 Min Stack with top-k minimums",
+  "url": "https://app.notion.com/p/23-9-Min-Stack-with-top-k-minimums-3e2ddfa5e6858116bb16c0ed02effd93",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.10-bl-welsh-dictionary": {
+  "id": "3e2ddfa5-e685-817f-bd94-f35c3f5ecc12",
+  "title": "23.10 Sort words by a custom (multi-character) alphabet",
+  "url": "https://app.notion.com/p/23-10-Sort-words-by-a-custom-multi-character-alphabet-3e2ddfa5e685817fbd94f35c3f5ecc12",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.11-bl-browser-history": {
+  "id": "3e2ddfa5-e685-8195-aca1-f98b73dd8ea9",
+  "title": "23.11 Browser history: print most-recent-first, deduplicated",
+  "url": "https://app.notion.com/p/23-11-Browser-history-print-most-recent-first-deduplicated-3e2ddfa5e6858195aca1f98b73dd8ea9",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.12-bl-autocomplete-next-word": {
+  "id": "3e2ddfa5-e685-8186-bac4-c4033faaf9f2",
+  "title": "23.12 Autocomplete: recommend the next word by frequency",
+  "url": "https://app.notion.com/p/23-12-Autocomplete-recommend-the-next-word-by-frequency-3e2ddfa5e6858186bac4c4033faaf9f2",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.13-bl-process-abort": {
+  "id": "3e2ddfa5-e685-81cd-817c-ebbf142de143",
+  "title": "23.13 Find the process that caused a cascade of aborts",
+  "url": "https://app.notion.com/p/23-13-Find-the-process-that-caused-a-cascade-of-aborts-3e2ddfa5e68581cd817cebbf142de143",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.14-bl-bank-trading-hours": {
+  "id": "3e2ddfa5-e685-811a-a6e8-e790fe106a0f",
+  "title": "23.14 Can a customer trade during the whole order window",
+  "url": "https://app.notion.com/p/23-14-Can-a-customer-trade-during-the-whole-order-window-3e2ddfa5e685811aa6e8e790fe106a0f",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.15-bl-tsunami-islands": {
+  "id": "3e2ddfa5-e685-81fd-80ca-fc91fc52cf6a",
+  "title": "23.15 Tsunami: submerge islands not touching the border",
+  "url": "https://app.notion.com/p/23-15-Tsunami-submerge-islands-not-touching-the-border-3e2ddfa5e68581fd80cafc91fc52cf6a",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.16-bl-count-pairs-target": {
+  "id": "3e2ddfa5-e685-8140-92f7-ec9f490f6c12",
+  "title": "23.16 Count unique index pairs summing to a target",
+  "url": "https://app.notion.com/p/23-16-Count-unique-index-pairs-summing-to-a-target-3e2ddfa5e685814092f7ec9f490f6c12",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.17-bl-two-sum-difference": {
+  "id": "3e2ddfa5-e685-8126-87a9-f2ef9df507c1",
+  "title": "23.17 Two Sum by difference, and how hashing works",
+  "url": "https://app.notion.com/p/23-17-Two-Sum-by-difference-and-how-hashing-works-3e2ddfa5e685812687a9f2ef9df507c1",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.18-bl-two-city-scheduling": {
+  "id": "3e2ddfa5-e685-817d-9878-cc77dfd5b8b2",
+  "title": "23.18 Two City Scheduling with an odd number of people",
+  "url": "https://app.notion.com/p/23-18-Two-City-Scheduling-with-an-odd-number-of-people-3e2ddfa5e685817d9878cc77dfd5b8b2",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.19-bl-bishop-board": {
+  "id": "3e2ddfa5-e685-81c0-9bf2-d2a8799f34f9",
+  "title": "23.19 Chess board: add a bishop only if no bishop attacks that cell",
+  "url": "https://app.notion.com/p/23-19-Chess-board-add-a-bishop-only-if-no-bishop-attacks-that-cell-3e2ddfa5e68581c09bf2d2a8799f34f9",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.20-bl-word-break-sentence": {
+  "id": "3e2ddfa5-e685-81b7-abe6-e88ca6d99dd8",
+  "title": "23.20 Split a string into dictionary words",
+  "url": "https://app.notion.com/p/23-20-Split-a-string-into-dictionary-words-3e2ddfa5e68581b7abe6e88ca6d99dd8",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.21-bl-chars-in-first-not-second": {
+  "id": "3e2ddfa5-e685-8151-8be3-c3f8285ca16a",
+  "title": "23.21 Characters in the first string but not the second",
+  "url": "https://app.notion.com/p/23-21-Characters-in-the-first-string-but-not-the-second-3e2ddfa5e68581518be3c3f8285ca16a",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.22-bl-anagram-file-service": {
+  "id": "3e2ddfa5-e685-81d0-927e-f100b6192994",
+  "title": "23.22 Anagram file ingestion tool, turned into a service",
+  "url": "https://app.notion.com/p/23-22-Anagram-file-ingestion-tool-turned-into-a-service-3e2ddfa5e68581d0927ef100b6192994",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.23-bl-appstore-ood": {
+  "id": "3e2ddfa5-e685-81ba-a789-fbc20b37a7ef",
+  "title": "23.23 App Store class redesign (OOP / low-level design round)",
+  "url": "https://app.notion.com/p/23-23-App-Store-class-redesign-OOP-low-level-design-round-3e2ddfa5e68581baa789fbc20b37a7ef",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.24-bl-ships-in-rectangle": {
+  "id": "3e2ddfa5-e685-81ae-b783-e7d401b22a49",
+  "title": "23.24 Number of Ships in a Rectangle",
+  "url": "https://app.notion.com/p/23-24-Number-of-Ships-in-a-Rectangle-3e2ddfa5e68581aeb783e7d401b22a49",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.25-bl-song-recommendation": {
+  "id": "3e2ddfa5-e685-817b-85cc-ddbad2a90a4b",
+  "title": "23.25 Song recommendation system",
+  "url": "https://app.notion.com/p/23-25-Song-recommendation-system-3e2ddfa5e685817b85ccddbad2a90a4b",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "23.26-bl-roman-numerals": {
+  "id": "3e2ddfa5-e685-81d9-a6ac-f29b7d021084",
+  "title": "23.26 Integer to Roman (1 to 4000)",
+  "url": "https://app.notion.com/p/23-26-Integer-to-Roman-1-to-4000-3e2ddfa5e68581d9a6acf29b7d021084",
+  "parent": "3e2ddfa5-e685-813b-9133-f434d35e7834"
+ },
+ "p24": {
+  "id": "3e2ddfa5-e685-812b-bfa8-fc8a4df2103f",
+  "title": "Part 24 - OOP and Low-Level Design",
+  "url": "https://app.notion.com/p/Part-24-OOP-and-Low-Level-Design-3e2ddfa5e685812bbfa8fc8a4df2103f",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "24.1-lld-round": {
+  "id": "3e2ddfa5-e685-81c4-8aeb-e405af167a04",
+  "title": "24.1 The LLD round: requirements to code",
+  "url": "https://app.notion.com/p/24-1-The-LLD-round-requirements-to-code-3e2ddfa5e68581c48aebe405af167a04",
+  "parent": "3e2ddfa5-e685-812b-bfa8-fc8a4df2103f"
+ },
+ "24.2-solid": {
+  "id": "3e2ddfa5-e685-811a-929b-fe0fc83dfef8",
+  "title": "24.2 SOLID in practice",
+  "url": "https://app.notion.com/p/24-2-SOLID-in-practice-3e2ddfa5e685811a929bfe0fc83dfef8",
+  "parent": "3e2ddfa5-e685-812b-bfa8-fc8a4df2103f"
+ },
+ "24.3-patterns": {
+  "id": "3e2ddfa5-e685-8195-be88-d021964de778",
+  "title": "24.3 The design patterns that come up",
+  "url": "https://app.notion.com/p/24-3-The-design-patterns-that-come-up-3e2ddfa5e6858195be88d021964de778",
+  "parent": "3e2ddfa5-e685-812b-bfa8-fc8a4df2103f"
+ },
+ "24.4-object-indexing": {
+  "id": "3e2ddfa5-e685-818e-9636-f4a0cb1e2ee2",
+  "title": "24.4 Indexing and denormalisation inside an object model",
+  "url": "https://app.notion.com/p/24-4-Indexing-and-denormalisation-inside-an-object-model-3e2ddfa5e685818e9636f4a0cb1e2ee2",
+  "parent": "3e2ddfa5-e685-812b-bfa8-fc8a4df2103f"
+ },
+ "24.5-backward-compatible": {
+  "id": "3e2ddfa5-e685-81c6-850e-d156c0b49c1b",
+  "title": "24.5 Backward-compatible refactoring",
+  "url": "https://app.notion.com/p/24-5-Backward-compatible-refactoring-3e2ddfa5e68581c6850ed156c0b49c1b",
+  "parent": "3e2ddfa5-e685-812b-bfa8-fc8a4df2103f"
+ },
+ "24.6-lld-classics": {
+  "id": "3e2ddfa5-e685-8141-9445-fd23b8e3d419",
+  "title": "24.6 Worked: parking lot, elevator, deck of cards, order book",
+  "url": "https://app.notion.com/p/24-6-Worked-parking-lot-elevator-deck-of-cards-order-book-3e2ddfa5e68581419445fd23b8e3d419",
+  "parent": "3e2ddfa5-e685-812b-bfa8-fc8a4df2103f"
+ },
+ "24.7-appstore-worked": {
+  "id": "3e2ddfa5-e685-81ac-be77-ecd7a6cb5203",
+  "title": "24.7 Worked: the App Store question, end to end",
+  "url": "https://app.notion.com/p/24-7-Worked-the-App-Store-question-end-to-end-3e2ddfa5e68581acbe77ecd7a6cb5203",
+  "parent": "3e2ddfa5-e685-812b-bfa8-fc8a4df2103f"
+ },
+ "p25": {
+  "id": "3e2ddfa5-e685-8135-881b-eef5e7683727",
+  "title": "Part 25 - Mock Interview Plan and Spaced Repetition",
+  "url": "https://app.notion.com/p/Part-25-Mock-Interview-Plan-and-Spaced-Repetition-3e2ddfa5e6858135881beef5e7683727",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "25.1-eight-week": {
+  "id": "3e2ddfa5-e685-81b8-9e89-df33cc7ee7a3",
+  "title": "25.1 The 8-week schedule",
+  "url": "https://app.notion.com/p/25-1-The-8-week-schedule-3e2ddfa5e68581b89e89df33cc7ee7a3",
+  "parent": "3e2ddfa5-e685-8135-881b-eef5e7683727"
+ },
+ "25.2-daily-loop": {
+  "id": "3e2ddfa5-e685-8168-9d1e-e84f0304baff",
+  "title": "25.2 The daily loop",
+  "url": "https://app.notion.com/p/25-2-The-daily-loop-3e2ddfa5e68581689d1ee84f0304baff",
+  "parent": "3e2ddfa5-e685-8135-881b-eef5e7683727"
+ },
+ "25.3-mock-protocol": {
+  "id": "3e2ddfa5-e685-81d1-9eec-fa279c6bc41e",
+  "title": "25.3 Timed mock protocol",
+  "url": "https://app.notion.com/p/25-3-Timed-mock-protocol-3e2ddfa5e68581d19eecfa279c6bc41e",
+  "parent": "3e2ddfa5-e685-8135-881b-eef5e7683727"
+ },
+ "25.4-review-log": {
+  "id": "3e2ddfa5-e685-810b-869a-f746e3780c4a",
+  "title": "25.4 Review log and the wrong-answer list",
+  "url": "https://app.notion.com/p/25-4-Review-log-and-the-wrong-answer-list-3e2ddfa5e685810b869af746e3780c4a",
+  "parent": "3e2ddfa5-e685-8135-881b-eef5e7683727"
+ },
+ "25.5-week-before": {
+  "id": "3e2ddfa5-e685-81e5-b264-f4d7cd41c291",
+  "title": "25.5 The week before",
+  "url": "https://app.notion.com/p/25-5-The-week-before-3e2ddfa5e68581e5b264f4d7cd41c291",
+  "parent": "3e2ddfa5-e685-8135-881b-eef5e7683727"
+ },
+ "p26": {
+  "id": "3e2ddfa5-e685-81bd-8734-f9512ab54feb",
+  "title": "Part 26 - Resources",
+  "url": "https://app.notion.com/p/Part-26-Resources-3e2ddfa5e68581bd8734f9512ab54feb",
+  "parent": "3e2ddfa5-e685-81fa-a7a8-c0d81da3d3a1"
+ },
+ "26.1-sources": {
+  "id": "3e2ddfa5-e685-81c9-835e-e588d71f940a",
+  "title": "26.1 The source lists and how to regenerate them",
+  "url": "https://app.notion.com/p/26-1-The-source-lists-and-how-to-regenerate-them-3e2ddfa5e68581c9835ee588d71f940a",
+  "parent": "3e2ddfa5-e685-81bd-8734-f9512ab54feb"
+ },
+ "26.2-behavioural": {
+  "id": "3e2ddfa5-e685-81dd-bd69-f98d1d7ea025",
+  "title": "26.2 Behavioural prep for this loop",
+  "url": "https://app.notion.com/p/26-2-Behavioural-prep-for-this-loop-3e2ddfa5e68581ddbd69f98d1d7ea025",
+  "parent": "3e2ddfa5-e685-81bd-8734-f9512ab54feb"
+ },
+ "26.3-system-design-xref": {
+  "id": "3e2ddfa5-e685-8118-babb-c848d8314ab8",
+  "title": "26.3 Cross-reference to the system design course",
+  "url": "https://app.notion.com/p/26-3-Cross-reference-to-the-system-design-course-3e2ddfa5e6858118babbc848d8314ab8",
+  "parent": "3e2ddfa5-e685-81bd-8734-f9512ab54feb"
+ }
+}
