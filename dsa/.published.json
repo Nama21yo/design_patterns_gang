@@ -74,5 +74,12 @@
  "3.9-binary-subarrays-with-sum": "18b03dbcaa5a4dcc8284f270a8aaf8e82a62b2ad396b1b70953e69035bea08ab",
  "3.10-frequency-of-the-most-frequent-element": "39c58c0c801e329a61ca87f1ed752bfec59ee8427814f557fce27397246081ef",
  "3.11-jump-game-vii": "0937d219167838a264379bf254a51837b8b7bbada4f7b5390402b04b329260ff",
- "3.12-permutation-in-string": "13370cb3effaa8188d4de49bc7a43e203383db50d8c9062142204321d63cb478"
+ "3.12-permutation-in-string": "13370cb3effaa8188d4de49bc7a43e203383db50d8c9062142204321d63cb478",
+ "4.0-primer": "39aa95b40ee7fbffe17f39d80d81c01ea03f4d851b4fd8d3ab2c54d272d50914",
+ "4.1-trapping-rain-water": "572c6f68c83c607978b3c6e671e331c866e0cade90388ebc1916659c7ba1d7b4",
+ "4.5-valid-parentheses": "151f7d27094c8487c75e88e22058ae7971d3b416fa33328095397b03ce9173c5",
+ "4.6-decode-string": "d57094633a3ea6bcf51b3aa43775dd084eb6149bbbb35f96ff820f63075e0a85",
+ "4.10-daily-temperatures": "ac39cf1331c3da77717c320b8c0abefb87c1781f4bf36570d0ddf30babbcbde1",
+ "4.3-next-greater-element-i": "b4cdf22ccb741fda47591740e6a3e878b7d3f9d43731d5d8020b4f2f891c4a04",
+ "4.4-next-greater-element-ii": "a1583bd01daec120ef96db9bad6631aa83fdd7a88446f5c6aadc8cef1c7de4fe"
 }
