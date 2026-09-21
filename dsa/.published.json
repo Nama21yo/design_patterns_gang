@@ -24,5 +24,12 @@
  "23.22-bl-anagram-file-service": "32bc239de811fb584679795e0fd24dfc1f2c7f6de35e4ece200cf471f5d2398c",
  "23.23-bl-appstore-ood": "0ad1a9f0cd21f6de23ccf79ee57d884edb6606ef0f0806416adc15bed8cd86e0",
  "23.24-bl-ships-in-rectangle": "6302306e6bb25bef7118f664a9b2cf8193f8cefba6dd02a06fd3aa46293feb81",
- "23.25-bl-song-recommendation": "c3ef5b705e1b3cb8c18485f6349d60d4c48e1a037fd2fe815e855c9c78a4266f"
+ "23.25-bl-song-recommendation": "c3ef5b705e1b3cb8c18485f6349d60d4c48e1a037fd2fe815e855c9c78a4266f",
+ "0.1-study-plan": "e02bf43d7cb1ea0e481c5e835a003faddf40e80368b29ad42b2d1fb4afd8a7d3",
+ "0.2-bloomberg-loop": "e055fe5d38af730bb189d3ea5a8b80e6d81e1f9718dc63006b125404f97c39b6",
+ "0.3-solving-framework": "80d0a200454c896193a5b7cf778166d9004d11f134b0e8f08e437fa571207f78",
+ "0.4-how-to-present": "edf2c3c176e14c9525ed12b549d255cc2433715976d14d5fa5dddb6cc64580f9",
+ "0.5-complexity": "367a1d4948a5da0c142edbbdf7a497033c44cd6100487b491e34410c78a04fcd",
+ "0.6-python-toolkit": "5f977cd4d65c95a5562f7cdd2945ba5a8ea3d2d607f8af04c272e19cd163a45d",
+ "0.7-testing-in-the-room": "82b4b1d437f092326c6c686effe17d7c0ddabfd5aaf743b842752b74e53488a4"
 }
