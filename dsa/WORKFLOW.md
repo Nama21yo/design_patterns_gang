@@ -78,10 +78,9 @@ frequency in the 6-month window.
 ## Progress
 
 - [x] Tree built: 340 pages, 27 Parts
-- [x] Part 23 - Bloomberg Real Interview Bank: 8 of 26 notes written
-      (23.1 invalid transactions, 23.2 Collatz, 23.3 underground system, 23.4 fuel grid,
-       23.5 remove 3+ consecutive, 23.6 lottery, 23.7 all paths, 23.8 CCTV top-N)
-- [ ] Part 23 - remaining 18 notes
+- [x] Part 23 - Bloomberg Real Interview Bank: ALL 26 notes written and published
+      Every reported question from the Oct-Dec 2025 loop, each with runnable, verified code.
+
 - [ ] Part 0 - Orientation (7 pages)
 - [ ] Pattern primers (22 pages) - write these before the question notes in each Part
 - [ ] Tier A question notes (212 pages)
