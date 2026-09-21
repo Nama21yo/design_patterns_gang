@@ -31,5 +31,17 @@
  "0.4-how-to-present": "edf2c3c176e14c9525ed12b549d255cc2433715976d14d5fa5dddb6cc64580f9",
  "0.5-complexity": "367a1d4948a5da0c142edbbdf7a497033c44cd6100487b491e34410c78a04fcd",
  "0.6-python-toolkit": "5f977cd4d65c95a5562f7cdd2945ba5a8ea3d2d607f8af04c272e19cd163a45d",
- "0.7-testing-in-the-room": "82b4b1d437f092326c6c686effe17d7c0ddabfd5aaf743b842752b74e53488a4"
+ "0.7-testing-in-the-room": "82b4b1d437f092326c6c686effe17d7c0ddabfd5aaf743b842752b74e53488a4",
+ "1.0-primer": "86449d7030aa91fec53d9a3d3671f198bf1a7ce9336211ea58c0d493ad215093",
+ "1.1-two-sum": "d58c3627670332af1cc9fb4637e66afca71f236155ac6e461b76cae82407550b",
+ "1.10-valid-mountain-array": "6f7c15d6fd9f24946589508da1efc0d471eabcc7c2f940c57e6ccca68dafd488",
+ "1.11-kids-with-the-greatest-number-of-candies": "a089efbef10dbd760603e09f5c4b4ff4512d2d7a7f957147f77f162231b16a8b",
+ "1.2-subarray-sum-equals-k": "b3507cb4baa81fbd312fc0c9c0af8d52d3241ae8086a7d85cc3582c568165bc2",
+ "1.3-find-pivot-index": "b160d71e02209229d53e15b27f64d47bf722a2cc3926e540637b3a5bbbf12644",
+ "1.4-find-the-maximum-number-of-elements-in-subset": "b80b9983f5bed06141e003a3eb03a1d1c6205062ca600d98f1c684e6152ce6e6",
+ "1.5-product-of-array-except-self": "d0823774b65ed05233b483d3cc169a7dd2b2d1c9df9c072ee61aa2645619a7ec",
+ "1.6-max-consecutive-ones": "7fb142183cf7bcdc906cca84d9074e5325f918cc28103f132e12d31fa04c8781",
+ "1.7-number-of-ships-in-a-rectangle": "8aff4b785753e1a5b581edfe727dd3dd0c6e1b6ecc8eb58354fcd7fd25e141a0",
+ "1.8-check-if-array-is-sorted-and-rotated": "c5399c900626892b6814820bcca75f75fa5c2f7396faf331ff72309bfd5642d6",
+ "1.9-contiguous-array": "08961eec976dae53f9fc13157bf7d88a788c227bce7a895685b106177efb2800"
 }
