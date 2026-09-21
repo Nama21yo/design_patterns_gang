@@ -81,5 +81,13 @@
  "4.6-decode-string": "d57094633a3ea6bcf51b3aa43775dd084eb6149bbbb35f96ff820f63075e0a85",
  "4.10-daily-temperatures": "ac39cf1331c3da77717c320b8c0abefb87c1781f4bf36570d0ddf30babbcbde1",
  "4.3-next-greater-element-i": "b4cdf22ccb741fda47591740e6a3e878b7d3f9d43731d5d8020b4f2f891c4a04",
- "4.4-next-greater-element-ii": "a1583bd01daec120ef96db9bad6631aa83fdd7a88446f5c6aadc8cef1c7de4fe"
+ "4.4-next-greater-element-ii": "a1583bd01daec120ef96db9bad6631aa83fdd7a88446f5c6aadc8cef1c7de4fe",
+ "4.11-maximal-rectangle": "6781c046a451342fbaa28d2cc66555b6a8e8ceda5fe08d8f2090319de87c4720",
+ "4.2-basic-calculator": "1bab79a56600d07ca730f4908f431a922547ef117ad420d42d2fe03408ed72df",
+ "4.9-largest-rectangle-in-histogram": "777528d3a71c362799857323b54f583bb971b49ea50bd63b5937691cc8c2c137",
+ "4.12-number-of-students-unable-to-eat-lunch": "98434ce3e2f9a75d0c06ad1f1b857663d417c1d5de348c09d2678ac610760cb7",
+ "4.13-remove-all-adjacent-duplicates-in-string-ii": "c2e9be980a457fb16848a1fe28fc8063d46f95b936867e28779315795c42b764",
+ "4.14-minimum-remove-to-make-valid-parentheses": "9f426c7ef9c4f9ac29dec85391a081d421c13fb587f7cea9378d69b31e4f7355",
+ "4.7-first-unique-character-in-a-string": "03bdcc3dd67ad6a16692a595fc2ecf9bc3a38507d7949fbe90a697e60f0af3cf",
+ "4.8-asteroid-collision": "1d2ef8df318d3174267e80b976b6072a2564a29a50e75ac51190f0054d7937fe"
 }
