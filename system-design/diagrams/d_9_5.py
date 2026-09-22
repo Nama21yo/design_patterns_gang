@@ -255,6 +255,55 @@ def rate_funnel():
     return save_mpl(fig, "9-5-rate-funnel")
 
 
+def tumbling_vs_sliding():
+    plt = mpl()
+    fig, axes = plt.subplots(2, 1, figsize=(10.5, 3.6), sharex=True)
+
+    ax = axes[0]
+    for i in range(4):
+        ax.add_patch(plt.Rectangle((i, 0), 1, 1, facecolor=LIGHTBLUE, edgecolor=BLUE))
+        ax.text(i + 0.5, 0.5, f"hour {i}", ha="center", va="center", fontsize=9)
+    ax.set_xlim(-0.3, 6.3)
+    ax.set_ylim(-0.3, 1.6)
+    ax.axis("off")
+    ax.set_title("Tumbling windows - fixed, non-overlapping, one bucket per period",
+                 loc="left", fontsize=10.5)
+
+    ax = axes[1]
+    positions = [0, 0.6, 1.2, 1.8, 2.4]
+    for i, x in enumerate(positions):
+        y = 1.3 - i * 0.28
+        ax.add_patch(plt.Rectangle((x, y), 3, 0.22, facecolor=LIGHTAMBER,
+                                   edgecolor=AMBER, alpha=0.9))
+    ax.annotate("", xy=(5.6, 0.15), xytext=(0.3, 0.15),
+                arrowprops=dict(arrowstyle="->", color=SLATE, lw=1.2))
+    ax.text(5.7, 0.15, "time advances,\nwindow slides", fontsize=8.5, color=SLATE, va="center")
+    ax.set_xlim(-0.3, 8.3)
+    ax.set_ylim(-0.3, 1.6)
+    ax.axis("off")
+    ax.set_title("Sliding windows - same width, re-evaluated on every slide interval, overlapping",
+                 loc="left", fontsize=10.5)
+
+    return save_mpl(fig, "9-5-tumbling-vs-sliding")
+
+
+def rollup_writes():
+    render("9-5-rollup-writes", f"""
+    rankdir=LR;
+    event [label="One view event\\l(video X, t=14:23)", fillcolor="{GRAY}", color="{SLATE}"];
+    proc [label="Stream processor\\l(Flink / Spark)", fillcolor="{LIGHTBLUE}", color="{BLUE}"];
+    minute [label="minute bucket\\lX @ 14:23  +1", fillcolor="{LIGHTTEAL}", color="{TEAL}"];
+    hour [label="hour rollup\\lX @ 14:00  +1", fillcolor="{LIGHTTEAL}", color="{TEAL}"];
+    day [label="day rollup\\lX @ (today)  +1", fillcolor="{LIGHTTEAL}", color="{TEAL}"];
+    idx [label="each rollup table is independently\\lindexed on (bucket, count)\\l-> topK(window) is a near-O(1)\\lindex read, no aggregation at query time", shape=note, fillcolor="{LIGHTAMBER}", color="{AMBER}"];
+
+    event -> proc;
+    proc -> minute; proc -> hour; proc -> day;
+    hour -> idx [style=invis];
+    {{ rank=same; minute; hour; day }}
+    """)
+
+
 if __name__ == "__main__":
     naive_scaleout()
     partitioned_scaleout()
@@ -264,3 +313,5 @@ if __name__ == "__main__":
     mapreduce_flow()
     lambda_architecture()
     rate_funnel()
+    tumbling_vs_sliding()
+    rollup_writes()
