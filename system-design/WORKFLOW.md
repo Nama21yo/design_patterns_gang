@@ -24,5 +24,16 @@ Per note, repeat:
 
 ## Progress
 - [x] Part 0 - Orientation (0.1 study plan, 0.2 interview framework, 0.3 estimation) - COMPLETE
-- [ ] Part 1 - Fundamentals (next)
-- [ ] everything else
+- [x] 9.5 Top-K / Trending (Heavy Hitters) - COMPLETE (prerequisite for 10.4 Bloomberg news)
+- [ ] everything else - working non-linearly, pulling prerequisites forward as needed
+  for whichever Part 9/10 page is next, per the 0.1 study-plan strategy
+
+## Code-verification workflow (added after 9.5)
+Any note with runnable code: write it to the scratchpad, execute it, paste the REAL
+output - never a reasoned-out "# returns X" comment. Before publishing, regex-extract
+every ```python block from the finished .md and exec() them fresh to confirm the
+published file still matches what was tested (catches edits made after the last manual
+test run). Avoid Python's builtin hash() for strings in any demo whose output is quoted
+verbatim in the note - it's randomized per process (PYTHONHASHSEED) and won't reproduce
+when the user runs it - use a hashlib-based stable_hash() instead. See
+[[verify-code-in-notes]].
