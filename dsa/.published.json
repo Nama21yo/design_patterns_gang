@@ -89,5 +89,12 @@
  "4.13-remove-all-adjacent-duplicates-in-string-ii": "c2e9be980a457fb16848a1fe28fc8063d46f95b936867e28779315795c42b764",
  "4.14-minimum-remove-to-make-valid-parentheses": "9f426c7ef9c4f9ac29dec85391a081d421c13fb587f7cea9378d69b31e4f7355",
  "4.7-first-unique-character-in-a-string": "03bdcc3dd67ad6a16692a595fc2ecf9bc3a38507d7949fbe90a697e60f0af3cf",
- "4.8-asteroid-collision": "1d2ef8df318d3174267e80b976b6072a2564a29a50e75ac51190f0054d7937fe"
+ "4.8-asteroid-collision": "1d2ef8df318d3174267e80b976b6072a2564a29a50e75ac51190f0054d7937fe",
+ "5.0-primer": "bf24387aeccdddd09fd082ef5cdce4c70f165db8c804405d6e53119585bbf203",
+ "5.2-search-in-rotated-sorted-array": "6c0f8427b74949bddda592a4de7af752a97577bf7c77839d00f883e42f496708",
+ "5.3-find-first-and-last-position-of-element-in-sorted-array": "f30d7727b2969b17ef8e5e23a23e34ccf25eb7ef229272cb42dccf5dc5f00c33",
+ "5.4-search-insert-position": "b116cbe763bb749805a1bf3d733894ad4defa75414cabbaf2f9c02dfb22363ca",
+ "5.12-capacity-to-ship-packages-within-d-days": "a911ca2bb0f3cecf3699e8e75410c146a60d283f7005835d9a18e6f7a4dc9b65",
+ "5.14-minimum-number-of-days-to-make-m-bouquets": "d6866bb9e6f7cac4b25b57f230131cc1042307cbd4ce20d3604541b9da2740bf",
+ "5.6-koko-eating-bananas": "baa1e66c89470c5da66cb2b63e350b8e04d7b01b890af611dd7cceef7d84e880"
 }
