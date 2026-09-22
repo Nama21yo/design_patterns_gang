@@ -101,5 +101,12 @@
  "5.5-find-peak-element": "1288c79366780420efae7a356debabf9769a958c4e842cbb29fb66e32ef88eaa",
  "5.11-peak-index-in-a-mountain-array": "7fa7cf73bbfaffe3065d60b337976d3444dc54e0188d4cae485697ac2647c845",
  "5.16-sqrtx": "487f526d6ea7860bbb30a7aef4eee70ffce6848c3d19ab3c687d0adf6d649768",
- "5.18-two-sum-ii-input-array-is-sorted": "951f5cac24eb7ec40eb47cbbedda800a48cfd617d7e039baa42dcf251f1145a7"
+ "5.18-two-sum-ii-input-array-is-sorted": "951f5cac24eb7ec40eb47cbbedda800a48cfd617d7e039baa42dcf251f1145a7",
+ "5.10-valid-triangle-number": "dba87388352c063285cd9f45ad4187fc7ce8b9efa2fbd5b8ec15bcaea37704a6",
+ "5.7-missing-number": "a2686abc1f5d1b44311f93c5566c66f16388db3a48a141b1b18542471dbb4b40",
+ "5.8-first-bad-version": "5bd4e999bc6202a43012db5be6183ef193bd77704be9174cc6d9ca14c0185224",
+ "5.13-earliest-finish-time-for-land-and-water-rides-i": "3f9c3aef749a2f20257d3fea87a6d06ff8b87b5fb11b5e77c50f6b21f034835b",
+ "5.9-intersection-of-two-arrays": "2c0b21d0da71eaa934adffbae1427f5eaf3fe2089a0ff235ad4b26cf2fd52672",
+ "5.1-median-of-two-sorted-arrays": "119c96dd5ff0bdffb8b96f080f4b38660cebe1033c42e224a79173ee030e1869",
+ "5.15-closest-equal-element-queries": "0f9ebe9efd37f80bb85943bdfa644c9b3fa040bc779f18771360d20f0f008362"
 }

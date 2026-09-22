@@ -78,10 +78,19 @@ frequency in the 6-month window.
 ## Progress
 
 - [x] Tree built: 340 pages, 27 Parts
-- [x] Part 23 - Bloomberg Real Interview Bank: ALL 26 notes written and published
-      Every reported question from the Oct-Dec 2025 loop, each with runnable, verified code.
+- [x] **Part 0 - Orientation** (7 pages)
+- [x] **Part 1 - Arrays, Hashing and Prefix Sums** (primer + 11 questions)
+- [x] **Part 2 - Two Pointers** (primer + 17 questions)
+- [x] **Part 3 - Sliding Window** (primer + 12 questions)
+- [x] **Part 4 - Stacks, Queues and Monotonic Stacks** (primer + 14 questions)
+- [x] **Part 5 - Binary Search** (primer + 18 questions)
+- [x] **Part 23 - Bloomberg Real Interview Bank** (all 26 notes)
+- [ ] Parts 6-22 - primers and Tier A questions
+- [ ] Parts 24-26 - OOD, mock plan, resources
 
-- [ ] Part 0 - Orientation (7 pages)
-- [ ] Pattern primers (22 pages) - write these before the question notes in each Part
-- [ ] Tier A question notes (212 pages)
-- [ ] Parts 24-26
+**108 notes written; 1331 executable assertions, all passing** (`python3 verify.py`).
+
+Every solution is additionally cross-validated against a brute-force or library oracle on
+thousands of random inputs before publishing. That process has caught a wrong claim in
+roughly one note in six - including two cases where a widely circulated answer was itself
+wrong (see 23.2 and 4.13).
