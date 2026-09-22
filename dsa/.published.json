@@ -96,5 +96,10 @@
  "5.4-search-insert-position": "b116cbe763bb749805a1bf3d733894ad4defa75414cabbaf2f9c02dfb22363ca",
  "5.12-capacity-to-ship-packages-within-d-days": "a911ca2bb0f3cecf3699e8e75410c146a60d283f7005835d9a18e6f7a4dc9b65",
  "5.14-minimum-number-of-days-to-make-m-bouquets": "d6866bb9e6f7cac4b25b57f230131cc1042307cbd4ce20d3604541b9da2740bf",
- "5.6-koko-eating-bananas": "baa1e66c89470c5da66cb2b63e350b8e04d7b01b890af611dd7cceef7d84e880"
+ "5.6-koko-eating-bananas": "baa1e66c89470c5da66cb2b63e350b8e04d7b01b890af611dd7cceef7d84e880",
+ "5.17-find-minimum-in-rotated-sorted-array": "1394c3e1e83d7e4ebca81273851bfa0e103fb66de591fc18f3979e729069d2ed",
+ "5.5-find-peak-element": "1288c79366780420efae7a356debabf9769a958c4e842cbb29fb66e32ef88eaa",
+ "5.11-peak-index-in-a-mountain-array": "7fa7cf73bbfaffe3065d60b337976d3444dc54e0188d4cae485697ac2647c845",
+ "5.16-sqrtx": "487f526d6ea7860bbb30a7aef4eee70ffce6848c3d19ab3c687d0adf6d649768",
+ "5.18-two-sum-ii-input-array-is-sorted": "951f5cac24eb7ec40eb47cbbedda800a48cfd617d7e039baa42dcf251f1145a7"
 }
