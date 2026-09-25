@@ -85,8 +85,38 @@ def inverted_index():
     """)
 
 
+def index_types_taxonomy():
+    render("3-3-index-types-taxonomy", f"""
+    rankdir=LR;
+    root [label="Index types", fillcolor="{INK}", fontcolor=white, color="{INK}"];
+
+    cmp [label="Comparison-based\\l(ordering matters)", fillcolor="{LIGHTBLUE}", color="{BLUE}"];
+    eq [label="Equality-only", fillcolor="{LIGHTTEAL}", color="{TEAL}"];
+    spatial [label="Spatial", fillcolor="{LIGHTAMBER}", color="{AMBER}"];
+    other [label="Shape / cost\\loptimizations", fillcolor="{GRAY}", color="{SLATE}"];
+
+    root -> cmp; root -> eq; root -> spatial; root -> other;
+
+    btree [label="B-tree\\l(the default - range,\\lsort, prefix match)"];
+    hash [label="Hash\\l(O(1) equality,\\lno range support)"];
+    rtree [label="R-tree\\l(bounding-box\\lhierarchy)"];
+    grid [label="Grid-based\\l(fixed cells)"];
+    quad [label="Quadtree\\l(recursive\\lquadrants)"];
+    bitmap [label="Bitmap\\l(low-cardinality\\lcolumns)"];
+    reverse [label="Reverse\\l(reversed key -\\lavoids hot spots\\lon sequential keys)"];
+    partial [label="Partial\\l(only rows matching\\la WHERE clause)"];
+    func [label="Function-based\\l(index an expression,\\le.g. lower(email))"];
+
+    cmp -> btree;
+    eq -> hash;
+    spatial -> rtree; spatial -> grid; spatial -> quad;
+    other -> bitmap; other -> reverse; other -> partial; other -> func;
+    """)
+
+
 if __name__ == "__main__":
     btree_structure()
     clustered_vs_nonclustered()
     maintenance_cost()
     inverted_index()
+    index_types_taxonomy()

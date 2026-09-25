@@ -74,30 +74,34 @@ def decision_tree():
 def isolation_matrix():
     plt = mpl()
     rows = [
-        ("Read Uncommitted", "possible", "possible", "possible", RED),
-        ("Read Committed", "prevented", "possible", "possible", AMBER),
-        ("Repeatable Read", "prevented", "prevented", "possible*", BLUE),
-        ("Serializable", "prevented", "prevented", "prevented", TEAL),
+        ("Read Uncommitted", "possible", "possible", "possible", "possible", RED),
+        ("Read Committed", "prevented", "possible", "possible", "possible", AMBER),
+        ("Repeatable Read (ANSI)", "prevented", "prevented", "possible*", "possible", BLUE),
+        ("Snapshot Isolation", "prevented", "prevented", "prevented*", "possible", "#7c5cbf"),
+        ("Serializable", "prevented", "prevented", "prevented", "prevented", TEAL),
     ]
-    fig, ax = plt.subplots(figsize=(9.5, 3.4))
+    fig, ax = plt.subplots(figsize=(11, 4.4))
     ax.axis("off")
-    ax.set_title("Isolation levels vs. the anomalies they prevent (SQL standard)", loc="left", pad=10)
-    cols = ["level", "dirty read", "non-repeatable read", "phantom read"]
-    xs = [0.02, 0.40, 0.60, 0.83]
+    ax.set_title("Isolation levels vs. the anomalies they prevent", loc="left", pad=10)
+    cols = ["level", "dirty read", "non-repeatable read", "phantom read", "write skew"]
+    xs = [0.02, 0.34, 0.51, 0.71, 0.87]
     for x, c in zip(xs, cols):
         ax.text(x, len(rows) + 0.3, c, fontsize=9, fontweight="bold")
-    for i, (level, a, b, c, color) in enumerate(rows):
+    for i, (level, a, b, c, d, color) in enumerate(rows):
         yy = len(rows) - i - 0.4
         ax.text(xs[0], yy, level, fontsize=9.5, va="center", color=color, fontweight="bold")
-        for x, val in zip(xs[1:], (a, b, c)):
+        for x, val in zip(xs[1:], (a, b, c, d)):
             vcolor = TEAL if val == "prevented" else (SLATE if "*" in val else RED)
             ax.text(x, yy, val, fontsize=9, va="center", color=vcolor)
         ax.axhline(yy - 0.4, xmin=0.02, xmax=0.98, color=GRAY, lw=0.6)
-    ax.text(0.02, -0.55, "* Postgres's Repeatable Read is implemented as a full-transaction MVCC "
-           "snapshot, which in practice also prevents phantom reads - stricter than the standard requires. Verified below.",
-           fontsize=8, color=SLATE, style="italic")
+    ax.text(0.02, -1.0,
+           "* the SQL standard only requires ANSI Repeatable Read to block non-repeatable reads, not phantoms - but Postgres\n"
+           "implements Repeatable Read AS Snapshot Isolation, which blocks phantoms too in practice (verified below). Snapshot\n"
+           "Isolation is not one of the 4 ANSI levels - it's what most real MVCC databases (Postgres, Oracle, SQL Server's\n"
+           "SNAPSHOT mode) actually run, and it is strictly weaker than Serializable: it still permits write skew (verified below).",
+           fontsize=7.8, color=SLATE, style="italic")
     ax.set_xlim(0, 1)
-    ax.set_ylim(-1, len(rows) + 0.7)
+    ax.set_ylim(-2.1, len(rows) + 0.7)
     return save_mpl(fig, "3-2-isolation-matrix")
 
 
