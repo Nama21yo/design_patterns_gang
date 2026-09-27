@@ -568,5 +568,35 @@
     "title": "11.3 Engineering blogs and curated lists",
     "url": "https://app.notion.com/p/11-3-Engineering-blogs-and-curated-lists-3ccddfa5e6858174b429f02c165f1dc7",
     "parent": "3ccddfa5-e685-81e8-ac24-c63ddf85f5fd"
+  },
+  "4.6-virtual-memory": {
+    "id": "3e8ddfa5-e685-8113-896c-d34fded0b837",
+    "title": "4.6 Virtual memory, paging, and the MMU",
+    "url": "https://app.notion.com/p/4-6-Virtual-memory-paging-and-the-MMU-3e8ddfa5e6858113896cd34fded0b837",
+    "parent": "3ccddfa5-e685-814e-aa75-d5e65238f470"
+  },
+  "4.7-memory-allocation": {
+    "id": "3e8ddfa5-e685-816e-bb36-e668c3d4cc45",
+    "title": "4.7 Memory allocation: fit algorithms, slab, and buddy allocation",
+    "url": "https://app.notion.com/p/4-7-Memory-allocation-fit-algorithms-slab-and-buddy-allocation-3e8ddfa5e685816ebb36e668c3d4cc45",
+    "parent": "3ccddfa5-e685-814e-aa75-d5e65238f470"
+  },
+  "4.8-architecture-hierarchy": {
+    "id": "3e8ddfa5-e685-81a1-8e9b-f6131f82dbca",
+    "title": "4.8 Computer architecture and the memory hierarchy",
+    "url": "https://app.notion.com/p/4-8-Computer-architecture-and-the-memory-hierarchy-3e8ddfa5e68581a18e9bf6131f82dbca",
+    "parent": "3ccddfa5-e685-814e-aa75-d5e65238f470"
+  },
+  "4.9-cpu-caches": {
+    "id": "3e8ddfa5-e685-810b-9593-d0491d98932a",
+    "title": "4.9 CPU caches: associativity and cache-friendly code",
+    "url": "https://app.notion.com/p/4-9-CPU-caches-associativity-and-cache-friendly-code-3e8ddfa5e685810b9593d0491d98932a",
+    "parent": "3ccddfa5-e685-814e-aa75-d5e65238f470"
+  },
+  "4.10-storage-media": {
+    "id": "3e8ddfa5-e685-81ff-9fea-c9379434a1da",
+    "title": "4.10 Storage media: RAM generations, SSD, HDD and RAID",
+    "url": "https://app.notion.com/p/4-10-Storage-media-RAM-generations-SSD-HDD-and-RAID-3e8ddfa5e68581ff9feac9379434a1da",
+    "parent": "3ccddfa5-e685-814e-aa75-d5e65238f470"
   }
 }

@@ -47,11 +47,26 @@ Legend: `[bl]` = Bloomberg-specific interview question page.
 - 3.9 Object/blob storage, distributed file systems, data lakes
 
 ## 4. Memory and Caching
-- 4.1 Caching strategies: cache-aside, read/write-through, write-behind; TTL and eviction (LRU/LFU/ARC)
-- 4.2 Cache invalidation, stampede/thundering herd, negative caching, request coalescing
+- 4.1 Caching strategies: what caching is, cache-aside/read-through/write-through/write-behind,
+  lazy vs eager population, caching at every level (client/CDN/remote/DB/load-balancer),
+  what NOT to cache, staleness, eviction algorithms (LRU/LFU/FIFO/MRU/LRU-K/random)
+- 4.2 Cache invalidation, stampede/thundering herd, negative caching, request coalescing,
+  stale-while-revalidate
 - 4.3 Redis and Memcached deep dive: data structures, persistence, clustering, eviction
+  policies, scaling a cache tier
 - 4.4 CDN and edge caching
 - 4.5 Probabilistic structures: Bloom filter, Counting Bloom, Count-Min Sketch, HyperLogLog, t-digest
+- 4.6 Virtual memory, paging, and the MMU: why virtual memory, pages/paging, page tables,
+  MMU + TLB, address translation, process memory layout (stack/heap/code/data)
+- 4.7 Memory allocation: control groups; first/best/next/worst/quick fit and their
+  fragmentation cost; slab allocation; buddy allocation
+- 4.8 Computer architecture and the memory hierarchy: Von Neumann vs Harvard architecture;
+  the memory hierarchy pyramid; SRAM vs DRAM; registers (general/special purpose, ESP/EBP,
+  AVX)
+- 4.9 CPU caches: cache associativity (direct-mapped, fully/set-associative, skewed,
+  pseudo-associative, N-way); cache-friendly code (loop order, blocking)
+- 4.10 Storage media: RAM generations (SDR/DDR/QDR), SSD (NAND/NOR, floating-gate cells),
+  HDD recap, RAID levels
 
 ## 5. Data Processing and Messaging
 - 5.1 Message queues and brokers: Kafka, RabbitMQ, SQS, NATS; log vs queue
