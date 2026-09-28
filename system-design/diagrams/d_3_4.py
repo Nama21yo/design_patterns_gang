@@ -132,6 +132,73 @@ def consistent_hash_ring():
     return save_mpl(fig, "3-4-consistent-hash-ring")
 
 
+def concrete_ring_0_15():
+    plt = mpl()
+    import numpy as np
+    node_slots = {12: "A", 1: "B", 9: "C"}
+    node_colors = {"A": AMBER, "B": TEAL, "C": BLUE}
+    wedge_owners = ["B", "B", "C", "C", "C", "C", "C", "C", "C", "C", "A", "A", "A", "B", "B", "B"]
+    keys = {"order_1": 5, "order_2": 8, "order_3": 4, "order_4": 1, "order_5": 2}
+
+    fig, ax = plt.subplots(figsize=(6.6, 6.6), subplot_kw={"projection": "polar"})
+    width = 2 * np.pi / 16
+    for slot in range(16):
+        theta = slot * width
+        ax.bar(theta, 1, width=width, bottom=0, align="edge",
+              color=node_colors[wedge_owners[slot]], edgecolor="white", alpha=0.55, zorder=1)
+    for slot, name in node_slots.items():
+        theta = slot * width
+        ax.scatter([theta], [1.0], s=260, color=node_colors[name], zorder=3, edgecolor=INK, linewidth=1.3)
+        ax.text(theta, 1.22, f"node {name}\n(slot {slot})", ha="center", va="center", fontsize=9, fontweight="bold")
+    for key, slot in keys.items():
+        theta = slot * width
+        ax.scatter([theta], [0.55], marker="*", s=170, color=RED, zorder=4, edgecolor="white")
+    for slot in range(16):
+        theta = slot * width
+        ax.text(theta, 0.15, str(slot), ha="center", va="center", fontsize=7.5, color=SLATE)
+    ax.set_ylim(0, 1.4)
+    ax.set_yticks([])
+    ax.set_xticks([])
+    ax.set_theta_direction(-1)
+    ax.set_theta_zero_location("N")
+    ax.set_title("A 0-15 ring: each key (*) belongs to the\nnext node clockwise from its slot",
+                 pad=24)
+    return save_mpl(fig, "3-4-concrete-ring-0-15")
+
+
+def concrete_ring_scale():
+    plt = mpl()
+    import numpy as np
+    node_colors = {"A": AMBER, "B": TEAL, "C": BLUE, "D": RED}
+    panels = [
+        ("Base: nodes A, B, C", {12: "A", 1: "B", 9: "C"},
+         ["B","B","C","C","C","C","C","C","C","C","A","A","A","B","B","B"]),
+        ("Scale UP: + node-D (slot 8)", {12: "A", 1: "B", 9: "C", 8: "D"},
+         ["B","B","D","D","D","D","D","D","D","C","A","A","A","B","B","B"]),
+        ("Scale DOWN: - node-B", {12: "A", 9: "C"},
+         ["C","C","C","C","C","C","C","C","C","C","A","A","A","C","C","C"]),
+    ]
+    fig, axes = plt.subplots(1, 3, figsize=(14, 5.2), subplot_kw={"projection": "polar"})
+    width = 2 * np.pi / 16
+    for ax, (title, node_slots, wedges) in zip(axes, panels):
+        for slot in range(16):
+            theta = slot * width
+            ax.bar(theta, 1, width=width, bottom=0, align="edge",
+                  color=node_colors[wedges[slot]], edgecolor="white", alpha=0.55, zorder=1)
+        for slot, name in node_slots.items():
+            theta = slot * width
+            ax.scatter([theta], [1.0], s=200, color=node_colors[name], zorder=3, edgecolor=INK, linewidth=1.2)
+            ax.text(theta, 1.28, name, ha="center", va="center", fontsize=10, fontweight="bold")
+        ax.set_ylim(0, 1.5)
+        ax.set_yticks([]); ax.set_xticks([])
+        ax.set_theta_direction(-1)
+        ax.set_theta_zero_location("N")
+        ax.set_title(title, pad=22, fontsize=10.5)
+    fig.suptitle("Only the arc adjacent to the change moves - everyone else's\nownership is untouched (verified: order_4 stays on its node\nthroughout scale-up; only the removed node's own keys move on scale-down)",
+                fontsize=10, y=0.06)
+    return save_mpl(fig, "3-4-concrete-ring-scale")
+
+
 def rebalancing_cost():
     plt = mpl()
     ns = [4, 8, 16]
@@ -190,5 +257,7 @@ if __name__ == "__main__":
     horizontal_vs_vertical_partitioning()
     hash_vs_range()
     consistent_hash_ring()
+    concrete_ring_0_15()
+    concrete_ring_scale()
     rebalancing_cost()
     secondary_index_strategies()
