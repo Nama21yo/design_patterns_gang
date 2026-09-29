@@ -34,6 +34,8 @@ Legend: `[bl]` = Bloomberg-specific interview question page.
 - 2.4 Failure detection, timeouts, retries, backoff, jitter, idempotency keys
 - 2.5 Load balancing (L4 vs L7), reverse proxy, API gateway
 - 2.6 Fault tolerance patterns: circuit breaker, bulkhead, backpressure, load shedding, hedged requests
+- 2.7 Data redundancy and recovery: stateless vs stateful, row/document/DB-level redundancy,
+  backup and restore, point-in-time recovery, cross-region backups, continuous redundancy via replication
 
 ## 3. Storage
 - 3.1 Storage engine internals: B-Tree vs LSM-tree, WAL, page cache, compaction
