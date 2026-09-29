@@ -113,6 +113,12 @@
     "url": "https://app.notion.com/p/2-6-Fault-tolerance-patterns-3ccddfa5e6858154b96ff432ea4110bd",
     "parent": "3ccddfa5-e685-811f-b40f-d5a7148feaf4"
   },
+  "2.7-data-redundancy-recovery": {
+    "id": "3eaddfa5-e685-81da-b8d7-c6ec2b1aa405",
+    "title": "2.7 Data redundancy and recovery",
+    "url": "https://app.notion.com/p/2-7-Data-redundancy-and-recovery-3eaddfa5e68581dab8d7c6ec2b1aa405",
+    "parent": "3ccddfa5-e685-811f-b40f-d5a7148feaf4"
+  },
   "p3": {
     "id": "3ccddfa5-e685-81c9-8ad8-d5206d0c20a7",
     "title": "Part 3 - Storage",
